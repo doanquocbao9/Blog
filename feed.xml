@@ -1,0 +1,1839 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <title>#blogwithbao</title>
+    <link href="https://doanquocbao9.github.io/Blog/feed.xml" rel="self" />
+    <link href="https://doanquocbao9.github.io/Blog" />
+    <updated>2024-12-29T05:34:03+07:00</updated>
+    <author>
+        <name>Quốc Bảo</name>
+    </author>
+    <id>https://doanquocbao9.github.io/Blog</id>
+
+    <entry>
+        <title>Tạo biểu đồ tròn bằng JavaScript</title>
+        <author>
+            <name>Kiên Huy</name>
+        </author>
+        <link href="https://doanquocbao9.github.io/Blog/tao-bieu-do-tron-bang-javascript.html"/>
+        <id>https://doanquocbao9.github.io/Blog/tao-bieu-do-tron-bang-javascript.html</id>
+        <media:content url="https://doanquocbao9.github.io/Blog/media/posts/13/8-xl.jpg" medium="image" />
+
+        <updated>2024-12-29T05:32:36+07:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://doanquocbao9.github.io/Blog/media/posts/13/8-xl.jpg" alt="" />
+                    Biểu đồ hình tròn có thể dễ dàng được&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://doanquocbao9.github.io/Blog/media/posts/13/8-xl.jpg" class="type:primaryImage" alt="" /></p>
+                <p><img loading="lazy" src="https://lykienhuy.github.io/Blog/media/posts/18/8.jpg" data-is-external-image="true"></p>
+<p><strong>Biểu đồ hình tròn</strong> có thể dễ dàng được tạo bằng JavaScript. Dưới đây là<strong> code mẫu JavaScript đơn giản nhất để tạo biểu đồ hình tròn</strong>.</p>
+<p>JavaScript là một trong số ngôn ngữ lập trình phổ biến nhất hiện nay. Bạn có thể dùng JavaScript để lập trình web, ứng dụng, thậm chí cả tạo biểu đồ.</p>
+<p>Tạo biểu đồ bằng code JavaScript không khó. Bạn có thể tham khảo mục code mẫu trên Quantrimang.com. Ở bài viết này, bạn sẽ được hướng dẫn code biểu đồ hình tròn đơn giản bằng JavaScript.</p>
+<p>JavaScript Pie Chart chia một hình tròn thành nhiều phần theo tỷ lệ để người dùng thấy rõ đóng góp của chúng với con số tổng. Biểu đồ hình tròn hữu ích trong việc so sánh thị phần hoặc tỷ lệ của các nhân tố khác nhau. Biểu đồ hình tròn có thể tương tác, phản hồi nhanh, hỗ trợ hoạt ảnh và được xuất dưới dạng ảnh, đồng thời dễ dàng tích hợp với các framework JavaScript phổ biến.</p>
+<p>Ví dụ bên dưới minh họa một mẫu biểu đồ hình tròn được tạo bằng JavaScript. Bài viết cũng cung cấp mã nguồn HTML cho bạn thoải mái chỉnh sửa hoặc lưu về máy để chạy nội bộ.</p>
+<p><img loading="lazy" src="https://st.quantrimang.com/photos/image/2023/03/10/javascript-pie-code.jpg" alt="Mẫu biểu đồ hình tròn được tạo bằng JavaScript" data-is-external-image="true"></p>
+<pre id="pre0" class="prettyprint hljs language-javascript"><code>&lt;!DOCTYPE HTML&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;script&gt;
+window.onload = function() {
+
+var chart = new CanvasJS.Chart("chartContainer", {
+	animationEnabled: true,
+	title: {
+		text: "Thị phần công cụ tìm kiếm trên desktop - 2016"
+	},
+	data: [{
+		type: "pie",
+		startAngle: 240,
+		yValueFormatString: "##0.00\"%\"",
+		indexLabel: "{label} {y}",
+		dataPoints: [
+			{y: 79.45, label: "Google"},
+			{y: 7.31, label: "Bing"},
+			{y: 7.06, label: "Baidu"},
+			{y: 4.91, label: "Yahoo"},
+			{y: 1.26, label: "Others"}
+		]
+	}]
+});
+chart.render();
+
+}
+&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div id="chartContainer" style="height: 300px; width: 100%;"&gt;&lt;/div&gt;
+&lt;script src="https://canvasjs.com/assets/script/canvasjs.min.js"&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+<h2><span style="color: #5739eb;">Tùy biến biểu đồ</span></h2>
+<p>Bạn có thể tùy biến color của từng phần riêng lẻ bằng color hoặc thay đổi góc của hình tròn bằng startAngle.</p>
+<p>Một số lựa chọn tùy biến khác bao gồm: radius, fillOpacity, indexLabelPlacement…</p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Hiệu ứng (Animation) trong JavaScript</title>
+        <author>
+            <name>Quốc Bảo</name>
+        </author>
+        <link href="https://doanquocbao9.github.io/Blog/hieu-ung-animation-trong-javascript.html"/>
+        <id>https://doanquocbao9.github.io/Blog/hieu-ung-animation-trong-javascript.html</id>
+        <media:content url="https://doanquocbao9.github.io/Blog/media/posts/12/28832588.png" medium="image" />
+
+        <updated>2024-12-29T04:59:54+07:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://doanquocbao9.github.io/Blog/media/posts/12/28832588.png" alt="" />
+                    Bạn có thể sử dụng JavaScript để tạo một hiệu&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://doanquocbao9.github.io/Blog/media/posts/12/28832588.png" class="type:primaryImage" alt="" /></p>
+                <p>Bạn có thể sử dụng <a title="Lập trình JavaScript" href="https://quantrimang.com/hoc/javascript">JavaScript</a> để tạo một hiệu ứng phức tạp, không giới hạn, có các phần tử sau:</p>
+<ul>
+<li>Fireworks</li>
+<li>Fade Effect</li>
+<li>Roll-in hoặc Roll-out</li>
+<li>Page-in hoặc Page-out</li>
+<li>Object movements</li>
+</ul>
+<p>Bạn nên quan tâm đến thư viện hiệu ứng đang tồn tại xây dựng trên nền JavaScript: <strong><span style="color: #5739eb;">Script.Aculo.us.</span></strong></p>
+<p>Chương hướng dẫn này cung cấp cho bạn kiến thức cơ bản về cách sử dụng JavaScript để tạo một hiệu ứng.</p>
+<p>JavaScript có thể được sử dụng để di chuyển một số phần tử DOM (&lt;img /&gt;, &lt;div&gt; hoặc bất kỳ phần tử HTML nào khác) xung quanh trang theo một số mẫu được quyết định bởi một phương trình hoặc hàm logic.</p>
+<p>JavaScript cung cấp hai hàm sau mà được sử dụng thường xuyên trong các chương trình animation.</p>
+<ul>
+<li><strong><span style="color: #5739eb;">setTimeout( function, duration) </span></strong>− Hàm này gọi<span style="color: #5739eb;"> <strong>Hàm</strong></span> sau quãng thời gian <strong><span style="color: #5739eb;">duration</span></strong> (tính bằng mili giây) từ bây giờ.</li>
+<li><strong><span style="color: #5739eb;">setInterval(function, duration)</span></strong> − Hàm này gọi <strong>Hàm</strong> sau mỗi quãng thời gian <strong><span style="color: #5739eb;">duration</span></strong> (tính bằng mili giây).</li>
+<li><strong><span style="color: #5739eb;">clearTimeout(setTimeout_variable) </span></strong>− Hàm này xóa bất cứ bộ bấm giờ nào được thiết lập bởi các hàm setTimeout().</li>
+</ul>
+<p>JavaScript có thể cũng thiết lập một số thuộc tính của một đối tượng DOM bao gồm vị trí của nó trên màn hình. Bạn có thể thiết lập thuộc tính <strong>top</strong> và <strong>left</strong> của một đối tượng để xác định vị trí của nó bất cứ đâu trên màn hình. Dưới đây là cú pháp:</p>
+<div class="codebar"> </div>
+<pre id="pre0" class="prettyprint notranslate prettyprinted hljs language-typescript"><code>// Set distance from left edge of the screen.
+object.style.left = distance in pixels or points; 
+
+or
+
+// Set distance from top edge of the screen.
+object.style.top = distance in pixels or points; </code></pre>
+<h2><span style="color: #5739eb;">Animation thao tác tay</span></h2>
+<p>Bây giờ chúng ta cùng thực hiện một animation đơn giản sử dụng các thuộc tính đối tượng DOM và các hàm JavaScript như sau. Sau đây liệt kê các phương thức DOM khác nhau:</p>
+<div id="articleads" class="adbox adsense in-article"></div>
+<p>Chúng tôi đang sử dụng hàm <strong><span style="color: #5739eb;">getElementById()</span></strong> để nhận một đối tượng<strong><span style="color: #5739eb;"> DOM</span></strong> và sau đó gán nó tới một biến Global là <strong><span style="color: #5739eb;">imgObj.</span></strong></p>
+<p>Chúng tôi đã định nghĩa một hàm khởi tạo<strong> <span style="color: #5739eb;">init()</span></strong> để khởi tạo <strong><span style="color: #5739eb;">imgObj</span></strong>, ở đây chúng tôi đã thiết lập các thuộc tính <strong><span style="color: #5739eb;">position</span></strong> và <strong><span style="color: #5739eb;">left</span></strong> của nó.</p>
+<p>Chúng tôi đang gọi hàm khởi tạo tại thời điểm tải cửa sổ.</p>
+<p>Cuối cùng, chúng tôi đang gọi hàm <strong><span style="color: #5739eb;">moveRight()</span></strong> để tăng khoảng cách trái bởi 10 pixel. Bạn có thể cũng thiết lập nó một giá trị âm để di chuyển nó sang cạnh trái.</p>
+<p><strong><span style="color: #5739eb;">Ví dụ</span></strong></p>
+<p>Bạn thử ví dụ sau:</p>
+<div class="codebar"> </div>
+<pre id="pre1" class="prettyprint notranslate tryit prettyprinted hljs language-xml"><code>&lt;html&gt;
+   
+   &lt;head&gt;
+      &lt;title&gt;JavaScript Animation&lt;/title&gt;
+      
+      &lt;script type="text/javascript"&gt;
+         &lt;!--
+            var imgObj = null;
+            
+            function init(){
+               imgObj = document.getElementById('myImage');
+               imgObj.style.position= 'relative'; 
+               imgObj.style.left = '0px'; 
+            }
+            
+            function moveRight(){
+               imgObj.style.left = parseInt(imgObj.style.left) + 10 + 'px';
+            }
+            
+            window.onload =init;
+         //--&gt;
+      &lt;/script&gt;
+      
+   &lt;/head&gt;
+   
+   &lt;body&gt;
+   
+      &lt;form&gt;
+         &lt;img id="myImage" src="./images/html.gif" /&gt;
+         &lt;p&gt;Click button below to move the image to right&lt;/p&gt;
+         &lt;input type="button" value="Click Me" onclick="moveRight();" /&gt;
+      &lt;/form&gt;
+      
+   &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+<p><strong><span style="color: #5739eb;">Kết quả</span></strong></p>
+<p>Chạy theo lệnh trên để xem kết quả</p>
+<h2><span style="color: #5739eb;">Animation tự động hóa</span></h2>
+<p>Trong ví dụ trên, chúng ta đã thấy cách một hình ảnh di chuyển qua phải mỗi khi nhấp chuột. Chúng ta có thể tự độ hóa tiến trình này bởi sử dụng hàm <strong><span style="color: #5739eb;">setTimeout()</span></strong> như sau:</p>
+<p>Dưới đây, chúng tôi thêm nhiều phương thức hơn. Đó là:</p>
+<p>Hàm <strong><span style="color: #5739eb;">moveRight()</span></strong> đang gọi hàm <strong><span style="color: #5739eb;">setTimeout() </span></strong>để thiết lập vị trí của imgObj.</p>
+<p>Chúng tôi đã thêm một hàm mới là <strong><span style="color: #5739eb;">stop()</span></strong> để xóa bộ bấm giờ được thiết lập bởi hàm setTimeout() và để thiết lập đối tượng tại vị trí khởi tạo.</p>
+<div id="articleads2" class="adbox in-article adsense"></div>
+<p><strong><span style="color: #5739eb;">Ví dụ</span></strong></p>
+<p>Bạn thử code sau:</p>
+<div class="codebar"> </div>
+<pre id="pre2" class="prettyprint notranslate tryit prettyprinted hljs language-xml"><code>&lt;html&gt;
+   
+   &lt;head&gt;
+      &lt;title&gt;JavaScript Animation&lt;/title&gt;
+      
+      &lt;script type="text/javascript"&gt;
+         &lt;!--
+            var imgObj = null;
+            var animate ;
+            
+            function init(){
+               imgObj = document.getElementById('myImage');
+               imgObj.style.position= 'relative'; 
+               imgObj.style.left = '0px'; 
+            }
+            
+            function moveRight(){
+               imgObj.style.left = parseInt(imgObj.style.left) + 10 + 'px';
+               animate = setTimeout(moveRight,20); // call moveRight in 20msec
+            }
+            
+            function stop(){
+               clearTimeout(animate);
+               imgObj.style.left = '0px'; 
+            }
+            
+            window.onload =init;
+         //--&gt;
+      &lt;/script&gt;
+      
+   &lt;/head&gt;
+   
+   &lt;body&gt;
+   
+      &lt;form&gt;
+         &lt;img id="myImage" src="./images/html.gif" /&gt;
+         &lt;p&gt;Click the buttons below to handle animation&lt;/p&gt;
+         &lt;input type="button" value="Start" onclick="moveRight();" /&gt;
+         &lt;input type="button" value="Stop" onclick="stop();" /&gt;
+      &lt;/form&gt;
+      
+   &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+<p><strong><span style="color: #5739eb;">Kết quả</span></strong></p>
+<p>Chạy theo lệnh trên để xem kết quả</p>
+<h2><span style="color: #5739eb;">Rollover với một Mouse Event</span></h2>
+<p>Dưới đây là ví dụ đơn giản minh họa rollover hình ảnh với một Mouse Event.</p>
+<p>Chúng ta cùng quan sát những gì đang được sử dụng trong ví dụ này:</p>
+<p>Tại thời điểm tải trang này, lệnh if kiểm tra cho sự tồn tại của đối tượng<strong> <span style="color: #5739eb;">Image</span></strong>. Nếu đối tượng Image này không có sẵn, khối này sẽ không được thực thi.</p>
+<p><strong><span style="color: #5739eb;">Image()</span></strong> constructor tạo và tải lại một đối tượng Image mới gọi là<strong> <span style="color: #5739eb;">image1.</span></strong></p>
+<p>Thuộc tính src được gán tên của image file ngoại vi gọi là ./images/html.gif.</p>
+<p>Tương tự, chúng ta tạo đối tượng<strong> <span style="color: #5739eb;">image2</span></strong> và gán ./images/http.gif trong đối tượng này.</p>
+<p>Dấu # vô hiệu hóa đường link để mà trình duyệt không cố gắng tới URL khi được click. Link này là một hình ảnh.</p>
+<p>Phương thức xử lý lỗi<strong> <span style="color: #5739eb;">onMouseOver</span></strong> được kích hoạt khi người dùng di chuyển chuột qua link (hình ảnh đó), và <strong><span style="color: #5739eb;">onMouseOut</span></strong> event handler đươc kích hoạt khi người dùng di chuyển chuột ra khỏi link đó.</p>
+<p>Khi di chuyển chuột qua hình ảnh, HTTP image thay đổi từ hình ảnh đầu tiên tới hình ảnh thứ hai. Khi di chuyển chuột ra khỏi hình ảnh, thì hình ảnh ban đầu được hiển thị.</p>
+<p>Khi di chuyển chuột ra khỏi link, hình ảnh khởi tạo đầu tiên html.gif sẽ tái xuất hiện trên màn hình.</p>
+<div class="codebar"> </div>
+<pre id="pre3" class="prettyprint notranslate tryit prettyprinted hljs language-xml"><code>&lt;html&gt;
+   
+   &lt;head&gt;
+      &lt;title&gt;Rollover with a Mouse Events&lt;/title&gt;
+      
+      &lt;script type="text/javascript"&gt;
+         &lt;!--
+            if(document.images){
+               var image1 = new Image(); // Preload an image
+               image1.src = "./images/html.gif";
+               var image2 = new Image(); // Preload second image
+               image2.src = "./images/http.gif";
+            }
+         //--&gt;
+      &lt;/script&gt;
+      
+   &lt;/head&gt;
+   
+   &lt;body&gt;
+      &lt;p&gt;Move your mouse over the image to see the result&lt;/p&gt;
+      
+      &lt;a href="#" onMouseOver="document.myImage.src=image2.src;" onMouseOut="document.myImage.src=image1.src;"&gt;
+      &lt;img name="myImage" src="./images/html.gif" /&gt;
+      &lt;/a&gt;
+   &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+<p><strong><span style="color: #5739eb;">Kết quả</span></strong></p>
+<p>Chạy theo lệnh trên để xem kết quả</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Cách tạo công cụ đếm từ trong JavaScript</title>
+        <author>
+            <name>Quốc Bảo</name>
+        </author>
+        <link href="https://doanquocbao9.github.io/Blog/cach-tao-cong-cu-dem-tu-trong-javascript.html"/>
+        <id>https://doanquocbao9.github.io/Blog/cach-tao-cong-cu-dem-tu-trong-javascript.html</id>
+        <media:content url="https://doanquocbao9.github.io/Blog/media/posts/11/images.jpg" medium="image" />
+
+        <updated>2024-12-29T04:47:44+07:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://doanquocbao9.github.io/Blog/media/posts/11/images.jpg" alt="" />
+                    Bộ đếm từ là một công cụ mà&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://doanquocbao9.github.io/Blog/media/posts/11/images.jpg" class="type:primaryImage" alt="" /></p>
+                <p>Bộ đếm từ là một công cụ mà bạn có thể sử dụng để đếm số từ trong một đoạn văn bản. Bạn có thể sử dụng nó để kiểm tra độ dài của tài liệu hoặc để theo dõi xem bạn có đáp ứng giới hạn số từ hay không.</p>
+<p>Bạn có thể tạo bộ đếm từ của riêng mình bằng <a title="HTML là gì? Cấu trúc HTML cơ bản" href="https://quantrimang.com/hoc/gioi-thieu-ve-html-149822">HTML</a>, <a title="CSS là gì? Giới thiệu về CSS" href="https://quantrimang.com/hoc/gioi-thieu-ve-css-152825">CSS</a> và <a title="JavaScript là gì?" href="https://quantrimang.com/hoc/javascript-la-gi-155978">JavaScript</a>. Mở bộ đếm từ trong trình duyệt web, nhập văn bản của bạn vào trường nhập liệu và xem bạn đã viết bao nhiêu từ.</p>
+<p>Dự án này cũng có thể hữu ích trong việc giúp bạn thực hành và củng cố kiến thức JavaScript của mình.</p>
+<h2><strong><span style="color: #5739eb;">Cách tạo giao diện người dùng cho bộ đếm từ</span></strong></h2>
+<p>Để tạo giao diện người dùng cho bộ đếm từ, hãy thêm đầu vào textarea vào trang HTML cơ bản. Đây là nơi bạn có thể nhập câu hoặc đoạn mà mình muốn đếm từ.</p>
+<p>1. Tạo một file HTML mới có tên là <strong><span style="color: #5739eb;">"index.html"</span>.</strong></p>
+<p>2. Bên trong file, thêm cấu trúc cơ bản cho trang web HTML:</p>
+<pre id="pre0" class="language- prettyprint language-none"><code>&lt;!doctype html&gt;
+&lt;html lang="en-US"&gt;
+  &lt;head&gt;
+    &lt;title&gt; Word Counter &lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;div class="container"&gt;
+      &lt;h1&gt; Count Words &lt;/h1&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+<p>3. Bên trong container div và bên dưới heading, hãy thêm một textarea:</p>
+<pre id="pre1" class="language- prettyprint language-none"><code>&lt;textarea id="input" rows="10"&gt;&lt;/textarea&gt;</code></pre>
+<p>4. Bên dưới textarea, thêm một nút:</p>
+<div class="codebar"> </div>
+<pre id="pre2" class="language- prettyprint language-none"><code>&lt;button id="count-button"&gt;Count Words&lt;/button&gt;</code></pre>
+<p>5. Thêm thẻ span để hiển thị số từ khi người dùng click vào nút bên trên:</p>
+<div class="codebar"> </div>
+<pre id="pre3" class="language- prettyprint language-none"><code>&lt;div&gt;
+    Words: &lt;span id="word-count-result"&gt;0&lt;/span&gt;
+&lt;/div&gt;</code></pre>
+<p>6. Trong cùng thư mục với file HTML của bạn, hãy tạo một file mới có tên <strong><span style="color: #5739eb;">"styles.css".</span></strong></p>
+<div id="articleads" class="adbox adsense in-article"></div>
+<p>7. Điền vào file CSS để tạo kiểu cho trang web của bạn:</p>
+<div class="codebar"> </div>
+<pre id="pre4" class="language- prettyprint language-none"><code>body {
+  margin: 0;
+  padding: 0;
+  background-color: #f0fcfc;
+}
+
+* {
+  font-family: "Arial", sans-serif;
+}
+
+.container {
+  padding: 100px 25%;
+  display: flex;
+  flex-direction: column;
+  line-height: 2rem;
+  font-size: 1.2rem;
+  color: #202C39;
+}
+
+textarea {
+  padding: 20px;
+  font-size: 1rem;
+  margin-bottom: 40px;
+}
+
+button {
+  padding: 10px;
+  margin-bottom: 40px;
+} </code></pre>
+<p>8. Liên kết file CSS với file HTML bằng cách bao gồm thẻ link bên trong <a title="Phần tử Head trong HTML" href="https://quantrimang.com/hoc/phan-tu-head-trong-html-151713">thẻ HTML head</a>:</p>
+<div class="codebar"> </div>
+<pre id="pre5" class="language- prettyprint language-none"><code>&lt;link rel="stylesheet" href="styles.css"&gt; </code></pre>
+<p>9. Để kiểm tra giao diện người dùng của trang web, hãy nhấp vào file <strong><span style="color: #5739eb;">"index.html"</span></strong> để mở file đó trong trình duyệt web.</p>
+<figure class="align-center"><img loading="lazy"  src="https://st.quantrimang.com/photos/image/2023/01/13/tao-cong-cu-dem-tu-trong-javascript-1.jpg" data-is-external-image="true"></figure>
+<p class="align-center">Giao diện người dùng cho bộ đếm từ mở trong trình duyệt</p>
+<h2><span style="color: #5739eb;">Cách đếm từng từ trong vùng văn bản</span></h2>
+<p>Khi người dùng nhập một câu vào vùng văn bản, trang web sẽ đếm từng từ khi họ nhấp vào nút <strong><span style="color: #5739eb;">Count Words</span>. </strong>Bạn có thể thêm chức năng này bên trong file JavaScript mới.</p>
+<p>1. Trong cùng thư mục với các file <strong><span style="color: #5739eb;">"index.html"</span></strong> và <strong><span style="color: #5739eb;">"styles.css"</span></strong>, hãy thêm một file mới có tên <strong><span style="color: #5739eb;">"script.js"</span>.</strong></p>
+<p>2. Liên kết file HTML với file JavaScript của bạn bằng cách thêm thẻ script ở cuối thẻ body:</p>
+<pre id="pre6" class="language- prettyprint language-none"><code>&lt;body&gt;
+    &lt;!-- Viết code của bạn ở đây --&gt;
+    &lt;script src="script.js"&gt;&lt;/script&gt;
+&lt;/body&gt;</code></pre>
+<p>3. Bên trong script.js, sử dụng hàm <strong><span style="color: #5739eb;">getElementById()</span></strong> để truy xuất các phần tử HTML textarea, button và span. Lưu trữ các phần tử này thành 3 biến riêng biệt:</p>
+<div id="articleads2" class="adbox in-article adsense"></div>
+<div class="codebar"> </div>
+<pre id="pre7" class="language- prettyprint language-none"><code>let input = document.getElementById("input");
+let button = document.getElementById("count-button");
+let wordCountResult = document.getElementById("word-count-result");</code></pre>
+<p>4. Thêm trình xử lý sự kiện nhấp chuột. Hàm này sẽ thực thi khi người dùng click vào nút <strong><span style="color: #5739eb;">Count Words:</span></strong></p>
+<div class="codebar"> </div>
+<pre id="pre8" class="language- prettyprint language-none"><code>button.addEventListener("click", function() {
+
+});</code></pre>
+<p>5. Bên trong trình xử lý sự kiện nhấp chuột, lấy giá trị mà người dùng đã nhập vào vùng văn bản. Bạn có thể tìm thấy giá trị này trong biến đầu vào, nơi lưu trữ phần tử HTML textarea.</p>
+<div class="codebar"> </div>
+<pre id="pre9" class="language- prettyprint language-none"><code>let str = input.value;</code></pre>
+<p>6. Sử dụng hàm <strong><span style="color: #5739eb;">split() </span></strong>để tách chuỗi thành các từ riêng biệt. Điều này sẽ xảy ra bất cứ khi nào có khoảng trắng trong chuỗi. Điều này sẽ lưu trữ từng từ dưới dạng một phần tử của một mảng mới. Ví dụ, nếu câu được nhập là "I love dogs", mảng kết quả sẽ là ["I", "love", "dogs"].</p>
+<div class="codebar"> </div>
+<pre id="pre10" class="language- prettyprint language-none"><code>let wordsList = str.split(" ");</code></pre>
+<p>7. Tìm số từ bằng cách sử dụng độ dài của mảng:</p>
+<div class="codebar"> </div>
+<pre id="pre11" class="language- prettyprint language-none"><code>let count = wordsList.length;</code></pre>
+<p>8. Để hiển thị lại kết quả cho người dùng, hãy thay đổi nội dung của phần tử span HTML để hiển thị giá trị mới:</p>
+<div class="codebar"> </div>
+<pre id="pre12" class="language- prettyprint language-none"><code>wordCountResult.innerHTML = count; </code></pre>
+<h2><span style="color: #5739eb;">Cách sử dụng bộ đếm từ mẫu</span></h2>
+<p>Bạn có thể kiểm tra bộ đếm từ của mình bằng trình duyệt web.</p>
+<p>1. Mở<span style="color: #5739eb;"> <strong>index.html</strong></span> trong bất kỳ trình duyệt web nào.<img loading="lazy" src="https://st.quantrimang.com/photos/image/2023/01/13/tao-cong-cu-dem-tu-trong-javascript-2.jpg" alt="Giao diện người dùng cho bộ đếm từ JS" data-is-external-image="true"></p>
+<p class="align-center">Giao diện người dùng cho bộ đếm từ JS</p>
+<p>2. Nhập một câu hoặc đoạn văn vào vùng văn bản:</p>
+<p><img loading="lazy" src="https://st.quantrimang.com/photos/image/2023/01/13/tao-cong-cu-dem-tu-trong-javascript-3.jpg" alt="Bộ đếm từ JS với câu trong vùng văn bản" data-is-external-image="true"></p>
+<p class="align-center">Bộ đếm từ JS với câu trong vùng văn bản</p>
+<p>3. Bấm vào nút <strong><span style="color: #5739eb;">Count Words</span></strong> để cập nhật số lượng từ. Thao tác này sẽ hiển thị số từ, giống như khi bạn kiểm tra số từ trên Google Tài liệu, Microsoft Word hoặc bất kỳ trình soạn thảo nào khác có chức năng đếm từ.</p>
+<p><img loading="lazy" src="https://st.quantrimang.com/photos/image/2023/01/13/tao-cong-cu-dem-tu-trong-javascript-4.jpg" alt="Bộ đếm từ JS trong trình duyệt với số từ được cập nhật" data-is-external-image="true"></p>
+<p class="align-center">Bộ đếm từ JS trong trình duyệt với số từ được cập nhật</p>
+<p>Bây giờ, hy vọng bạn đã có hiểu biết cơ bản về cách sử dụng JavaScript để đếm từ và tương tác với các thành phần trên trang HTML. Để nâng cao hiểu biết về lập trình của bạn, hãy tiếp tục tạo các dự án nhỏ hữu ích bằng JavaScript.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>MD5 là gì? Code ví dụ MD5 với Java</title>
+        <author>
+            <name>Quốc Bảo</name>
+        </author>
+        <link href="https://doanquocbao9.github.io/Blog/md5-la-gi-code-vi-du-md5-voi-java.html"/>
+        <id>https://doanquocbao9.github.io/Blog/md5-la-gi-code-vi-du-md5-voi-java.html</id>
+        <media:content url="https://doanquocbao9.github.io/Blog/media/posts/10/teamvietdev-ma-hoa-du-lieu-md5-trong-java.jpg" medium="image" />
+
+        <updated>2024-12-29T04:38:12+07:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://doanquocbao9.github.io/Blog/media/posts/10/teamvietdev-ma-hoa-du-lieu-md5-trong-java.jpg" alt="" />
+                    MD5 là gì? MD5 (Message-Digest algorithm 5) là một&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://doanquocbao9.github.io/Blog/media/posts/10/teamvietdev-ma-hoa-du-lieu-md5-trong-java.jpg" class="type:primaryImage" alt="" /></p>
+                <h2><span style="color: #5739eb;">MD5 là gì?</span></h2>
+<p><a href="https://vi.wikipedia.org/wiki/MD5">MD5</a> (Message-Digest algorithm 5) là một hàm băm (thuật toán băm/hash) không khóa.</p>
+<p>Tất cả đầu vào (file, text,…) sau khi được băm bằng thuật toán MD5 sẽ cho ra một chuỗi đầu ra 128bit và thường được biểu diễn thành 32 số hexa.</p>
+<p>Ứng dụng của MD5:</p>
+<ul>
+<li>Đảm bảo tính toàn vẹn, tạo chuỗi kiểm tra lỗi. (Ví dụ khi download 1 file trên mạng bạn thường thấy người ta cung cấp kèm 1 chuỗi MD5 tương ứng, sau khi download về ta sẽ băm lại file để kiểm tra chuỗi MD5 có bị thay đổi không, nếu đã bị thay đổi tức là trong quá trình download file đã bị thiếu một phần nào đó hoặc file đã bị chỉnh sửa (chèn virus, crack…)).</li>
+<li>Mã hóa mật khẩu. (Các thông tin nhạy cảm như mật khẩu, thẻ ngân hàng… thường sẽ được mã hóa trước khi lưu vào database, nếu hacker truy cập được vào database cũng sẽ không lấy được các thông tin đó. Khi sử dụng, ví dụ khi đăng nhập ta sẽ băm mật khẩu thành một chuỗi MD5 và so sánh nó với chuỗi MD5 trong database để xác thực)</li>
+</ul>
+<h2><span style="color: #5739eb;">Code ví dụ MD5</span></h2>
+<p>MD5 to Hash a String:</p>
+<pre class="lang:default decode:true ">package test;
+
+import java.nio.charset.StandardCharsets;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+
+/**
+ *
+ * @author TVD
+ */
+public class TestMD5 {
+
+    private String convertHashToString(String text) throws NoSuchAlgorithmException {
+        MessageDigest md = MessageDigest.getInstance("MD5");
+        byte[] hashInBytes = md.digest(text.getBytes(StandardCharsets.UTF_8));
+        StringBuilder sb = new StringBuilder();
+        for (byte b : hashInBytes) {
+            sb.append(String.format("%02x", b));
+        }
+        return sb.toString();
+    }
+
+    public static void main(String[] args) throws NoSuchAlgorithmException {
+        TestMD5 md5 = new TestMD5();
+        System.out.println(md5.convertHashToString("teamvietdev.com"));
+    }
+
+}</pre>
+<p>Kết quả sau khi chạy đoạn mã ví dụ trên:</p>
+<pre class="lang:default decode:true ">ccbc69a6d5c126f38c8dcb47d6c79cd9</pre>
+<p>MD5 File Checksum:</p>
+<pre class="lang:default decode:true ">package test;
+
+import java.io.FileInputStream;
+import java.io.InputStream;
+import java.nio.charset.StandardCharsets;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+
+/**
+ *
+ * @author TVD
+ */
+public class TestMD5 {
+
+    private String covertCheckSum(String path) throws NoSuchAlgorithmException {
+        try {
+            MessageDigest md = MessageDigest.getInstance("MD5");
+            InputStream fis = new FileInputStream(path);
+            byte[] buffer = new byte[1024];
+            int nread;
+            while ((nread = fis.read(buffer)) != -1) {
+                md.update(buffer, 0, nread);
+            }
+            StringBuilder result = new StringBuilder();
+            for (byte b : md.digest()) {
+                result.append(String.format("%02x", b));
+            }
+            return result.toString();
+        } catch (Exception ex) {
+            ex.toString();
+        }
+        return null;
+    }
+
+    public static void main(String[] args) throws NoSuchAlgorithmException {
+        TestMD5 md5 = new TestMD5();
+        System.out.println(md5.covertCheckSum("D:/TVD/test.pdf"));
+    }
+
+}</pre>
+<p>Kết quả sau khi chạy đoạn mã ví dụ trên:</p>
+<pre class="lang:default decode:true ">9a92f94094ef1d8fb56d71e8bd648142</pre>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Cơ hội nghề nghiệp và mức lương của lập trình viên JavaScript</title>
+        <author>
+            <name>Quốc Bảo</name>
+        </author>
+        <link href="https://doanquocbao9.github.io/Blog/co-hoi-nghe-nghiep-va-muc-luong-cua-lap-trinh-vien-javascript.html"/>
+        <id>https://doanquocbao9.github.io/Blog/co-hoi-nghe-nghiep-va-muc-luong-cua-lap-trinh-vien-javascript.html</id>
+        <media:content url="https://doanquocbao9.github.io/Blog/media/posts/9/photo-1693474152320-16934741523731582351239.png" medium="image" />
+
+        <updated>2024-12-29T04:20:48+07:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://doanquocbao9.github.io/Blog/media/posts/9/photo-1693474152320-16934741523731582351239.png" alt="" />
+                    Lập trình viên Javascript là gì? Mô tả&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://doanquocbao9.github.io/Blog/media/posts/9/photo-1693474152320-16934741523731582351239.png" class="type:primaryImage" alt="" /></p>
+                <h2 id="Lap-trinh-vien-Javascript-la-gi-Mo-ta-cong-viec"><strong><span style="color: #5739eb;">Lập trình viên Javascript là gì? Mô tả công việc</span></strong></h2>
+<p>Một lập trình viên Javascript (Javascript Developer) chịu trách nhiệm hoàn thành việc thiết kế trang web, các ứng dụng và phần mềm sử dụng ngôn ngữ lập trình Javascript. Lập trình viên Javascript làm việc với các trang web, tạo ra các ứng dụng front-end, thực hiện phân tích mã cũng như cải thiện tổng thể về hình thức và khả năng sử dụng của website, ứng dụng đó.</p>
+<h3><strong><span style="color: #5739eb;">1. Mô tả công việc của Lập trình viên Javascript</span></strong></h3>
+<p>Nhiệm vụ của mỗi lập trình viên Javascript ở các công ty khác nhau, dự án khác nhau có thể không hoàn toàn giống hệt nhau. Dù vậy, điểm chung là bạn sẽ tập trung và được yêu cầu hoàn thành các công việc chính như sau:</p>
+<ul>
+<li>Phát triển và nâng cao nền tảng giao diện người dùng.</li>
+<li>Phát triển các tính năng hướng tới người dùng mới.</li>
+<li>Thiết kế và phát triển các ứng dụng giao diện người dùng mới cho các nền tảng khác nhau từ website đến ứng dụng, phần mềm.</li>
+<li>Hỗ trợ phát triển giao diện người dùng trên các ngôn ngữ lập trình, ngôn ngữ đánh dấu khác như HTML/ CSS/ JS.</li>
+<li>Phát triển các thông số kỹ thuật và thiết kế cho ứng dụng phức tạp hoặc sửa đổi, bảo trì các ứng dụng phức tạp hiện có.</li>
+<li>Thực hiện phân tích mã, phân tích yêu cầu, xác định số liệu mã, phân tích rủi ro hệ thống và phân tích độ tin cậy của phần mềm.</li>
+<li>Điều chỉnh hiệu suất, cải tiến, cân bằng khả năng sử dụng, tự động hóa của website, phần mềm và ứng dụng.</li>
+</ul>
+<h3><strong><span style="color: #5739eb;">2. Tuyển dụng Lập trình viên Javascript NTD yêu cầu gì?</span></strong></h3>
+<p>Mỗi nhà tuyển dụng có những yêu cầu khác nhau về trình độ và kỹ năng với lập trình viên Javascript nhưng về cơ bản thì ứng viên cần đáp ứng được những tiêu chí cả về kinh nghiệm, học vấn và phẩm chất, kỹ năng như sau:</p>
+<ul>
+<li>Bằng trung cấp, cao đẳng trở lên các chuyên ngành Khoa học Máy tính, Kỹ thuật phần mềm, CNTT hoặc liên quan.</li>
+<li>Kinh nghiệm làm việc trong vai trò lập trình viên Javascript, <a href="https://vn.joboko.com/t%C3%ACm-vi%E1%BB%87c-l%C3%A0m-l%E1%BA%ADp+tr%C3%ACnh+vi%C3%AAn+website" target="_blank" rel="noopener">lập trình viên website</a> hay lập trình phần mềm, ứng dụng, HTML và CSS.</li>
+<li>Kiến thức chuyên môn về JavaScript, thành thạo các nguyên tắc cơ bản của JavaScript như kế thừa nguyên mẫu, thành phần, hệ thống mô-đun CommonJS / AMD sử dụng RequestJS,...</li>
+<li>Kinh nghiệm với thiết kế đáp ứng cho máy tính để bàn/ thiết bị di động.</li>
+<li>Thành thạo các kỹ năng viết mã HTML/ CSS/ AJAX/ Javascript (jQuery, Backbone / Angular / Ember) mở rộng.</li>
+<li>Kiến thức về trình biên dịch CSS (Ví dụ:, Sass, LESS).</li>
+<li>Kỹ năng phân tích, tư duy logic.</li>
+<li>Kỹ năng kiểm thử.</li>
+<li>Sáng tạo, nhiều ý tưởng, khả năng đánh giá về tương tác và nhu cầu tương tác của người dùng.</li>
+<li><a href="https://vn.joboko.com/blog/ti-mi-can-than-la-gi-nwi685" target="_blank" rel="noopener">Tỉ mỉ và cẩn thận</a>, chú ý đến chi tiết.</li>
+<li>Khả năng tập trung tốt, chịu được áp lực về thời gian.</li>
+<li>Kỹ năng làm việc độc lập và làm việc nhóm.</li>
+</ul>
+<figure class="align-center"><img loading="lazy"  src="https://i-vn1.joboko.com/blogs/img/va/2021/12/20/lap-trinh-vien-javascript-2.jpg" alt="lap trinh vien javascript 3" data-is-external-image="true"></figure>
+<p class="align-center"><em>Nhà tuyển dụng kỳ vọng điều gì ở lập trình viên Javascript?</em></p>
+<h2 id="Lap-trinh-vien-Javascript-luong-bao-nhieu"><strong><span style="color: #5739eb;">Lập trình viên Javascript lương bao nhiêu?</span></strong></h2>
+<p>Theo khảo sát của JobOKO, mức lương của lập trình viên Javascript từ khoảng <strong><span style="color: #5739eb;">7 - 10 triệu/ tháng</span></strong> cho các bạn chưa có kinh nghiệm hoặc 6 tháng - 1 năm kinh nghiệm. Khoảng lương phổ biến nhất của vị trí việc làm này là từ <strong><span style="color: #5739eb;">14 - 20 triệu/ tháng</span></strong>, cao hơn là khoảng <strong><span style="color: #5739eb;">25 - 40 triệu/ tháng</span></strong> và cao nhất có thể lên tới <strong><span style="color: #5739eb;">50 - 60 triệu/ tháng</span></strong>. Có thể thấy, lập trình viên Javascript chưa có hoặc ít kinh nghiệm thì mức lương tương tự như mức trung bình của nghề lập trình viên nói chung. Tuy nhiên, về triển vọng lâu dài thì lương lập trình viên Javascript còn có thể cao hơn cả mức cao nhất của những vai trò lập trình viên khác.</p>
+<p>Bên cạnh đó, khi đã có kinh nghiệm làm việc, bạn có thể bắt đầu nhận thêm các công việc ngoài thời gian rảnh hoặc chủ động phát triển các dự án độc lập để nâng cao năng lực, học hỏi được nhiều hơn từ thực tế đồng thời gia tăng thu nhập. Về cơ bản thì lập trình viên Javascript có thể tập trung phát triển kỹ năng lập trình web - một hướng giúp bạn dễ dàng nhận rất nhiều công việc bên ngoài do nhu cầu tuyển dụng freelancer nhiều.</p>
+<h2 id="Co-hoi-viec-lam-thang-tien-cua-Lap-trinh-vien-Javascript"><strong><span style="color: #5739eb;">Cơ hội việc làm, thăng tiến của Lập trình viên Javascript</span></strong></h2>
+<p>Thực tế, các nhà tuyển dụng hiện nay tuyển lập trình viên web, <a href="https://vn.joboko.com/t%C3%ACm-vi%E1%BB%87c-l%C3%A0m-l%E1%BA%ADp+tr%C3%ACnh+vi%C3%AAn+ph%E1%BA%A7n+m%E1%BB%81m" target="_blank" rel="noopener">lập trình viên phần mềm</a> (hoặc theo ngôn ngữ lập trình phổ biến - Java, C++, Python,...) hơn là tuyển riêng lập trình viên Javascript. Tuy nhiên, trong tương lai thì nhu cầu tuyển dụng lập trình viên Javascript có thể tăng lên đáng kể. Nói cách khác, bạn có thể học Javascript, tìm việc khi thấy cơ hội tốt và phù hợp hoặc làm trong các vai trò lập trình web, lập trình phần mềm hoặc ứng dụng trong khi vẫn phát triển khả năng đối với Javascript.</p>
+<p>Đồng thời, nhìn vào mức lương thì có thể thấy là tuyển lập trình Javascript không nhiều nhưng lương cao, đãi ngộ tốt nên rất xứng đáng để bạn thử sức và cạnh tranh đúng không nào. Không chỉ vậy, từ lập trình viên Javascript bạn cũng có cơ hội thăng tiến lên các vị trí như team leader, giám sát/ quản lý dự án, <a href="https://vn.joboko.com/t%C3%ACm-vi%E1%BB%87c-l%C3%A0m-tr%C6%B0%E1%BB%9Fng+ph%C3%B2ng+cntt" target="_blank" rel="noopener">trưởng phòng CNTT</a> hoặc giám đốc CNTT (CTO).</p>
+<h2 id="Hoc-Javascript-o-dau-Can-hoc-nhung-gi"><strong><span style="color: #5739eb;">Học Javascript ở đâu? Cần học những gì?</span></strong></h2>
+<p>Các trường đại học, cao đẳng hay trung cấp không đào tạo riêng chuyên ngành về lập trình Javascript. Do đó, nếu bạn muốn trở thành lập trình viên Javascript thì bạn có thể có nền tảng kiến thức, bằng cấp về CNTT, lập trình, khoa học máy tính,... sau đó cân nhắc tự học hoặc tham gia các chương trình, khóa học Javascript online hoặc qua trung tâm. Các khóa học ngắn hạn, không quá tốn kém nhưng điều quan trọng là nếu thực sự yêu thích thì bạn sẽ cần chủ động tự học và thực hành.</p>
+<p>Để bắt đầu sự nghiệp lập trình viên Javascript và thành công, bạn nên tập trung vào học những kiến thức, kỹ năng như sau:</p>
+<ul>
+<li>Hiểu cơ bản về lập trình chức năng.</li>
+<li>Nền tảng về HTTP based APIs.</li>
+<li>Phương pháp quản lý bộ nhớ hiệu quả.</li>
+<li>Phương pháp xây dựng và thiết kế website đáp ứng nhu cầu người dùng.</li>
+<li>Biết cách tạo lệnh code hoạt động tương tự nhau trên tất cả các trình duyệt.</li>
+</ul>
+<p><img loading="lazy" src="https://i-vn2.joboko.com/blogs/img/va/2021/12/20/lap-trinh-vien-javascript-3.jpg" alt="lap trinh vien javascript 4" data-is-external-image="true"></p>
+<p class="align-center"><em>Lộ trình học tập của lập trình viên Javascript ra sao?</em></p>
+<h2 id="Lap-trinh-vien-Javascript-va-Lap-trinh-vien-Java-co-phai-la-mot"><strong><span style="color: #5739eb;">Lập trình viên Javascript và Lập trình viên Java có phải là một?</span></strong></h2>
+<p>Nhiều bạn dễ nhầm lẫn giữa vai trò lập trình viên Java và lập trình viên Javascript. Tuy nhiên, đây là 2 ngôn ngữ lập trình khác nhau nên công việc của lập trình viên cũng sẽ không giống nhau.</p>
+<p>Java được sử dụng ở nhiều nơi, bao gồm các ứng dụng Android, ứng dụng cho PC hay trang web của doanh nghiệp. Để so sánh, Javascript chủ yếu được sử dụng để làm các trang web tương tác nhiều với người dùng. Javascript cũng có thể được sử dụng để làm những việc đơn giản như tạo hoạt ảnh trong HTML.</p>
+<p>Tóm lại, khi nói đến cách sử dụng từng ngôn ngữ lập trình, Java thường được sử dụng cho tất cả lập trình phía máy chủ, trong khi Javascript được dành riêng cho việc phát triển các tập lệnh phía máy khách cho các chức năng như xác thực và tương tác. Có một số khác biệt chính khác:</p>
+<ul>
+<li>Mã Java phải được biên dịch và mã Javascript là toàn văn bản.</li>
+<li>Mã Javascript chỉ được chạy trên trình duyệt, trong khi Java tạo ra các ứng dụng chạy trong máy ảo hoặc trình duyệt.</li>
+<li>Java là một ngôn ngữ OOP (lập trình hướng đối tượng) và Javascript cụ thể là một ngôn ngữ kịch bản OOP.</li>
+<li>Java là ngôn ngữ lập trình tĩnh còn Javascript là ngôn ngữ động.</li>
+</ul>
+<p>Ngày nay, trở thành lập trình viên Java hay Javascript đều sẽ hữu ích cho sự nghiệp của bạn. Nhiều sinh viên CNTT đã học và phát triển 2 ngôn ngữ này từ sớm, liên tục và điều đó được cho là bước đi khôn ngoan để bạn cạnh tranh hiệu quả hơn trong một thị trường lao động như hiện nay.</p>
+<h2 id="Kinh-nghiem-xin-viec-Lap-trinh-vien-Javascript"><strong><span style="color: #5739eb;">Kinh nghiệm xin việc Lập trình viên Javascript</span></strong></h2>
+<h3><strong><span style="color: #5739eb;">1. Tìm hiểu về cơ hội việc làm cho Lập trình viên Javascript</span></strong></h3>
+<p>Như đã đề cập, số lượng việc làm lập trình viên Javascript chưa phổ biến như nhiều vị trí việc làm khác nhưng trong tương lai thì nhu cầu tuyển dụng dự kiến sẽ tăng thêm. Cũng vì vậy mà khi bắt đầu tìm việc, điều quan trọng là bạn phải có kênh tìm việc hiệu quả mà qua đó, bạn tiếp cận được với nhiều thông tin tuyển dụng chất lượng.</p>
+<p>JobOKO là một trong những kênh kết nối nhân sự - nhà tuyển dụng hiệu quả nhất hiện nay. Hệ thống sử dụng công nghệ Job Search Engine thu gom việc làm lập trình viên Javascript từ tất cả các nguồn trên internet, lọc thông tin tránh trùng lặp, phân loại và hiển thị trên trang. Bên cạnh đó, các công nghệ về trí tuệ nhân tạo (AI) và học máy (Machine Learning) của JobOKO sẽ giới thiệu việc làm phù hợp cho bạn, gia tăng cơ hội tiếp cận với các vị trí tuyển dụng lập trình viên Javascript có mức lương cao, dựa theo bằng cấp và kinh nghiệm của bạn.</p>
+<h3><strong><span style="color: #5739eb;">2. Điều chỉnh CV xin việc Lập trình viên Javascript</span></strong></h3>
+<p>CV xin việc lập trình viên nói chung và CV lập trình viên Javascript nói riêng cần có sự điều chỉnh để đảm bảo tính chuyên nghiệp và độc đáo từ hình thức tới nội dung. Về hình thức, CV của bạn nên có bố cục rõ ràng, tiêu đề của các phần chính được làm nổi bật, màu sắc nhã nhặn, tổng thể tạo cảm giác đơn giản nhưng gọn gàng, dễ theo dõi nội dung.</p>
+<p>Trong khi đó, nội dung của CV xin việc lập trình viên Javascript cần nhấn mạnh vào thế mạnh của bạn cả về chuyên môn và kỹ năng. Nhìn chung, các nội dung quan trọng nhất bạn cần trình bày sẽ là: Học vấn, bằng cấp, chứng chỉ, kỹ năng. Đối với phần kinh nghiệm, đừng quên làm nổi bật các thành tích và số liệu thực tế nhé.</p>
+<p>Tham khảo và sử dụng các <a href="https://vn.joboko.com/mau-cv-xin-viec-tao-cv-online" target="_blank" rel="noopener">mẫu CV</a> xin việc lập trình viên Javascript của JobOKO để lựa chọn cho mình CV bạn yêu thích nhất, phù hợp nhất giữa hàng chục mẫu vừa đa dạng vừa được thiết kế chuyên nghiệp. Từ đó, bạn có thể dễ dàng vượt qua vòng chọn lọc hồ sơ và gia tăng cơ hội xin việc thành công.</p>
+<p><img loading="lazy" src="https://i-vn.joboko.com/blogs/img/va/2021/12/20/lap-trinh-vien-javascript-4.jpg" alt="lap trinh vien javascript 5" data-is-external-image="true"></p>
+<p class="align-center"><em>Lưu ý gì khi tìm việc làm lập trình viên Javascript?</em></p>
+<h3><strong><span style="color: #5739eb;">3. Sẵn sàng cho bài test và phỏng vấn Lập trình viên Javascript</span></strong></h3>
+<p>Tùy vào nhà tuyển dụng, bạn có thể trải qua 1 hoặc 2, 3 vòng phỏng vấn và kiểm tra năng lực khi tìm việc làm lập trình viên Javascript. Những gì bạn nên chuẩn bị gồm có:</p>
+<ul>
+<li>Tìm hiểu và luyện tập trả lời các câu hỏi phỏng vấn chung, <a href="https://vn.joboko.com/blog/cau-hoi-phong-van-hay-nci29" target="_blank" rel="noopener">câu hỏi phỏng vấn</a> lập trình viên.</li>
+<li>Ôn lại kiến thức về ngôn ngữ lập trình Javascript, các phương pháp về tìm hiểu và tối ưu hóa trải nghiệm người dùng khi tương tác với website, phần mềm, ứng dụng.</li>
+<li>Tâm lý tự tin, sẵn sàng vượt qua các bài kiểm tra.</li>
+<li>Khả năng tập trung tốt.</li>
+</ul>
+<p>Cuối cùng, bạn cũng đừng quên tìm hiểu một số thông tin về công ty qua website chính thức của doanh nghiệp, các thông tin và hình ảnh trên phương tiện truyền thông đại chúng, các hội nhóm hay trang review trên internet. Bạn có thể đối đáp trôi chảy hay không hoặc có động lực nỗ lực hết sức mình cho vị trí việc làm lập trình viên Javascript hay không chịu tác động khá nhiều từ các thông tin bạn tìm được.</p>
+<p>Trên đây là một số thông tin đầy đủ và toàn diện nhất về vai trò lập trình viên Javascript. Mong rằng nội dung được JobOKO chia sẻ sẽ hữu ích cho bạn trong việc lựa chọn và phát triển sự nghiệp của mình.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Lộ trình JavaScript cơ bản và dễ hiểu nhất</title>
+        <author>
+            <name>Quốc Bảo</name>
+        </author>
+        <link href="https://doanquocbao9.github.io/Blog/lo-trinh-javasricpt-co-ban.html"/>
+        <id>https://doanquocbao9.github.io/Blog/lo-trinh-javasricpt-co-ban.html</id>
+        <media:content url="https://doanquocbao9.github.io/Blog/media/posts/8/Javascript-thumb.png" medium="image" />
+
+        <updated>2024-12-29T04:00:30+07:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://doanquocbao9.github.io/Blog/media/posts/8/Javascript-thumb.png" alt="" />
+                    Các đặc điểm của ngôn ngữ lập trình&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://doanquocbao9.github.io/Blog/media/posts/8/Javascript-thumb.png" class="type:primaryImage" alt="" /></p>
+                <h3><strong><span style="color: #5739eb;">Các đặc điểm của ngôn ngữ lập trình JavaScript là gì?</span></strong></h3>
+<ul>
+<li aria-level="1">Là ngôn ngữ kịch bản (scripting language) hướng đối tượng.</li>
+<li aria-level="1">Là ngôn ngữ nhập động (dynamic typing) dựa trên prototype.</li>
+<li aria-level="1">Là ngôn ngữ lightweight (dễ học và viết code nhanh)</li>
+<li aria-level="1">Là ngôn ngữ đa mô hình (multi-paradigm) và đơn luồng (single threaded). </li>
+</ul>
+<blockquote>
+<p>Theo <a href="https://radixweb.com/blog/top-javascript-usage-statistics" target="_blank" rel="noopener">Radixweb</a>, gần như các thiết bị hiện nay (Windows, Linux, macOS, Android, iOS, smart TV,…) đều đang sử dụng các framework JavaScript phổ biến. Tính đến năm 2022, 98% trong số 1,8 tỷ trang web trên thế giới sử dụng ngôn ngữ này làm ngôn ngữ lập trình phía máy khách, điều này cho thấy mức độ phổ biến ngày càng tăng của nó.</p>
+<p>Tìm hiểu ngay: Việc làm <a href="https://itviec.com/it-jobs/web-developer?utm_source=blog_16082023&amp;utm_medium=anchor_text&amp;utm_campaign=daily" target="_blank" rel="noopener">Web Developer</a> hấp dẫn trên ITviec</p>
+</blockquote>
+<h2><span id="JavaScript_hoat_dong_the_nao" style="color: #5739eb;">JavaScript hoạt động thế nào?</span></h2>
+<p>Mã JavaScript được thông dịch trực tiếp sang mã ngôn ngữ máy cơ bản bằng công cụ JavaScript. </p>
+<h3><strong><span style="color: #5739eb;">Đối với JavaScript phía máy khách (client-side)</span></strong></h3>
+<p>Công cụ JavaScript được tích hợp sẵn bên trong hầu hết các trình duyệt web phổ biến. </p>
+<ul>
+<li>Trình duyệt thực hiện tải trang web khi có người truy cập.</li>
+<li>Trình duyệt chuyển đổi trang web đó và tất cả các phần tử của nó (button, nhãn dán, hộp thả xuống,…) thành dạng cấu trúc dữ liệu gọi là DOM (tạm dịch: Mô hình Đối tượng Tài liệu).</li>
+<li>Công cụ JavaScript của trình duyệt thực hiện chuyển mã JavaScript thành mã byte.</li>
+<li>Khi có sự kiện xảy ra, ví dụ như nhấp vào button, việc thực thi code block JavaScript liên kết sẽ được kích hoạt.</li>
+<li>Công cụ JavaScript diễn giải mã byte và tạo thay đổi đối với DOM.</li>
+<li>Trình duyệt hiển thị DOM mới.</li>
+</ul>
+<h3><strong><span style="color: #5739eb;">Đối với JavaScript phía máy chủ (server-side)</span></strong></h3>
+<p>Công cụ JavaScript nằm trực tiếp trên server. JavaScript phía máy chủ có thể thực hiện:</p>
+<ul>
+<li>Truy cập cơ sở dữ liệu</li>
+<li>Thực hiện các tính toán logic khác nhau</li>
+<li>Phản hồi các sự kiện khác nhau do hệ điều hành của máy chủ kích hoạt. </li>
+</ul>
+<h2><strong><span id="JavaScript_duoc_dung_de_lam_gi" style="color: #5739eb;">JavaScript được dùng để làm gì?</span></strong></h2>
+<h3><strong><span style="color: #5739eb;">Trang web sẽ thế nào nếu không có JavaScript?</span></strong></h3>
+<p>Nếu không có JavaScript, trang web sẽ chỉ có HTML và CSS. Khi đó, 90% website sẽ ở dạng tĩnh như một cuốn sách.</p>
+<p>Ngôn ngữ lập trình này được tạo ra để web developer có thể nhúng mã thực thi vào trang web, cho phép trình duyệt web phản hồi tương tác của người dùng và thay đổi bố cục, nội dung trên trang web như:</p>
+<ul>
+<li aria-level="1">Nút có thể nhấp vào, menu thả xuống </li>
+<li aria-level="1">Nội dung bổ sung khi làm mới trang</li>
+<li aria-level="1">Màu sắc của các phần tử thay đổi linh hoạt trên trang.</li>
+</ul>
+<h3><strong><span style="color: #5739eb;">Vai trò của HTML-CSS-JavaScript</span></strong></h3>
+<p>Tóm lại, vai trò của HTML-CSS-JavaScript được phân định như sau:</p>
+<ul>
+<li aria-level="1"><strong><span style="color: #5739eb;">HTML</span></strong> xác định cấu trúc và nội dung của trang web.</li>
+<li aria-level="1"><strong><span style="color: #5739eb;">CSS </span></strong>đặt cách trình bày và thiết kế giao diện trang web.</li>
+<li aria-level="1"><strong><span style="color: #5739eb;">JavaScript</span> </strong>bổ sung tính tương tác cho trang web, tạo ra các ứng dụng web phong phú hơn.</li>
+</ul>
+<p><img loading="lazy" src="https://itviec.com/blog/wp-content/uploads/2023/08/html-js-css.jpg" alt="javascript-html-css" data-is-external-image="true"></p>
+<p class="align-center"><i>Minh hoạ dễ hiểu về vai trò của </i><strong><i>HTML-CSS-JavaScript </i></strong><i>(</i><i>nếu ví trang web là một chiếc xe hơi). Nguồn @Scrimba</i></p>
+<h2><strong><span id="9_ung_dung_noi_bat_cua_JavaScript" style="color: #5739eb;">9 ứng dụng nổi bật của JavaScript</span></strong></h2>
+<h3><strong><span style="color: #5739eb;">1. Phát triển ứng dụng web</span></strong></h3>
+<p>Các framework JavaScript giúp phát triển các ứng dụng web như React Native, React, Angular, Vue… </p>
+<p>Một ví dụ ứng dụng web mạnh mẽ được hỗ trợ bởi ngôn ngữ này là Google Maps, người dùng chỉ cần nhấp và kéo chuột để xem chi tiết bản đồ, mà không cần giao tiếp với máy chủ. </p>
+<h3><strong><span style="color: #5739eb;">2. Tạo tương tác cho trang web</span></strong></h3>
+<p>JavaScript cho phép tạo các thao tác động giúp người dùng tương tác với các trang web như: </p>
+<ul>
+<li aria-level="1">Hiển thị hoặc ẩn thông tin bằng cách nhấp vào nút</li>
+<li aria-level="1">Thay đổi màu của một nút khi di chuột qua nó</li>
+<li aria-level="1">Phóng to hoặc thu nhỏ hình ảnh</li>
+<li aria-level="1">Phát âm thanh và video trên một trang web</li>
+<li aria-level="1">Hiển thị hình ảnh động</li>
+<li aria-level="1">Sử dụng menu hamburger </li>
+<li aria-level="1">Tải nội dung trong tài liệu mà không cần tải lại trang web.</li>
+</ul>
+<h3><strong><span style="color: #5739eb;">3. Phát triển ứng dụng di động</span></strong></h3>
+<p>Sử dụng <a href="https://itviec.com/blog/framework-la-gi-top-framework-pho-bien-nhat/" target="_blank" rel="noopener">framework React Native</a>, bạn có thể xây dựng các ứng dụng di động cho các hệ điều hành khác nhau. Bạn không cần viết các mã khác nhau cho hệ điều hành iOS và Android mà chỉ cần viết nó một lần và chạy nó trên các nền tảng khác nhau.</p>
+<h3><strong><span style="color: #5739eb;">4. Phát triển game</span></strong></h3>
+<p>JavaScript có nhiều thư viện và framework khác nhau để tạo trò chơi 2D hoặc 3D. Bạn cũng có thể dùng game engine như PhysicsJS, Pixi.js để tạo game, dùng thư viện đồ họa WebGL, EaselJS để hiển thị hình ảnh 2D và 3D trên trình duyệt.</p>
+<h3><strong><span style="color: #5739eb;">5. Tạo bản trình bày</span></strong></h3>
+<p>JavaScript giúp tạo các trang trình bày tương tác và đẹp mắt dưới dạng trang web, với sự trợ giúp của HTML và các thư viện như RevealJs và BespokeJs.</p>
+<h3><strong><span style="color: #5739eb;">6. Xây dựng web server và phát triển ứng dụng máy chủ</span></strong></h3>
+<p>Developer cũng có thể sử dụng ngôn ngữ lập trình này để xây dựng các server web đơn giản và phát triển cơ sở hạ tầng back-end bằng <a href="https://itviec.com/blog/hoc-nodejs/" target="_blank" rel="noopener">Node.js</a>.</p>
+<h3><strong><span style="color: #5739eb;">7. Nghệ thuật</span></strong></h3>
+<p>Một tính năng gần đây của HTML5 trong JavaScript là phần tử canvas, cho phép dễ dàng vẽ đồ họa 2D và 3D trên trang web. Điều này đã giúp mở ra cánh cửa cho các dự án nghệ thuật kỹ thuật số trên trình duyệt. </p>
+<h3><strong><span style="color: #5739eb;">8. Ứng dụng đồng hồ thông minh</span></strong></h3>
+<p>Pebble.js là một framework cho phép developer tạo ứng dụng cho đồng hồ thông minh Pebble thông qua mã JavaScript đơn giản.</p>
+<h3><strong><span style="color: #5739eb;">9. Robot bay</span></strong></h3>
+<p>Với hệ sinh thái Node.js, giờ đây có thể sử dụng JavaScript trong lập trình robot bay, máy bay không hay thiết bị <a href="https://itviec.com/blog/iot-la-gi/" target="_blank" rel="noopener">IoT</a>.</p>
+<h2><strong><span id="Cac_uu_diem_han_che_dang_luu_y_cua_JavaScript_la_gi" style="color: #5739eb;">Các ưu điểm &amp; hạn chế đáng lưu ý của JavaScript là gì?</span></strong></h2>
+<h3><strong><span style="color: #5739eb;">7 ưu điểm nổi bật nhất của JavaScript</span></strong></h3>
+<ol>
+<li aria-level="1">Không cần bất kỳ thiết lập môi trường nào.</li>
+<li aria-level="1">Chạy trên cả máy khách và máy chủ.</li>
+<li aria-level="1">Chạy trên hầu hết các thiết bị.</li>
+<li aria-level="1">Cho phép phát triển cả front-end và back-end</li>
+<li aria-level="1">Có các phiên bản cập nhật thường xuyên.</li>
+<li aria-level="1">Có mã nguồn mở.</li>
+<li aria-level="1">Có nhiều framework &amp; thư viện.</li>
+</ol>
+<h3><strong><span style="color: #5739eb;">3 hạn chế nổi bật nhất của JavaScript</span></strong></h3>
+<ul>
+<li aria-level="1"><strong><span style="color: #5739eb;">Rủi ro bảo mật: </span></strong></li>
+</ul>
+<p>JavaScript có thể được sử dụng để tải dữ liệu bằng <a href="https://itviec.com/blog/ajax-la-gi/" target="_blank" rel="noopener">AJAX</a> hoặc bằng cách thao tác với các thẻ tải dữ liệu như &lt;img&gt;, &lt;object&gt;, &lt;script&gt;. Các cuộc tấn công này được gọi là tấn công tập lệnh chéo trang.</p>
+<ul>
+<li aria-level="1"><strong><span style="color: #5739eb;">Hiệu suất: </span></strong></li>
+</ul>
+<p>JavaScript có hiệu suất hạn chế hơn các ngôn ngữ truyền thống. Một chương trình phức tạp nếu viết bằng ngôn ngữ này sẽ chạy tương đối chậm. Dù vậy, nó thường được dùng để thực hiện các tác vụ đơn giản trong trình duyệt, do đó hiệu suất không được coi là một hạn chế quá lớn.</p>
+<ul>
+<li aria-level="1"><strong><span style="color: #5739eb;">Độ phức tạp: </span></strong></li>
+</ul>
+<p>Để có thể viết các tập lệnh nâng cao bằng JavaScript, developer cần có kiến ​​thức sâu về tất cả các khái niệm lập trình, các đối tượng ngôn ngữ cốt lõi, các đối tượng phía máy khách và máy chủ.</p>
+<p><strong><span style="color: #5739eb;"><i>Phần dưới đây sẽ cung cấp lộ trình kiến thức cơ bản về JavaScript để bạn bắt đầu làm quen ngôn ngữ lập trình này.</i></span></strong></p>
+<h2><strong><span id="Cac_kieu_du_lieu_trong_Javascript_la_gi" style="color: #5739eb;">Các kiểu dữ liệu trong Javascript là gì? </span></strong></h2>
+<p>JavaScript có 2 nhóm kiểu dữ liệu là: </p>
+<ul>
+<li aria-level="1">Kiểu nguyên thuỷ (Primitive types): là kiểu dữ liệu “level thấp”, giá trị không thể sửa đổi trong biến.</li>
+<li aria-level="1">Kiểu Object: Các kiểu dữ liệu khác không thuộc kiểu nguyên thuỷ.</li>
+</ul>
+<p><img loading="lazy" src="https://itviec.com/blog/wp-content/uploads/2023/08/Javascript-vippro.png" data-is-external-image="true"></p>
+<p class="align-center"><em>Các kiểu dữ liệu trong Javascript. Nguồn tham khảo: StackOverflow</em></p>
+<h3><strong><span style="color: #5739eb;">7 kiểu dữ liệu nguyên thủy:</span></strong></h3>
+<table>
+<tbody>
+<tr>
+<td><strong>Kiểu dữ liệu</strong></td>
+<td><strong>Giải thích</strong></td>
+<td><strong>Ví dụ</strong></td>
+</tr>
+<tr>
+<td>Number/ Số</td>
+<td>Tất cả các giá trị số nguyên và số thực, ngoại trừ các số nguyên rất lớn.</td>
+<td>6, 7, 8,9</td>
+</tr>
+<tr>
+<td>BigInt</td>
+<td>Dùng cho số nguyên rất lớn, độ dài tuỳ ý.</td>
+<td> </td>
+</tr>
+<tr>
+<td>String/ Chuỗi</td>
+<td>– Dùng để lưu trữ dữ liệu dạng văn bản.
+<p> </p>
+<p>– Là bất cứ dữ liệu gì nằm giữa dấu nháy đơn (‘…’), hoặc dấu nháy kép (“…”), hoặc dấu gạch ngược (`…`).</p>
+</td>
+<td>
+<p>“lập trình”</p>
+<p>‘câu dài’</p>
+<p>`câu ngắn`</p>
+</td>
+</tr>
+<tr>
+<td>Boolean</td>
+<td>– Chỉ có hai giá trị: <strong>true</strong> hoặc <strong>false</strong>
+<p> </p>
+<p>– Thường được sử dụng cho logic có điều kiện.</p>
+</td>
+<td> </td>
+</tr>
+<tr>
+<td>Symbol/ Biểu tượng</td>
+<td>Được sử dụng để tạo các giá trị duy nhất, không thể sửa đổi.</td>
+<td> </td>
+</tr>
+<tr>
+<td>Undefined</td>
+<td>Được gán cho biến đã được khai báo nhưng chưa được gán giá trị, một cách trực tiếp hoặc ngầm định.</td>
+<td>Chỉ có một giá trị duy nhất là <strong>undefined</strong>.</td>
+</tr>
+<tr>
+<td>Null</td>
+<td>Được gán cho biến không biết giá trị (rỗng). Null giữ một giá trị, nhưng không phải là một giá trị thực.</td>
+<td>Chỉ có một giá trị duy nhất là null</td>
+</tr>
+</tbody>
+</table>
+<h3><strong><span style="color: #5739eb;">Kiểu Object:</span></strong></h3>
+<p>Object (đối tượng) là kiểu dữ liệu tham chiếu, có tính phức hợp, cho phép lưu các tập hợp dữ liệu dưới dạng 1 cặp <strong>key:value, </strong>gọi là thuộc tính.</p>
+<p>Trong đó: </p>
+<p>– <strong><span style="color: #5739eb;">key</span></strong> là một chuỗi (string) hoặc symbol</p>
+<p>– <strong><span style="color: #5739eb;">value</span> </strong>là giá trị thuộc bất kỳ loại dữ liệu nào, kể cả một object khác.</p>
+<blockquote>
+<p><i>Ví dụ: {name: ‘lap trinh’, age: 5}</i></p>
+</blockquote>
+<p>Không giống như đối tượng trong các ngôn ngữ nhập tĩnh, các đối tượng trong JavaScript không cố định — các thuộc tính có thể được thêm, xóa, sắp xếp lại, thay đổi hoặc truy vấn động bất kỳ lúc nào. </p>
+<h3><strong><span style="color: #5739eb;">Các kiểu Object phổ biến:</span></strong></h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p>Array/ Mảng</p>
+</td>
+<td>Array là một nhóm dữ liệu thuộc bất kỳ kiểu nào, lưu trữ trong một biến duy nhất, được phân tách bằng dấu phẩy. </td>
+<td>[1, 2, “hello”, false]</td>
+</tr>
+<tr>
+<td>Function/ Hàm</td>
+<td>Hàm là một kiểu dữ liệu gọi một code block khi được gọi.
+<p> </p>
+<p>Phần thân của hàm có thể chứa bao nhiêu câu lệnh tùy thích và có thể khai báo các biến riêng của nó là cục bộ của hàm đó.</p>
+</td>
+<td>
+<p>function(){ console.log(“function”) }</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h2><strong><span id="Quy_tac_cu_phap_trong_JavaScript_la_gi" style="color: #5739eb;">Quy tắc cú pháp trong JavaScript là gì?</span></strong></h2>
+<p>Cú pháp là tập hợp các quy tắc, cách chương trình JavaScript được xây dựng. Cú pháp JavaScript xác định hai loại giá trị:</p>
+<ol>
+<li aria-level="1">Giá trị hằng (Literals)</li>
+<li aria-level="1">Giá trị biến (Variables)</li>
+</ol>
+<h3><strong><span style="color: #5739eb;">Các quy tắc cú pháp trong JavaScript</span></strong></h3>
+<ol>
+<li><strong><span style="color: #5739eb;">Các số được viết có hoặc không có phần thập phân:</span></strong></li>
+</ol>
+<pre>10.50
+
+1001</pre>
+<ol start="2">
+<li><strong><span style="color: #5739eb;">Dấu bằng được dùng để gán giá trị cho biến.</span></strong></li>
+</ol>
+<pre>let x;
+
+x = 6;</pre>
+<ol start="3">
+<li><strong><span style="color: #5739eb;">JavaScript sử dụng toán tử số học ( + – * / ) để tính giá trị:</span></strong></li>
+</ol>
+<pre>(5 + 6) * 10</pre>
+<ol start="4">
+<li><strong><span style="color: #5739eb;">Các từ khóa được sử dụng để xác định các hành động sẽ được thực hiện.</span></strong></li>
+</ol>
+<p><i>VD: Từ khóa let yêu cầu trình duyệt tạo các biến:</i></p>
+<pre>let x, y;
+
+x = 5 + 6;
+
+y = x * 10;</pre>
+<ol start="5">
+<li><strong><span style="color: #5739eb;">JavaScript phân biệt chữ hoa chữ thường:</span></strong></li>
+</ol>
+<p><i>VD: </i></p>
+<p><i>Các biến lastName và lastname là hai biến khác nhau</i></p>
+<pre>let lastname, lastName;
+
+lastName = "Doe";
+
+lastname = "Peterson";</pre>
+<p><i>Hoặc có thể hiểu, JavaScript không diễn giải LET hoặc Let là từ khóa let.</i></p>
+<ol start="6">
+<li><strong><span style="color: #5739eb;">Dấu gạch nối không được phép trong JavaScript.</span></strong> Chúng được dành riêng cho các phép trừ.</li>
+</ol>
+<p>Do đó, JavaScript developer có xu hướng sử dụng Camel Case (Chữ cái đầu tiên là chữ thường, chữ cái đầu tiên của mỗi từ sau đó là chữ hoa) để nối nhiều từ thành một tên biến:</p>
+<p><i>VD: </i></p>
+<p><i>FirstName, LastName, masterCard, interCity.</i></p>
+<ol start="7">
+<li><strong><span style="color: #5739eb;">Các tên định danh có thể chứa các ký tự Unicode</span></strong>, nhưng chúng không thể là một trong những <a href="https://www.w3schools.com/js/js_reserved.asp">từ đặt sẵn</a>.</li>
+<li><strong><span style="color: #5739eb;">Để comment thường dùng dấu // hoặc /* */</span></strong> (khác với các ngôn ngữ kịch bản lệnh như Perl, Python và Bash dùng #).</li>
+</ol>
+<ul>
+<li aria-level="1">Comment một dòng:</li>
+</ul>
+<pre>// câu chú thích một dòng</pre>
+<ul>
+<li aria-level="1">Comment nhiều dòng:</li>
+</ul>
+<pre>/*
+
+câu chú thích
+
+nhiều dòng
+
+*/</pre>
+<ol start="9">
+<li><strong><span style="color: #5739eb;">Dấu chấm phẩy là tùy chọn</span> </strong>— ngôn ngữ sẽ tự động chèn chúng khi cần. Tuy nhiên, không giống như Python, dấu chấm phẩy vẫn là một phần của cú pháp.</li>
+</ol>
+<h2><strong><span id="Bien_trong_JavaScript_la_gi_Cach_khai_bao_va_gan_gia_tri_cho_bien" style="color: #5739eb;">Biến trong JavaScript là gì? Cách khai báo và gán giá trị cho biến</span></strong></h2>
+<h3><strong><span style="color: #5739eb;">Biến trong JavaScript là gì?</span></strong></h3>
+<p>Biến là nơi chứa các giá trị của bất kỳ kiểu dữ liệu nào. Khi biến được sử dụng, JavaScript sẽ dùng giá trị mà biến đại diện.</p>
+<h3><strong><span style="color: #5739eb;">Các thao tác có thể làm với biến</span></strong></h3>
+<ul>
+<li aria-level="1">Khai báo biến</li>
+</ul>
+<pre>let name;</pre>
+<ul>
+<li aria-level="1">Gán một giá trị cho biến </li>
+</ul>
+<pre>let name;
+
+name = "JavaScript";</pre>
+<ul>
+<li aria-level="1">Khai báo và gán giá trị cho biến trên một dòng:</li>
+</ul>
+<p class="align-center">let name = “JavaScript”;</p>
+<p class="align-center"><img loading="lazy" src="https://itviec.com/blog/wp-content/uploads/2023/08/Javascript-2-vippro.png" data-is-external-image="true"><em>Cú pháp khai báo và gán giá trị cho biến trên một dòng. Nguồn: DEV Community</em></p>
+<h3><strong><span style="color: #5739eb;">3 phương pháp khai báo biến trong JavaScript</span></strong></h3>
+<p>JavaScript cho phép khai báo biến bằng một trong ba từ khóa: <strong><span style="color: #5739eb;">let, const</span></strong> hoặc <strong><span style="color: #5739eb;">var.</span></strong></p>
+<ul>
+<li><strong><span style="color: #5739eb;">let:</span></strong> cho phép bạn khai báo và gán giá trị các biến cấp độ khối. Giá trị của biến có thể thay đổi sau trong code.</li>
+<li aria-level="1"><strong><span style="color: #5739eb;">var:</span> </strong>giống như let. Nhưng var có thể hoist (chuyển lên đầm hàm) các biến được khai báo, còn let thì không. </li>
+</ul>
+<pre>var name = "JavaScript";
+
+name = "Ngôn ngữ";</pre>
+<p>Tuy nhiên, hoisting có thể gây ra lỗi. Do đó khai báo var không được khuyến khích trong mã JavaScript hiện đại.</p>
+<ul>
+<li aria-level="1"><strong><span style="color: #5739eb;">const:</span></strong> cho phép bạn khai báo các biến có giá trị không bao giờ thay đổi. </li>
+</ul>
+<p>Ví dụ:</p>
+<pre>let name = "JavaScript"
+
+name = "Language" // no errors
+
+const age = 5
+
+age = 6 // error, cannot reassign variable</pre>
+<h2><strong><span id="Toan_tu_trong_JavaScript_la_gi" style="color: #5739eb;">Toán tử trong JavaScript là gì?</span></strong></h2>
+<p>Các toán tử và chức năng của chúng bao gồm:</p>
+<table>
+<tbody>
+<tr>
+<td>
+<p>+,-, *, **, /, %, ++, — </p>
+</td>
+<td>Toán tử số học</td>
+</tr>
+<tr>
+<td>=</td>
+<td>Toán tử gán, dùng để gán giá trị</td>
+</tr>
+<tr>
+<td>
+<p>+=</p>
+<p> -=</p>
+</td>
+<td>
+<p>Đối tác gán phức hợp của toán tử nhị phân.</p>
+<p>VD: </p>
+<p>x += 5;</p>
+<p>(x = x + 5;)</p>
+</td>
+</tr>
+<tr>
+<td>+</td>
+<td>Thực hiện nối chuỗi
+<p> </p>
+<p>VD:</p>
+<p>“hello” + ” world”; // “hello world”</p>
+</td>
+</tr>
+<tr>
+<td>==, ===, !=, !==, &gt;, &lt;,</td>
+<td>Toán tử so sánh, dùng cho cả chuỗi và số</td>
+</tr>
+<tr>
+<td>&amp;&amp;, II, !</td>
+<td>
+<p>Toán tử logic</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h2><strong><span id="Ham_trong_JavaScript_la_gi" style="color: #5739eb;">Hàm trong JavaScript là gì?</span></strong></h2>
+<p>Hàm là nơi bạn có thể lưu trữ một đoạn code để sử dụng ở những nơi khác trong code của mình. </p>
+<ul>
+<li aria-level="1"><strong><span style="color: #5739eb;">Ví dụ 1 về hàm:</span></strong></li>
+</ul>
+<p>Giả sử bạn muốn in “JavaScript” và “Ngôn ngữ” ở các vị trí khác nhau trong code. Thay vì làm điều này:</p>
+<pre>console.log("JavaScript")
+
+console.log("Ngôn ngữ")
+
+// một đoạn code nào đó
+
+console.log("JavaScript")
+
+console.log("Ngôn ngữ")
+
+
+// một đoạn code khác
+
+console.log("JavaScript")
+
+console.log("Ngôn ngữ")
+
+</pre>
+<p>Bạn có thể dùng hàm<strong> <span style="color: #5739eb;">print():</span></strong></p>
+<pre>function print() {
+
+    console.log("JavaScript")
+
+    console.log("Ngôn ngữ")
+
+}
+
+print()
+
+// thêm đoạn code khác
+
+print()
+
+// thêm đoạn code khác
+
+print()
+
+</pre>
+<p>Bằng cách này, bạn có thể lưu trữ đoạn code cần lặp lại trong một hàm để sử dụng nó ở bất cứ nơi nào khác trong code. </p>
+<ul>
+<li aria-level="1"><strong><span style="color: #5739eb;">Ví dụ 2:</span></strong></li>
+</ul>
+<p>Nếu muốn tìm trung bình cộng của ba số, thay vì viết như này:</p>
+<pre>let num1 = 5
+
+let num2 = 6
+
+let num3 = 8
+
+let average = (num1 + num2 + num3) / 3
+
+</pre>
+<p>Sẽ dễ dàng hơn nếu dùng hàm findAverage ():</p>
+<pre>function findAverage(n1, n2, n3) {
+
+    let aver = (n1 + n2 + n3) / 3
+
+    return aver
+
+}
+
+let num1 = 5
+
+let num2 = 6
+
+let num3 = 8
+
+let average = findAverage(num1, num2, num3)
+
+
+// sau các đoạn code khác
+
+let average2 = findAverage(...)
+
+
+// sau các đoạn code khác
+
+let average3 = findAverage(...)
+
+</pre>
+<p>Trong khai báo của findAverage, n1, n2, n3 trong ngoặc đơn là các tham số đóng vai trò “giữ chỗ” (placeholder) cho các giá trị sẽ được cung cấp khi hàm được gọi. Đoạn code sử dụng các placeholder đó để tìm giá trị trung bình và từ khóa return trả về giá trị trung bình từ hàm.</p>
+<p>Placeholder giúp các hàm của bạn có thể tái sử dụng, sao cho các giá trị khác nhau tại các thời điểm khác nhau có thể được truyền vào các hàm để sử dụng cùng một logic.</p>
+<h2><strong><span id="Thu_vien_JavaScript_co_ban" style="color: #5739eb;">Thư viện JavaScript cơ bản</span></strong></h2>
+<p>Thư viện JavaScript là tập hợp các đoạn code viết sẵn mà developer có thể dùng lại để thực hiện các hàm JavaScript tiêu chuẩn. </p>
+<p>Các nhóm thư viện JavaScript cơ bản:</p>
+<h3><strong><span style="color: #5739eb;">Thư viện để Trực quan hóa dữ liệu</span></strong></h3>
+<ul>
+<li aria-level="1">Ví dụ phổ biến: Chart.js, ApexCharts, Algolia Places </li>
+<li aria-level="1">Dùng để: Tạo web hiển thị dữ liệu trong biểu đồ, bản đồ. </li>
+</ul>
+<h3><strong><span style="color: #5739eb;">Thư viện thao tác DOM</span></strong></h3>
+<ul>
+<li aria-level="1">Ví dụ phổ biến: jQuery, Umbrella JS </li>
+<li aria-level="1">Dùng để: Tạo các chức năng web như nút, menu động, thư viện ảnh, hộp đèn, v.v.</li>
+</ul>
+<h3><strong><span style="color: #5739eb;">Thư viện biểu mẫu</span></strong></h3>
+<ul>
+<li aria-level="1">Ví dụ phổ biến: wForms, LiveValidation, Validanguage, qForms</li>
+<li aria-level="1">Dùng để: Tạo các chức năng biểu mẫu như xác thực biểu mẫu, bố cục, điều kiện và chuyển đổi.</li>
+</ul>
+<h3><strong><span style="color: #5739eb;">Thư viện Hàm toán học và văn bản</span></strong></h3>
+<ul>
+<li aria-level="1">Ví dụ phổ biến: Date.js, Sylvester, URL JavaScript</li>
+<li aria-level="1">Dùng để: xử lý một số yêu cầu toán học, ngày, giờ và văn bản ở phía máy khách, thay vì gửi tất cả yêu cầu đến máy chủ.</li>
+</ul>
+<h2><strong><span id="12_framework_Javascript_pho_bien_nhat_2023" style="color: #5739eb;">12 framework Javascript phổ biến nhất 2023</span></strong></h2>
+<p><a href="https://itviec.com/blog/framework-la-gi-top-framework-pho-bien-nhat/" target="_blank" rel="noopener">Framework</a> JavaScript cũng là một tập hợp các đoạn code viết sẵn, có thể tái sử dụng. Tuy nhiên, nếu thư viện được dùng để thực hiện các yêu cầu nhất định, thì framework là một bộ khung hoàn chỉnh để xây dựng bất kỳ ứng dụng web nào. </p>
+<p>Dưới đây là những framework JavaScript phổ biến nhất 2023:</p>
+<h3><strong><span style="color: #5739eb;">4 front-end JavaScript framework phổ biến nhất 2023</span></strong></h3>
+<ol>
+<li><a href="https://itviec.com/blog/cau-hoi-phong-van-reactjs-la-gi/" target="_blank" rel="noopener">React.js</a></li>
+<li><a href="https://itviec.com/blog/angular-la-gi?utm_source=blog_26052023&amp;utm_medium=anchor_text&amp;utm_campaign=daily">Angular</a></li>
+<li><a href="https://vuejs.org/" target="_blank" rel="noopener">Vue.js</a></li>
+<li><a href="https://nextjs.org/" target="_blank" rel="noopener">Next.js</a></li>
+</ol>
+<h3><strong><span style="color: #5739eb;">4 back-end JavaScript framework phổ biến nhất 2023</span></strong></h3>
+<ol>
+<li><a href="https://itviec.com/blog/hoc-nodejs/" target="_blank" rel="noopener">Node.js</a></li>
+<li><a href="https://expressjs.com/" target="_blank" rel="noopener">Express.js</a></li>
+<li><a href="https://backbonejs.org/" target="_blank" rel="noopener">Backbone.js</a></li>
+<li><a href="https://www.meteor.com/" target="_blank" rel="noopener">Meteor.js</a></li>
+</ol>
+<h3><strong><span style="color: #5739eb;">4 framework JavaScript phổ biến cho Mobile development</span></strong></h3>
+<ol>
+<li><a href="https://www.electronjs.org/" target="_blank" rel="noopener">Electron.js</a></li>
+<li><a href="https://itviec.com/blog/react-native-la-gi/" target="_blank" rel="noopener">React Native</a></li>
+<li><a href="https://cordova.apache.org/" target="_blank" rel="noopener">Cordova</a></li>
+<li><a href="https://expo.dev/" target="_blank" rel="noopener">Expo</a></li>
+</ol>
+<h2><strong><span id="Cac_cau_hoi_thuong_gap_ve_JavaScript_la_gi" style="color: #5739eb;">Các câu hỏi thường gặp về JavaScript là gì?</span></strong></h2>
+<h3><strong><span style="color: #5739eb;">JavaScript có phải là Java không?</span></strong></h3>
+<blockquote>
+<p><a href="https://www.crockford.com/about.html" target="_blank" rel="noopener">Douglas Crockford </a>trả lời về hiểu lầm phổ biến này: “JavaScript có sự tương đồng về cú pháp với Java, giống như Java đối với C. Nhưng nó không phải là một tập hợp con của Java.”</p>
+</blockquote>
+<p>JavaScript cũng tuân theo hầu hết cú pháp biểu thức Java, quy ước đặt tên và cấu trúc luồng điều khiển cơ bản, đó là lý do tại sao nó được đổi tên từ LiveScript thành JavaScript. </p>
+<p>Nhìn chung, lập trình Java phức tạp hơn lập trình JavaScript. So sánh JavaScript và Java:</p>
+<table>
+<tbody>
+<tr>
+<td><strong><span style="color: #5739eb;">Java</span></strong></td>
+<td><strong><span style="color: #5739eb;">JavaScript</span></strong></td>
+</tr>
+<tr>
+<td>Là ngôn ngữ lập trình hướng đối tượng (object-oriented language) </td>
+<td>
+<p>Là ngôn ngữ kịch bản (scripting language)</p>
+</td>
+</tr>
+<tr>
+<td>Chủ yếu được sử dụng để phát triển các ứng dụng doanh nghiệp phức tạp</td>
+<td>Chủ yếu được sử dụng để tạo các trang web động và tương tác</td>
+</tr>
+<tr>
+<td>Dùng chủ yếu cho back-end</td>
+<td>Dùng chủ yếu cho front-end</td>
+</tr>
+<tr>
+<td>Chủ yếu là ngôn ngữ biên dịch</td>
+<td>Chủ yếu là ngôn ngữ thông dịch</td>
+</tr>
+<tr>
+<td>Là ngôn ngữ strong-typying: Các biến phải được khai báo trước</td>
+<td>Là ngôn ngữ loose-typing: Các cú pháp và quy tắc thoải mái hơn.</td>
+</tr>
+<tr>
+<td>Các đối tượng của Java dựa trên lớp (class)</td>
+<td>Các đối tượng của Java dựa trên mẫu (prototype)</td>
+</tr>
+<tr>
+<td>Có thể chạy trong bất kỳ máy ảo (JVM) hoặc trình duyệt nào. </td>
+<td>Trước đây chỉ chạy trên trình duyệt, nhưng bây giờ có thể chạy trên máy chủ thông qua Node.js.</td>
+</tr>
+</tbody>
+</table>
+<h3><strong><span style="color: #5739eb;">JavaScript là ngôn ngữ thông dịch hay biên dịch?</span></strong></h3>
+<p>Hiện nay, JavaScript vừa là ngôn ngữ biên dịch và thông dịch. </p>
+<p>Trong các phiên bản trước của JavaScript, nó chỉ sử dụng trình thông dịch thực thi từng dòng mã và hiển thị kết quả ngay lập tức. Nhưng theo thời gian, hiệu suất trở thành một vấn đề vì việc thông dịch khá chậm.  </p>
+<p>Do đó, các công cụ JavaScript hiện đại đều tích hợp trình biên dịch tức thời (JIT – Just-In-Time), biên dịch JavaScript thành mã byte thực thi ngay khi nó chuẩn bị chạy để cải thiện hiệu suất.</p>
+<h3><strong><span style="color: #5739eb;">TypeScript là gì?</span></strong></h3>
+<p><a href="https://itviec.com/blog/typescript-la-gi" target="_blank" rel="noopener">TypeScript</a> là một superset (tập mẫu) của JavaScript, thêm cú pháp bổ sung vào JavaScript để sớm phát hiện những lỗi viết mã. TypeScript là một ngôn ngữ nhập tĩnh (statical typed) và hướng đối tượng (object oriented), khác với JavaScript là một ngôn ngữ kịch bản (scripting language).</p>
+<p>Trình duyệt sẽ không thể hiểu và thực thi trực tiếp mã TypeScript như đối với JavaScript. Do đó, các tệp .ts trước hết cần được biên dịch sang JavaScript thuần, thông qua trình biên dịch tsc, sau đó mới được thực thi bởi nền tảng đích.</p>
+<blockquote>
+<p><em>Tham khảo: <a href="https://itviec.com/it-jobs/typescript?utm_source=blog_16082023&amp;utm_medium=anchor_text&amp;utm_campaign=daily" target="_blank" rel="noopener">Việc làm TypeScript</a> hấp dẫn trên ITviec</em></p>
+</blockquote>
+<h2><strong><span id="Tong_ket" style="color: #5739eb;">Tổng kết</span></strong></h2>
+<p>Kiến thức liên quan đến JavaScript còn rất nhiều. Tuy nhiên nắm vững kiến thức trong bài viết này, bạn sẽ có nền tảng cơ bản để hiểu rõ JavaScript là gì để có thể  học ngôn ngữ này ở mức độ cao cấp hơn.</p>
+<p>Với mức độ phổ biến và nhu cầu tuyển dụng cao, đầu tư vào JavaScript vẫn là một lựa chọn an toàn và đúng đắn cho bất cứ lập trình viên nào. Tiếp tục đón chờ các bài viết về ngôn ngữ lập trình này trên ITviec blog nhé!</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Lập trình Android cho người mới bắt đầu</title>
+        <author>
+            <name>Quốc Bảo</name>
+        </author>
+        <link href="https://doanquocbao9.github.io/Blog/lap-trinh-android-cho-nguoi-moi-bat-dau.html"/>
+        <id>https://doanquocbao9.github.io/Blog/lap-trinh-android-cho-nguoi-moi-bat-dau.html</id>
+        <media:content url="https://doanquocbao9.github.io/Blog/media/posts/7/tu-hoc-lap-trinh-android-cho-nguoi-moi-bat-dau-thumbnail-vippro-950x500.png" medium="image" />
+
+        <updated>2024-12-29T03:32:21+07:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://doanquocbao9.github.io/Blog/media/posts/7/tu-hoc-lap-trinh-android-cho-nguoi-moi-bat-dau-thumbnail-vippro-950x500.png" alt="" />
+                    Trong thời đại công nghệ ngày nay, Android,&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://doanquocbao9.github.io/Blog/media/posts/7/tu-hoc-lap-trinh-android-cho-nguoi-moi-bat-dau-thumbnail-vippro-950x500.png" class="type:primaryImage" alt="" /></p>
+                <p class="align-left"><em>Trong thời đại công nghệ ngày nay, Android, với hàng triệu ứng dụng đang được phát triển và sử dụng, là hệ điều hành chiếm thị phần lớn nhất trên thị trường di động. Việc thiết kế một lộ trình hợp lý để tự học lập trình Android cho người mới bắt đầu không chỉ mở ra nhiều cơ hội nghề nghiệp trong lĩnh vực phát triển phần mềm di động, mà còn giúp phát triển kỹ năng cá nhân và hiểu sâu hơn về công nghệ di động.</em></p>
+<p><span style="color: #000000;">Bài viết này sẽ giúp bạn hiểu rõ:</span></p>
+<ul>
+<li class="align-left" aria-level="1"><span style="color: #000000;">Lập trình Android là gì?</span></li>
+<li class="align-left" aria-level="1"><span style="color: #000000;">Lộ trình tự học lập trình Android cho người mới bắt đầu từ cơ bản cho đến nâng cao</span></li>
+<li class="align-left" aria-level="1"><span style="color: #000000;">Các bước nhanh nhất để lên kế hoạch tự học lập trình Android</span></li>
+<li class="align-left" aria-level="1"><span style="color: #000000;">Các bước để tạo dự án Android đầu tiên của bạn</span></li>
+</ul>
+<h2><span style="color: #5739eb;"><span id="Lap_trinh_Android_la_gi">Lập trình Android là gì?</span></span></h2>
+<p><span style="color: #000000;">Lập trình Android là quá trình phát triển ứng dụng và game cho các thiết bị chạy hệ điều hành Android. Android là một hệ điều hành dựa trên Linux được phát triển bởi Google, được sử dụng rộng rãi trên điện thoại di động, máy tính bảng, đồng hồ thông minh và nhiều loại thiết bị di động khác.</span></p>
+<p><span style="color: #000000;">Quá trình lập trình Android bao gồm việc sử dụng một ngôn ngữ lập trình như Java hoặc Kotlin, kết hợp với các công cụ phát triển như Android Studio. Các ứng dụng Android có thể được phát triển cho các mục đích khác nhau, từ ứng dụng di động cá nhân đến ứng dụng doanh nghiệp và ứng dụng giải trí.</span></p>
+<p><span style="color: #000000;">Lập trình Android không chỉ là một kỹ năng quan trọng trong thế giới công nghệ hiện đại, mà còn mở ra nhiều cơ hội nghề nghiệp và sáng tạo cho những người tham gia.</span></p>
+<h2><strong><span style="color: #5739eb;"><span id="Lo_trinh_tu_hoc_lap_trinh_Android_cho_nguoi_moi_bat_dau">Lộ trình tự học lập trình Android cho người mới bắt đầu</span></span></strong></h2>
+<p><span style="color: #000000;">Đối với những người mới bắt đầu làm quen với môi trường phát triển Android, có những vùng kiến thức trọng điểm cần nắm vững để tạo tiền đề để đi sâu hơn vào các vùng kiến thức khác, bao gồm:</span></p>
+<ol>
+<li aria-level="1"><span style="color: #000000;">Ngôn ngữ lập trình: Java hoặc Kotlin</span></li>
+<li aria-level="1"><span style="color: #000000;">Công cụ cần thiết: Android Studio, JDK, SDK</span></li>
+<li aria-level="1"><span style="color: #000000;">Các kiến thức lập trình Android cơ bản</span></li>
+<li aria-level="1"><span style="color: #000000;">Lập trình hướng đối tượng (OOP)</span></li>
+</ol>
+<h3><strong><span style="color: #5739eb;">Bước 1: Chọn ngôn ngữ lập trình Android: Java hay Kotlin?</span></strong></h3>
+<p><span style="color: #000000;">Có nhiều ngôn ngữ lập trình có thể phục vụ cho việc phát triển các ứng dụng mobile trên hệ điều hành Android như Java, Kotlin, C++, C#, Dart,… nhưng trong phạm vi bài biết này chỉ đề cập đến hai ngôn ngữ được áp dụng phổ biến nhất là Java và Kotlin. </span></p>
+<p><span style="color: #000000;">Java và Kotlin là hai ngôn ngữ lập trình phổ biến nhất được sử dụng để phát triển ứng dụng Android, chiếm ưu thế so với các ngôn ngữ khác nhờ nhiều ưu điểm nổi bật:</span></p>
+<h4><strong><span style="color: #5739eb;">Lịch sử phát triển</span></strong></h4>
+<ul>
+<li aria-level="1"><span style="color: #000000;">Java: Ngôn ngữ lập trình truyền thống cho Android, ra mắt từ năm 1995, sở hữu cộng đồng rộng lớn, nhiều tài liệu hướng dẫn và thư viện phong phú.</span></li>
+<li aria-level="1"><span style="color: #000000;">Kotlin: Ngôn ngữ trẻ hơn, ra mắt vào năm 2011, được Google chính thức hỗ trợ từ năm 2017, với cú pháp, hiện đại và nhiều tính năng ưu việt.</span></li>
+</ul>
+<h4><span style="color: #5739eb;">Ưu điểm của cả hai ngôn ngữ trên</span></h4>
+<ul>
+<li aria-level="1"><span style="color: #000000;">Hiệu suất: Cả Java và Kotlin đều được biên dịch thành mã bytecode JVM (Java Virtual Machine), mang lại hiệu suất cao và khả năng tương thích tốt với hệ điều hành Android.</span></li>
+<li aria-level="1"><span style="color: #000000;">Tính năng: Cung cấp đầy đủ các tính năng cần thiết để phát triển ứng dụng Android, bao gồm lập trình hướng đối tượng, quản lý bộ nhớ, xử lý đa luồng, v.v.</span></li>
+<li aria-level="1"><span style="color: #000000;">Cộng đồng: Sở hữu cộng đồng lập trình viên đông đảo, tích cực chia sẻ kiến thức, kinh nghiệm và hỗ trợ lẫn nhau trong quá trình học tập và phát triển.</span></li>
+<li aria-level="1"><span style="color: #000000;">Công cụ hỗ trợ: Được cung cấp đầy đủ các công cụ hỗ trợ phát triển như IDE, debugger, test framework, v.v., giúp tối ưu hóa quy trình phát triển ứng dụng.</span></li>
+</ul>
+<h4><span style="color: #5739eb;">Lựa chọn ngôn ngữ nào để học</span></h4>
+<ul class="align-center">
+<li aria-level="1"><span style="color: #000000;">Java: Phù hợp cho người mới bắt đầu, với nhiều tài liệu và hướng dẫn dễ hiểu, cộng đồng hỗ trợ rộng lớn.</span></li>
+<li aria-level="1"><span style="color: #000000;">Kotlin: Lựa chọn tối ưu cho lập trình viên có kinh nghiệm, giúp viết code, dễ đọc, dễ bảo trì và phát triển ứng dụng hiệu quả hơn.</span></li>
+</ul>
+<blockquote>
+<p><span style="color: #5739eb;"><span style="color: #000000;">Để có cái nhìn tổng quát hơn về các ngôn ngữ lập trình được sử dụng để phát triển các ứng dụng Android, bạn có thể tìm hiểu thêm về các ngôn ngữ khác qua bài viết:</span> <a href="https://itviec.com/blog/ngon-ngu-lap-trinh-android/" target="_blank" rel="noopener" style="color: #5739eb;">Các ngôn ngữ lập trình Android</a></span></p>
+</blockquote>
+<p class="align-left"><span style="color: #5739eb;">Tóm lại, bước đầu tiên và quan trọng nhất trong hành trình lập trình Android của bạn là lựa chọn ngôn ngữ lập trình phù hợp. Mỗi ngôn ngữ đều có ưu và nhược điểm riêng, do đó bạn cần cân nhắc kỹ lưỡng trước khi đưa ra quyết định.</span></p>
+<blockquote>
+<p class="align-left"><span style="color: #5739eb;"><em><span style="color: #000000;">Đọc thêm:</span> <a href="https://itviec.com/blog/kotlin-vs-java/" target="_blank" rel="noopener" style="color: #5739eb;">Kotlin vs Java: Khi nào nên chọn Kotlin? Khi nào nên chọn Java?</a></em></span></p>
+</blockquote>
+<h3 class="align-left"><span style="color: #5739eb;">Bước 2: Cài đặt các công cụ lập trình Android: Android Studio, JDK, SDK</span></h3>
+<p class="align-left"><span style="color: #000000;">Để bắt đầu hành trình lập trình Android, bạn cần cài đặt các công cụ sau:</span></p>
+<h4 class="align-left"><span style="color: #5739eb;">Android Studio</span></h4>
+<p class="align-left"><span style="color: #000000;">Android Studio là môi trường phát triển tích hợp (IDE) chính thức cho hệ điều hành Android được Google phát triển. Nó cung cấp một loạt các công cụ và tính năng giúp bạn xây dựng, thử nghiệm và triển khai ứng dụng Android một cách hiệu quả.</span></p>
+<p class="align-left"><span style="color: #000000;">Các bước cài đặt Android Studio:</span></p>
+<ul class="align-center">
+<li class="align-left" aria-level="1"><span style="color: #000000;">Tải xuống: Truy cập <span style="color: #5739eb;"><a href="https://developer.android.com/studio" target="_blank" rel="noopener" style="color: #5739eb;">trang web chính thức của Android Studio</a></span> và tải phiên bản phù hợp với hệ điều hành của bạn (Windows, macOS, Linux).</span></li>
+<li class="align-left" aria-level="1"><span style="color: #000000;">Cài đặt: Chạy trình cài đặt và làm theo hướng dẫn trên màn hình. Chọn thư mục cài đặt, đồng ý với điều khoản cấp phép và cài đặt các thành phần cần thiết.</span></li>
+<li class="align-left" aria-level="1"><span style="color: #000000;">Thiết lập SDK và JDK: Trong quá trình cài đặt Android Studio, bạn sẽ được hướng dẫn cài đặt SDK (Software Development Kit) và JDK (Java Development Kit). Nếu bạn đã cài đặt sẵn, hãy chọn thư mục cài đặt phù hợp.</span></li>
+</ul>
+<p class="align-center"><span style="color: #5739eb;"><img loading="lazy" src="https://itviec.com/blog/wp-content/uploads/2024/05/android-studio-vippro.jpg" alt="android studio" data-is-external-image="true"></span></p>
+<h4 class="align-left"><span style="color: #5739eb;">JDK (Java Development Kit)</span></h4>
+<p class="align-left">JDK là viết tắt của Java Development Kit, là một bộ công cụ phần mềm được cung cấp bởi Oracle (trước đây là Sun Microsystems) để phát triển ứng dụng Java. JDK bao gồm các thành phần sau:</p>
+<ul class="align-left">
+<li aria-level="1">Trình biên dịch Java (javac): Biên dịch mã nguồn Java (.java) thành mã bytecode (.class).</li>
+<li aria-level="1">Java Runtime Environment (JRE): Cung cấp môi trường để chạy ứng dụng Java.</li>
+<li aria-level="1">Công cụ Java (javadoc, jar): Hỗ trợ tạo tài liệu API, đóng gói ứng dụng.</li>
+<li aria-level="1">Thư viện Java: Cung cấp các lớp và API sẵn có để sử dụng trong phát triển ứng dụng.</li>
+</ul>
+<p class="align-left">Các bước cài đặt JDK:</p>
+<ul class="align-left">
+<li aria-level="1">Tải xuống: Truy cập <a href="https://www.oracle.com/java/technologies/downloads/" target="_blank" rel="noopener">trang web chính thức của Oracle </a>và tải phiên bản JDK phù hợp với hệ điều hành của bạn (Windows, macOS, Linux).</li>
+<li aria-level="1">Cài đặt: Chạy trình cài đặt và làm theo hướng dẫn trên màn hình. Chọn thư mục cài đặt và cài đặt JDK.</li>
+<li aria-level="1">Thiết lập biến môi trường: Sau khi cài đặt JDK, bạn cần thiết lập biến môi trường JAVA_HOME để Android Studio có thể xác định vị trí cài đặt.
+<ul>
+<li aria-level="2">Windows:
+<ul>
+<li aria-level="3">Nhấp chuột phải vào “This PC” -&gt; “Properties” -&gt; “Advanced system settings” -&gt; “Environment Variables”.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p class="align-left"><img loading="lazy" src="https://itviec.com/blog/wp-content/uploads/2024/05/JDK-1-vippro.jpg" data-is-external-image="true"></p>
+<ul class="align-center">
+<li class="align-left" aria-level="3">Trong phần “System variables”, chọn “New”.</li>
+</ul>
+<p class="align-center"><img loading="lazy" src="https://itviec.com/blog/wp-content/uploads/2024/05/JDK-2-vippro.png" data-is-external-image="true"></p>
+<ul class="align-center">
+<li class="align-left" aria-level="3">Trong ô “Variable name”, nhập “JAVA_HOME”.</li>
+</ul>
+<p class="align-center"><img loading="lazy" src="https://itviec.com/blog/wp-content/uploads/2024/05/JDK-3-vippro.png" data-is-external-image="true"></p>
+<ul class="align-center">
+<li class="align-left" aria-level="3">Trong ô “Variable value”, nhập đường dẫn đến thư mục cài đặt JDK (ví dụ: C:\Program Files\Java\jdk17).</li>
+<li class="align-left" aria-level="3">Nhấp vào “OK” để lưu thay đổi.</li>
+</ul>
+<p class="align-center"><img loading="lazy" src="https://itviec.com/blog/wp-content/uploads/2024/05/JDK-4-vippro.png" data-is-external-image="true"></p>
+<p class="align-left">macOS:</p>
+<ul class="align-center">
+<li class="align-left" aria-level="3">Mở Terminal và nhập lệnh sau:</li>
+</ul>
+<pre>export JAVA_HOME=/path/to/jdk/folder<br><br><img loading="lazy" src="https://itviec.com/blog/wp-content/uploads/2024/05/JDK-macOS-vippro.jpg" data-is-external-image="true"></pre>
+<ul class="align-center">
+<li class="align-left" aria-level="3">Thay thế “/path/to/jdk/folder” bằng đường dẫn đến thư mục cài đặt JDK.</li>
+<li class="align-left" aria-level="3">Lưu thay đổi bằng cách nhập lệnh sau:</li>
+</ul>
+<pre>echo export JAVA_HOME=/path/to/jdk/folder &gt;&gt; ~/.bash_profile</pre>
+<ul class="align-center">
+<li class="align-left" aria-level="3">Khởi động lại Terminal để áp dụng thay đổi.</li>
+</ul>
+<p class="align-left">Ngoài JDK đối với lập trình viên sử dụng C++ thì cần có thể cần tải NDK. NDK (Native Development Kit) là bộ công cụ để phát triển ứng dụng Android bằng ngôn ngữ C++. NDK cung cấp trình biên dịch C++ (clang) để biên dịch mã nguồn C++ (*.cpp) sang mã máy có thể được thực thi trực tiếp trên CPU của thiết bị Android.</p>
+<h4 class="align-left"><strong><span style="color: #5739eb;">SDK (Software Development Kit)</span></strong></h4>
+<p class="align-left">SDK là viết tắt của Software Development Kit, là bộ công cụ phát triển phần mềm cung cấp cho lập trình viên các thành phần cần thiết để xây dựng ứng dụng cho một nền tảng cụ thể. Trong lập trình Android, SDK đóng vai trò quan trọng giúp bạn:</p>
+<ul class="align-left">
+<li>Truy cập API Android: SDK cung cấp các API (Application Programming Interface) cho phép bạn tương tác với các tính năng của hệ điều hành Android, như camera, GPS, cảm biến, v.v.</li>
+<li>Sử dụng thư viện sẵn có: SDK bao gồm nhiều thư viện mã nguồn mở giúp bạn thực hiện các chức năng phổ biến như xử lý hình ảnh, mạng, lưu trữ dữ liệu, v.v.</li>
+<li>Tích hợp với các dịch vụ Google: SDK hỗ trợ tích hợp với các dịch vụ Google như Google Maps, Google Play Services, v.v.</li>
+<li>Thử nghiệm và gỡ lỗi ứng dụng: SDK cung cấp các công cụ để bạn thử nghiệm và gỡ lỗi ứng dụng trên thiết bị ảo hoặc thiết bị thực.</li>
+</ul>
+<p class="align-left">Android Studio tự động cài đặt SDK trong quá trình cài đặt. Bắt đầu sử dụng SDK với các bước sau:</p>
+<ul class="align-center">
+<li class="align-left" aria-level="1">Mở SDK Manager:
+<ul>
+<li aria-level="2">Khởi động Android Studio.</li>
+<li aria-level="2">Chọn “File” -&gt; “Settings” -&gt; “Appearance &amp; Behavior” -&gt; “System Settings” -&gt; “Android SDK”.</li>
+<li aria-level="2">Nhấp vào “SDK Manager” trong tab “SDK Platforms”.</li>
+</ul>
+</li>
+<li class="align-left" aria-level="1">Cài đặt các thành phần SDK cần thiết: Trong SDK Manager, chọn các thành phần SDK bạn muốn cài đặt, bao gồm:
+<ul>
+<li class="align-left" aria-level="3">Platforms: Chọn phiên bản Android mà bạn muốn phát triển ứng dụng (ví dụ: Android 13).</li>
+<li class="align-left" aria-level="3">Build Tools: Chọn phiên bản build tools mới nhất.</li>
+</ul>
+</li>
+</ul>
+<p class="align-center"><img loading="lazy" src="https://itviec.com/blog/wp-content/uploads/2024/05/SDK-1-vippro-e1715929563957.jpg" data-is-external-image="true"></p>
+<ul class="align-center">
+<li class="align-left" aria-level="3">Android SDK Platform Tools: Cung cấp các công cụ để tương tác với thiết bị Android.</li>
+<li class="align-left" aria-level="3">Android Emulator: Giả lập thiết bị Android để test ứng dụng.</li>
+<li class="align-left" aria-level="3">Google USB Driver: Cần thiết để kết nối thiết bị Android với máy tính.</li>
+</ul>
+<p class="align-center"><img loading="lazy" src="https://itviec.com/blog/wp-content/uploads/2024/05/SDK-2-vippro.jpg" data-is-external-image="true"></p>
+<p class="align-center"> </p>
+<ul class="align-center">
+<li class="align-left">Nhấp vào “Install” để cài đặt các thành phần được chọn.</li>
+</ul>
+<h3 class="align-left"><strong><span style="color: #5739eb;">Bước 3: Tìm hiểu cú pháp Android cơ bản</span></strong></h3>
+<p class="align-left">Các khái niệm liên quan đến cú pháp Android cơ bản mà bạn cần tìm hiểu là:</p>
+<ul class="align-left">
+<li aria-level="1"><strong><span style="color: #5739eb;">Biến (Variable):</span></strong> Hiểu rõ các loại biến khác nhau (số nguyên, chuỗi, boolean, v.v.) và cách sử dụng chúng để lưu trữ dữ liệu.</li>
+<li aria-level="1"><strong><span style="color: #5739eb;">Kiểu dữ liệu (Value Type):</span></strong> Nắm vững các kiểu dữ liệu cơ bản (int, double, String, v.v.) và cách sử dụng chúng một cách chính xác.</li>
+<li aria-level="1"><strong><span style="color: #5739eb;">Toán tử (Operators): </span></strong>Khám phá các toán tử toán học, logic và so sánh để thực hiện các phép tính và thao tác dữ liệu.</li>
+<li aria-level="1"><strong><span style="color: #5739eb;">Điều kiện (Conditions): </span></strong>Sử dụng các câu lệnh điều kiện (if, else, switch) để kiểm soát luồng chương trình dựa trên các điều kiện nhất định.</li>
+<li aria-level="1"><strong><span style="color: #5739eb;">Vòng lặp (Loop)</span></strong>: Lặp lại một khối code nhiều lần bằng các vòng lặp (for, while, do-while) để xử lý dữ liệu hiệu quả.</li>
+</ul>
+<h3 class="align-left"><span style="color: #5739eb;">Bước 4: Học về Cấu trúc dữ liệu và giải thuật</span></h3>
+<p class="align-left">Cấu trúc dữ liệu và giải thuật đóng vai trò thiết yếu trong lập trình, giúp bạn tổ chức và quản lý dữ liệu một cách hiệu quả, tối ưu hóa hiệu suất ứng dụng Android. Nắm vững kiến thức về hai lĩnh vực này sẽ giúp bạn xây dựng những ứng dụng Android thông minh, mượt mà và có thể xử lý lượng dữ liệu lớn một cách nhanh chóng.</p>
+<h4 class="align-left"><strong><span style="color: #5739eb;">Cấu trúc dữ liệu</span></strong></h4>
+<p class="align-left">Cấu trúc dữ liệu là cách thức sắp xếp và lưu trữ dữ liệu trong bộ nhớ máy tính. Nắm vững các cấu trúc dữ liệu phổ biến như mảng (Array), danh sách liên kết (Linked List), ngăn xếp (Stack) và hàng đợi (Queue) sẽ giúp bạn lựa chọn cấu trúc phù hợp cho từng bài toán cụ thể, tối ưu hóa việc truy cập và thao tác dữ liệu.</p>
+<ul class="align-left">
+<li aria-level="1"><strong><span style="color: #5739eb;">Mảng (Array):</span></strong> Cấu trúc dữ liệu đơn giản nhất, lưu trữ một tập hợp các phần tử cùng kiểu dữ liệu. Mảng có ưu điểm là cho phép truy cập phần tử nhanh chóng bằng chỉ số, nhưng việc thêm, xóa phần tử giữa mảng có thể tốn kém về thời gian.</li>
+<li aria-level="1"><strong><span style="color: #5739eb;">Danh sách liên kết (Linked List):</span></strong> Cấu trúc dữ liệu linh hoạt, lưu trữ các phần tử (node) được kết nối với nhau bằng liên kết. Danh sách liên kết dễ dàng thêm, xóa phần tử ở bất kỳ vị trí nào, nhưng truy cập phần tử bằng chỉ số có thể chậm hơn so với mảng.</li>
+<li aria-level="1"><strong><span style="color: #5739eb;">Ngăn xếp (Stack):</span></strong> Với ngăn xếp, cấu trúc dữ liệu hoạt động theo nguyên tắc LIFO (Last In, First Out), nghĩa là phần tử được thêm vào sau sẽ là phần tử đầu tiên được lấy ra.. Ngăn xếp thường được sử dụng trong nhiều ứng dụng, bao gồm việc quản lý ngắn xếp của các hàm trong lời gọi hàm (call stack), duyệt cây trong giải thuật DFS (Duyệt theo chiều sâu), quản lý bộ nhớ và các vấn đề liên quan đến việc lưu trữ và truy xuất dữ liệu theo nguyên tắc LIFO.</li>
+</ul>
+<blockquote>
+<p><i>LIFO (Last In, First Out): Hãy tưởng tượng bạn có một chồng đĩa. Khi bạn muốn lấy đĩa ra, bạn phải lấy đĩa ở trên cùng trước. LIFO hoạt động tương tự như vậy. Khi bạn thêm một phần tử vào cấu trúc dữ liệu LIFO, nó sẽ được đặt lên trên cùng. Khi bạn xóa một phần tử, phần tử đó sẽ được lấy từ đầu tiên.</i></p>
+</blockquote>
+<ul class="align-left">
+<li aria-level="1"><strong><span style="color: #5739eb;">Hàng đợi (Queue): </span></strong>Với hàng đợi, cấu trúc dữ liệu hoạt động theo nguyên tắc FIFO (First In, First Out), nghĩa là phần tử được thêm vào trước sẽ là phần tử đầu tiên được lấy ra. Hàng đợi thường được sử dụng để quản lý danh sách chờ, xử lý các tác vụ theo thứ tự.</li>
+</ul>
+<blockquote>
+<p><i>FIFO (First In, First Out): Hãy tưởng tượng bạn đang xếp hàng mua vé xem phim. Người đến trước sẽ được mua vé trước, người đến sau sẽ phải xếp hàng chờ. FIFO hoạt động tương tự như vậy.</i></p>
+<p><i>Khi bạn thêm một phần tử vào cấu trúc dữ liệu FIFO, nó sẽ được xếp vào cuối hàng đợi. Khi bạn xóa một phần tử, phần tử đầu tiên trong hàng đợi sẽ được lấy ra.</i></p>
+</blockquote>
+<h4 class="align-left"><strong><span style="color: #5739eb;">Giải thuật</span></strong></h4>
+<p class="align-left">Giải thuật là một tập hợp các hướng dẫn được xác định rõ ràng để giải quyết một vấn đề cụ thể. Nắm vững các thuật toán sắp xếp và tìm kiếm hiệu quả sẽ giúp bạn tối ưu hóa hiệu suất ứng dụng Android, đặc biệt khi xử lý lượng dữ liệu lớn.</p>
+<ul class="align-center">
+<li class="align-left" aria-level="1"><strong><span style="color: #5739eb;">Thuật toán sắp xếp (Sorting algorithm): </span></strong>Sắp xếp các phần tử trong một tập hợp theo một thứ tự nhất định (ví dụ: sắp xếp theo thứ tự tăng dần, giảm dần). Một số thuật toán sắp xếp phổ biến bao gồm Bubble Sort, Selection Sort, Insertion Sort, Merge Sort, Quick Sort.</li>
+<li class="align-left" aria-level="1"><strong><span style="color: #5739eb;">Thuật toán tìm kiếm (Search algorithm):</span></strong> Tìm kiếm một phần tử cụ thể trong một tập hợp dữ liệu. Một số thuật toán tìm kiếm phổ biến bao gồm Linear Search, Binary Search.</li>
+</ul>
+<h3 class="align-left"><strong><span style="color: #5739eb;">Bước 5: Tìm hiểu các thành phần UI (User Interface – Giao diện người dùng) cơ bản</span></strong></h3>
+<p class="align-left">Một số khái niệm UI cơ bản trong phát triển ứng dụng Android bao gồm cấu trúc và cú pháp XML để mô tả giao diện người dùng, cũng như các khái niệm về hoạt động (Activity), ý định (Intent), đoạn mã (Fragment), và giao diện người dùng (UI) trong Android:</p>
+<p class="align-left"><strong><span style="color: #5739eb;">XML:</span> </strong>XML được sử dụng trong Android để xây dựng giao diện người dùng (UI) của ứng dụng. Cấu trúc và cú pháp XML để mô tả giao diện người dùng Android. Dưới đây là một ví dụ đơn giản về cấu trúc XML cho một layout:</p>
+<p class="align-center"><img loading="lazy" src="https://itviec.com/blog/wp-content/uploads/2024/05/hoc-android-2-vippro.jpg" data-is-external-image="true"></p>
+<p class="align-left"><strong><span style="color: #5739eb;">Activity: </span></strong>Activity là một thành phần của ứng dụng Android, nó chịu trách nhiệm hiển thị giao diện người dùng và tương tác với người dùng. Mỗi Activity thường tương ứng với một màn hình trong ứng dụng.</p>
+<p class="align-left"><strong><span style="color: #5739eb;">Intent: </span></strong>Intent là một đối tượng dùng để kết nối các thành phần của ứng dụng Android trong quá trình chạy. Intent có thể được sử dụng để chuyển dữ liệu giữa các hoạt động (Activity) hoặc khởi chạy các dịch vụ (Service).</p>
+<p class="align-left"><strong><span style="color: #5739eb;">Fragment:</span> </strong>Fragment là một phần của giao diện người dùng hoạt động một cách độc lập, có thể được thêm vào hoặc loại bỏ trong một Activity. Fragment giúp tách biệt giao diện người dùng thành các phần nhỏ hơn, dễ quản lý hơn.</p>
+<p class="align-left"><strong><span style="color: #5739eb;">Lifecycle của ứng dụng Android:</span> </strong>Lifecycle của ứng dụng Android bao gồm một loạt các trạng thái mà ứng dụng có thể chuyển qua từ khi khởi động đến khi kết thúc. Các phương thức lifecycle quan trọng nhất bao gồm onCreate(), onStart(), onResume(), onPause(), onStop(), và onDestroy().</p>
+<p class="align-left"><strong><span style="color: #5739eb;">Giao diện người dùng (UI):</span></strong></p>
+<ul class="align-left">
+<li aria-level="1">Thiết kế layout bằng XML và Java/Kotlin: Layout XML được sử dụng để xây dựng giao diện người dùng, trong khi Java hoặc Kotlin được sử dụng để tương tác và điều khiển các thành phần trong layout.</li>
+<li aria-level="1">Sử dụng các widget và control cơ bản: Android cung cấp một loạt các widget và control như TextView, Button, EditText, ListView, RecyclerView, và nhiều hơn nữa để xây dựng giao diện người dùng.</li>
+<li aria-level="1">Xử lý sự kiện người dùng: Sự kiện người dùng như nhấn nút, chạm vào màn hình, hoặc nhập liệu được xử lý thông qua các phương thức callback như onClick(), onTouchListener(), và onKeyListener().</li>
+</ul>
+<h3 class="align-left"><strong><span style="color: #5739eb;">Bước 6: Tìm hiểu về các Cơ sở dữ liệu</span></strong></h3>
+<p class="align-left">Trong lập trình Android, cơ sở dữ liệu thường được sử dụng để lưu trữ và quản lý dữ liệu của ứng dụng. Các cơ sở dữ liệu phổ biến nhất trong Android là SQLite và Room.</p>
+<p class="align-left"><strong><span style="color: #5739eb;"><a href="https://developer.android.com/codelabs/basic-android-kotlin-compose-sql#0" target="_blank" rel="noopener" style="color: #5739eb;">SQLite</a></span></strong></p>
+<p class="align-left">SQLite là giải pháp lưu trữ dữ liệu phổ biến cho ứng dụng Android. Nó cho phép bạn lưu trữ dữ liệu cấu trúc một cách hiệu quả, truy vấn dữ liệu bằng SQL và thực hiện các thao tác CRUD (Create, Read, Update, Delete).</p>
+<ul class="align-left">
+<li aria-level="1">Tạo và quản lý cơ sở dữ liệu: Sử dụng SQLiteOpenHelper để tạo, mở, truy cập và đóng cơ sở dữ liệu.</li>
+<li aria-level="1">Thực hiện truy vấn SQL: Sử dụng SQLiteDatabase để thực hiện các truy vấn SQL như SELECT, INSERT, UPDATE, DELETE.</li>
+<li aria-level="1">Sử dụng ContentProvider: Cung cấp truy cập dữ liệu cho các ứng dụng khác.</li>
+</ul>
+<p class="align-left"><strong><span style="color: #5739eb;"><a href="https://developer.android.com/reference/android/content/SharedPreferences" target="_blank" rel="noopener" style="color: #5739eb;">SharedPreferences</a></span></strong></p>
+<p class="align-left">SharedPreferences là giải pháp lưu trữ dữ liệu đơn giản, nhẹ và dễ sử dụng. Nó phù hợp cho việc lưu trữ các cài đặt ứng dụng, thông tin người dùng đơn giản.</p>
+<ul class="align-left">
+<li aria-level="1">Lưu trữ dữ liệu: Sử dụng các phương thức put(), get(), remove() để lưu trữ, truy xuất và xóa dữ liệu.</li>
+<li aria-level="1"> Theo dõi các thay đổi của dữ liệu: Sử dụng SharedPreferences.OnSharedPreferenceChangeListener để theo dõi thay đổi dữ liệu.</li>
+</ul>
+<h3 class="align-left"><strong><span style="color: #5739eb;">Bước 7: Hiểu cách sử dụng các thư viện hỗ trợ </span></strong></h3>
+<p class="align-left">Học Android không chỉ là việc hiểu về cú pháp của ngôn ngữ lập trình Kotlin hoặc Java và cách xây dựng giao diện người dùng, mà còn là hiểu cách sử dụng các thư viện hỗ trợ để giảm thiểu thời gian phát triển, tăng tính bảo mật, cải thiện hiệu suất và tạo ra các ứng dụng mạnh mẽ và linh hoạt.</p>
+<p class="align-left"><strong><span style="color: #5739eb;"><a href="https://square.github.io/retrofit/" target="_blank" rel="noopener" style="color: #5739eb;">Retrofit</a></span></strong></p>
+<p class="align-left">Retrofit là thư viện mạng phổ biến dành cho Android, giúp bạn truy cập và quản lý các API một cách đơn giản và hiệu quả. Với Retrofit, bạn có thể:</p>
+<ul class="align-left">
+<li aria-level="1">Tạo các request API: Xác định URL, phương thức HTTP, header, body và các tham số cho request.</li>
+<li aria-level="1">Gửi request API: Gửi request đến server và nhận response.</li>
+<li aria-level="1">Xử lý response API: Phân tích dữ liệu JSON, chuyển đổi dữ liệu sang object, xử lý lỗi API.</li>
+</ul>
+<p class="align-left">Retrofit cung cấp nhiều tính năng hữu ích như:</p>
+<ul class="align-left">
+<li aria-level="1">Hỗ trợ nhiều phương thức HTTP: GET, POST, PUT, DELETE,…</li>
+<li aria-level="1">Hỗ trợ định dạng dữ liệu JSON và XML.</li>
+<li aria-level="1">Hỗ trợ converter để chuyển đổi dữ liệu JSON sang object.</li>
+<li aria-level="1">Hỗ trợ interceptor để chèn header, token, logging,…</li>
+</ul>
+<p class="align-left"><strong><span style="color: #5739eb;"><a href="https://developer.android.com/jetpack/androidx/releases/room" target="_blank" rel="noopener" style="color: #5739eb;">Room</a></span></strong></p>
+<p class="align-left">Room là một thư viện của Android Jetpack giúp làm việc với cơ sở dữ liệu SQLite dễ dàng hơn và an toàn hơn. Nó cung cấp một lớp trừu tượng hóa cơ sở dữ liệu, các DAO (Data Access Object) để thực hiện các thao tác dữ liệu, và xử lý mọi thứ trên một luồng không chính xác (background thread).</p>
+<p class="align-left">Room giúp giảm bớt công việc lặp đi lặp lại khi làm việc với SQLite và giúp bảo vệ dữ liệu của bạn trước các lỗi phổ biến như SQL injection.</p>
+<p class="align-left">Đoạn mã dưới đây mô tả ngắn gọn 1 ví dụ là việc triển khai Room trong việc lưu trữ dữ liệu trong các ứng dụng Android:</p>
+<p class="align-center"><img loading="lazy" src="https://itviec.com/blog/wp-content/uploads/2024/05/hoc-android-3-vippro.jpg" data-is-external-image="true"></p>
+<p class="align-center"><em>Trên đây là một cái nhìn tổng quan về những kiến thức cơ bản trong lập trình Android, được đúc kết từ quá trình học và phát triển các sản phẩm, dự án lớn nhỏ khác nhau.</em></p>
+<p class="align-left"><em>Tiếp theo, việc áp dụng những kiến thức này vào thực tế thông qua việc thực hiện các dự án và sản phẩm Android sẽ giúp bạn củng cố và mở rộng hiểu biết của mình, đồng thời phát triển kỹ năng thực hành và tư duy lập trình.</em></p>
+<h3 class="align-left"><strong><span style="color: #5739eb;">Bước 8: Xây dựng các ứng dụng Android đơn giản</span></strong></h3>
+<p class="align-left">Xây dựng ứng dụng Android đơn giản là một cách tuyệt vời để áp dụng các kiến thức đã học vào thực tế. Bạn có thể chọn ba ứng dụng rất phổ biến và hữu ích để bắt đầu: To-do list, danh bạ, và máy tính. </p>
+<p class="align-left"><strong><span style="color: #5739eb;">Ứng dụng To-do list:</span></strong></p>
+<ul class="align-left">
+<li aria-level="1">Tài liệu hướng dẫn: <a href="https://guides.codepath.com/android">https://guides.codepath.com/android</a></li>
+<li aria-level="1">Mô tả: Tài liệu này hướng dẫn từng bước để xây dựng ứng dụng to-do list cơ bản sử dụng Android Studio. Bạn sẽ học cách tạo giao diện người dùng, lưu trữ dữ liệu và quản lý danh sách các tác vụ.</li>
+</ul>
+<p class="align-left"><strong><span style="color: #5739eb;">Ứng dụng danh bạ:</span></strong></p>
+<ul class="align-left">
+<li aria-level="1">Tài liệu hướng dẫn: <a href="https://www.geeksforgeeks.org/how-to-create-contacts-app-in-android-studio/">https://www.geeksforgeeks.org/how-to-create-contacts-app-in-android-studio/</a></li>
+<li aria-level="1">Mô tả: Tài liệu này hướng dẫn chi tiết cách xây dựng ứng dụng danh bạ. Bạn sẽ học cách truy cập và hiển thị danh bạ của người dùng, thêm, chỉnh sửa và xóa danh bạ và nhiều tác vụ khác.</li>
+</ul>
+<p class="align-left"><strong><span style="color: #5739eb;">Ứng dụng máy tính:</span></strong></p>
+<ul class="align-left">
+<li aria-level="1">Tài liệu hướng dẫn: <a href="https://www.geeksforgeeks.org/how-to-build-a-simple-calculator-app-using-android-studio/">https://www.geeksforgeeks.org/how-to-build-a-simple-calculator-app-using-android-studio/</a></li>
+</ul>
+<ul class="align-center">
+<li class="align-left" aria-level="1">Mô tả: Tài liệu này hướng dẫn cách xây dựng ứng dụng máy tính đơn giản cho Android. Bạn sẽ học cách tạo giao diện người dùng với các nút số và toán tử, thực hiện các phép tính và hiển thị kết quả.'</li>
+</ul>
+<h3 class="align-center"><strong><span style="color: #5739eb;">Bước 9: Tìm hiểu về Lập trình hướng đối tượng (OOP)</span></strong></h3>
+<p class="align-center"><img loading="lazy" src="https://itviec.com/blog/wp-content/uploads/2024/05/hoc-android-1-vippro.jpg" data-is-external-image="true"></p>
+<p class="align-center"><picture><source srcset="https://itviec.com/blog/wp-content/uploads/2024/05/hoc-android-1-vippro.jpg 1306w,https://itviec.com/blog/wp-content/uploads/2024/05/hoc-android-1-vippro-300x158.webp 300w,https://itviec.com/blog/wp-content/uploads/2024/05/hoc-android-1-vippro-700x368.webp 640w,https://itviec.com/blog/wp-content/uploads/2024/05/hoc-android-1-vippro-200x105.webp 200w,https://itviec.com/blog/wp-content/uploads/2024/05/hoc-android-1-vippro-100x53.webp 100w" sizes="(max-width: 1306px) 100vw, 1306px" type="image/webp"></picture></p>
+<p class="align-center"><em>Trên đây là một ví dụ mô tả việc khởi tạo một đối tượng (Object) tên là “Car” có hai thuộc tính là “Color” đại diện cho màu xe, “year” là năm xe được sản xuất, phương thức “drive” đại diện cho trạng thái xe đang chạy.</em></p>
+<h4><strong><span style="color: #5739eb;">Điểm chính của OOP</span></strong></h4>
+<ul>
+<li aria-level="1"><strong><span style="color: #5739eb;">Lớp (Class):</span></strong> Khuôn mẫu để tạo ra các đối tượng, đóng gói dữ liệu (thuộc tính) và hành vi (phương thức) của đối tượng.</li>
+<li aria-level="1"><strong><span style="color: #5739eb;">Đối tượng (Object):</span></strong> Phiên bản cụ thể của một lớp, đại diện cho một thực thể trong thế giới thực.</li>
+<li aria-level="1"><strong><span style="color: #5739eb;">Tính đóng gói (Encapsulation): </span></strong>Ẩn giấu chi tiết triển khai bên trong lớp, chỉ để lộ giao diện thông qua các phương thức.</li>
+<li aria-level="1"><strong><span style="color: #5739eb;">Tính kế thừa (Inheritance):</span></strong> Khả năng cho phép một lớp kế thừa các thuộc tính và phương thức từ lớp cha, giúp tái sử dụng code và phát triển các lớp mới dễ dàng hơn.</li>
+<li aria-level="1"><strong><span style="color: #5739eb;">Tính đa hình (Polymorphism):</span></strong> Khả năng cho phép các đối tượng thuộc các lớp khác nhau nhưng có cùng giao diện thực hiện cùng một hành động theo cách riêng của chúng.</li>
+<li aria-level="1"><strong><span style="color: #5739eb;">Tính trừu tượng (Abstraction):</span></strong> Tập trung vào các đặc điểm thiết yếu của một đối tượng, bỏ qua các chi tiết phức tạp, giúp đơn giản hóa code và dễ dàng sử dụng hơn.</li>
+</ul>
+<h4><strong><span style="color: #5739eb;">Lợi ích của OOP</span></strong></h4>
+<ul>
+<li aria-level="1">Dễ quản lý: Việc chia nhỏ code thành các lớp và đối tượng giúp dễ dàng quản lý và sửa đổi code, đặc biệt là cho các dự án lớn.</li>
+<li aria-level="1">Tái sử dụng: Các lớp có thể được tái sử dụng trong nhiều dự án khác nhau, tiết kiệm thời gian và công sức cho lập trình viên.</li>
+<li aria-level="1">Dễ bảo trì: Việc sửa lỗi và cập nhật code trở nên dễ dàng hơn nhờ tính đóng gói và tính trừu tượng.</li>
+<li aria-level="1">Mở rộng: Dễ dàng mở rộng ứng dụng bằng cách thêm các lớp và đối tượng mới.</li>
+</ul>
+<h4><strong><span style="color: #5739eb;">Ví dụ về OOP trong lập trình Android</span></strong></h4>
+<ul>
+<li aria-level="1">Lớp Activity: Đại diện cho một màn hình trong ứng dụng Android.</li>
+<li aria-level="1">Lớp View: Đại diện cho các thành phần giao diện người dùng như Button, TextView, ImageView,…</li>
+<li aria-level="1">Kế thừa: Lớp Button có thể kế thừa từ lớp View, kế thừa các thuộc tính và phương thức chung của các thành phần giao diện người dùng.</li>
+<li aria-level="1">Đa hình: Phương thức onClick() được định nghĩa trong lớp View có thể được thực thi theo cách khác nhau trong các lớp Button, TextView,…</li>
+</ul>
+<p>OOP là một chủ đề rộng lớn và cần thời gian để học hỏi. Bạn có thể tham khảo tài liệu online, video hướng dẫn và sách để học về OOP, hoặc bạn có thể tham gia các cộng đồng lập trình để trao đổi kiến thức và kinh nghiệm với những người khác.</p>
+<h2><strong><span id="Cac_buoc_hoc_Android_nang_cao" style="color: #5739eb;">Các bước học Android nâng cao</span></strong></h2>
+<h3><strong><span style="color: #5739eb;">Bước 1: Tìm hiểu kiến thức về MVP, MVVM</span></strong></h3>
+<p>Trong quá trình phát triển ứng dụng Android, việc áp dụng các kiến trúc phần mềm như MVP (Model-View-Presenter) và MVVM (Model-View-ViewModel) có thể làm tăng tính bảo trì, tái sử dụng và kiểm thử của ứng dụng.</p>
+<ul>
+<li aria-level="1">MVP là một kiến trúc phổ biến, tách biệt logic xử lý dữ liệu (Model) và giao diện người dùng (View) thông qua một lớp trung gian gọi là Presenter. Presenter đảm nhận trách nhiệm trung gian, giữ cho Model và View không trực tiếp tương tác với nhau. Điều này tạo ra một cách tiếp cận có tổ chức để xây dựng ứng dụng, dễ dàng kiểm thử và tái sử dụng code.</li>
+<li aria-level="1">MVVM là một biến thể hiện đại của kiến trúc MVP, nơi ViewModel đảm nhận trách nhiệm của Presenter. ViewModel giữ các dữ liệu và trạng thái của giao diện người dùng, giảm bớt sự phụ thuộc của View vào Model. Điều này giúp giảm logic trong View và tạo điều kiện cho việc quản lý trạng thái và hiển thị dữ liệu một cách linh hoạt hơn.</li>
+</ul>
+<h3><strong><span style="color: #5739eb;">Bước 2: Tìm hiểu kiến thức về Dependency Injection</span></strong></h3>
+<p><a href="https://developer.android.com/training/dependency-injection" target="_blank" rel="noopener">Dependency Injection (DI)</a> là một kỹ thuật quan trọng giúp quản lý và cung cấp các đối tượng phụ thuộc cho các thành phần của ứng dụng một cách linh hoạt và dễ dàng.</p>
+<p>Thay vì tạo các đối tượng phụ thuộc trong mã nguồn, DI cho phép các đối tượng được cung cấp từ bên ngoài, giúp giảm sự phụ thuộc và làm cho việc thay đổi và kiểm thử dễ dàng hơn.</p>
+<h3><strong><span style="color: #5739eb;">Bước 3: Áp dụng công nghệ mới và thư viện bổ sung</span></strong></h3>
+<p>Để phát triển ứng dụng Android chất lượng cao, việc áp dụng các công nghệ mới và thư viện bổ sung là rất quan trọng. Các công nghệ như <a href="https://developer.android.com/kotlin/coroutines" target="_blank" rel="noopener">Kotlin Coroutines</a> giúp xử lý tác vụ bất đồng bộ một cách hiệu quả, <a href="https://developer.android.com/courses/jetpack-compose/course?gad_source=1&amp;gclid=CjwKCAjwz42xBhB9EiwA48pT72imLOiiM3QorbUHrG26c7MNb5TVfKVq9Q0Hg-gV-NvbxhhxnzyYsRoCg4UQAvD_BwE&amp;gclsrc=aw.ds" target="_blank" rel="noopener">Jetpack Compose</a> giúp xây dựng giao diện người dùng hiệu quả và linh hoạt hơn, và <a href="https://developer.android.com/training/data-storage/room" target="_blank" rel="noopener">Room Persistence Library</a> giúp quản lý lưu trữ dữ liệu một cách linh hoạt và tiết kiệm tài nguyên.</p>
+<p>Ngoài ra, việc sử dụng các công cụ như <a href="https://developer.android.com/studio/build/shrink-code?hl=vi" target="_blank" rel="noopener">ProGuard / R8</a> giúp thu nhỏ và bảo vệ mã nguồn của bạn, đảm bảo tính bảo mật và tối ưu hiệu suất của ứng dụng.</p>
+<h3><strong><span style="color: #5739eb;">Bước 4: Tối ưu hiệu suất và kiểm thử</span></strong></h3>
+<p>Để tối ưu hiệu suất và tiêu thụ tài nguyên của ứng dụng, việc sử dụng các công nghệ và kỹ thuật như<a href="https://support.google.com/firebase/answer/6386654?hl=en#zippy=%2Cin-this-article" target="_blank" rel="noopener"> Firebase Test Lab</a> và <a href="https://github.com/facebookarchive/stetho" target="_blank" rel="noopener">Stetho </a>là rất quan trọng. Firebase Test Lab giúp kiểm tra ứng dụng của bạn trên nhiều thiết bị và phiên bản Android khác nhau, đảm bảo tính tương thích và độ ổn định của ứng dụng trên mọi môi trường.</p>
+<h3><strong><span style="color: #5739eb;">Bước 5: Khám phá các chủ đề Android nâng cao khác</span></strong></h3>
+<p>Ngoài các kiến trúc và công nghệ trên, bạn cũng có thể khám phá các chủ đề nâng cao khác như:</p>
+<ul>
+<li aria-level="1">Phát triển ứng dụng đa nền tảng với Flutter hoặc React Native</li>
+<li aria-level="1"><a href="https://developer.android.com/codelabs/compose-for-wear-os?hl=vi#0" target="_blank" rel="noopener">Lập trình Android Wear OS</a> để phát triển ứng dụng cho đồng hồ thông minh</li>
+<li aria-level="1"><a href="https://developer.android.com/training/cars/apps/iot" target="_blank" rel="noopener">Lập trình Android cho Internet of Things (IoT)</a> để kết nối và điều khiển các thiết bị thông minh</li>
+</ul>
+<p>Cuối cùng, việc tham gia cộng đồng lập trình Android để trao đổi kiến thức, kinh nghiệm và cập nhật các xu hướng mới nhất là rất quan trọng để phát triển sự nghiệp trong lĩnh vực này. Đồng thời, trau dồi kỹ năng mềm như giao tiếp, làm việc nhóm, giải quyết vấn đề và tư duy sáng tạo cũng là yếu tố không thể thiếu trong quá trình phát triển ứng dụng Android.</p>
+<h2><strong><span id="Cac_buoc_len_ke_hoach_tu_hoc_lap_trinh_Android_cho_nguoi_moi_bat_dau" style="color: #5739eb;">Các bước lên kế hoạch tự học lập trình Android cho người mới bắt đầu</span></strong></h2>
+<p>Để tự học lập trình Android cho người mới bắt đầu hiệu quả, bạn cần lập kế hoạch học tập phù hợp với bản thân. Dưới đây là một số bước giúp bạn lập kế hoạch tự học lập trình Android:</p>
+<h3><strong><span style="color: #5739eb;">Xác định mục tiêu</span></strong></h3>
+<ul>
+<li aria-level="1">Xác định lý do bạn muốn học lập trình Android.</li>
+<li aria-level="1">Xác định mục tiêu cụ thể bạn muốn đạt được trong thời gian bao lâu.</li>
+</ul>
+<p>Ví dụ: Bạn muốn học lập trình Android để phát triển ứng dụng cho bản thân, hoặc bạn muốn trở thành một lập trình viên Android chuyên nghiệp.</p>
+<h3><strong><span style="color: #5739eb;">Đánh giá kiến thức hiện tại</span></strong></h3>
+<ul>
+<li aria-level="1">Xác định bạn đã biết gì về lập trình và Android.</li>
+<li aria-level="1">Xác định những kiến thức bạn cần học thêm.</li>
+</ul>
+<p>Ví dụ: Bạn đã biết lập trình Java hoặc Kotlin, hoặc bạn chưa biết gì về lập trình.</p>
+<h3><strong><span style="color: #5739eb;">Lên lịch học tập</span></strong></h3>
+<ul>
+<li aria-level="1">Chia nhỏ mục tiêu thành các mục tiêu nhỏ hơn và dễ thực hiện hơn.</li>
+<li aria-level="1">Lên lịch học tập cụ thể cho từng ngày, bao gồm thời gian học tập và nội dung học tập.</li>
+</ul>
+<p>Ví dụ: Bạn sẽ học 2 tiếng mỗi ngày, 1 tiếng học Java và 1 tiếng học về các widget trong Android.</p>
+<h3><strong><span style="color: #5739eb;">Luyện tập thường xuyên</span></strong></h3>
+<p>Luyện tập là cách tốt nhất để tự học lập trình Android cho người mới bắt đầu nhằm nâng cao kỹ năng lập trình Android.</p>
+<p>Ví dụ: Bạn có thể tham gia các dự án Android để thực hành kiến thức đã học, hoặc tham gia cộng đồng lập trình Android để được hỗ trợ và học hỏi kinh nghiệm từ những người có kinh nghiệm.</p>
+<h2><strong><span id="Huong_dan_tao_du_an_Android_cho_nguoi_moi_bat_dau" style="color: #5739eb;">Hướng dẫn tạo dự án Android cho người mới bắt đầu</span></strong></h2>
+<p>Sau khi nắm vững các kiến thức nền tảng và cài đặt các công cụ cần thiết, bạn có thể lựa chọn một ý tưởng đơn giản cho dự án đầu tiên, ví dụ như ứng dụng tính toán đơn giản, ứng dụng ghi chú,… Không nên chọn ý tưởng quá phức tạp cho dự án đầu tiên.</p>
+<p>Dưới đây là các bước hướng dẫn bạn thực hiện dự án đầu tiên:</p>
+<h3><strong><span style="color: #5739eb;">Tạo dự án mới</span></strong></h3>
+<ul>
+<li aria-level="1">Mở Android Studio và chọn “Start a new Android Studio project”.</li>
+<li aria-level="1">Nhập tên dự án, chọn ngôn ngữ lập trình (Java hoặc Kotlin) và mẫu dự án phù hợp.</li>
+<li aria-level="1">Nhấp “Finish” để tạo dự án mới.</li>
+</ul>
+<h3><span style="color: #5739eb;">Thiết kế giao diện</span></h3>
+<ul>
+<li aria-level="1">Sử dụng giao diện WYSIWYG (What You See Is What You Get) trong Android Studio để thiết kế giao diện cho ứng dụng.</li>
+<li aria-level="1">Kéo thả các widget (như TextView, Button, EditText, v.v.) vào layout để tạo giao diện.</li>
+<li aria-level="1">Có thể tham khảo tài liệu hướng dẫn về thiết kế giao diện Android.</li>
+</ul>
+<h3><strong><span style="color: #5739eb;">Viết code</span></strong></h3>
+<ul>
+<li aria-level="1">Viết code Java hoặc Kotlin để xử lý logic cho ứng dụng.</li>
+<li aria-level="1">Ví dụ: xử lý sự kiện click button, xử lý dữ liệu nhập vào, v.v.</li>
+<li aria-level="1">Có thể tham khảo tài liệu hướng dẫn về lập trình Android.</li>
+</ul>
+<h3><strong><span style="color: #5739eb;">Chạy thử và kiểm tra</span></strong></h3>
+<ul>
+<li aria-level="1">Nhấp nút “Run” trong Android Studio để chạy thử ứng dụng trên emulator hoặc thiết bị Android thật.</li>
+<li aria-level="1">Kiểm tra chức năng của ứng dụng và sửa lỗi nếu có.</li>
+</ul>
+<h3><span style="color: #5739eb;">Hoàn thiện và phát triển</span></h3>
+<ul>
+<li aria-level="1">Tiếp tục hoàn thiện ứng dụng: thêm chức năng mới, cải thiện giao diện, v.v.</li>
+<li aria-level="1">Có thể tham khảo các dự án Android mẫu để học hỏi thêm.</li>
+</ul>
+<h2><strong><span id="Cac_cau_hoi_thuong_gap_khi_tu_hoc_lap_trinh_Android_cho_nguoi_moi_bat_dau" style="color: #5739eb;">Các câu hỏi thường gặp khi tự học lập trình Android cho người mới bắt đầu</span></strong></h2>
+<h3><strong><span style="color: #5739eb;">Ngôn ngữ nào phù hợp để tự học lập trình Android cho người mới bắt đầu?</span></strong></h3>
+<p>Đối với người mới bắt đầu học lập trình Android, hai ngôn ngữ chính được sử dụng là Java và Kotlin. Dưới đây là một số điểm cân nhắc giữa hai ngôn ngữ này:</p>
+<ul>
+<li aria-level="1"><strong><span style="color: #5739eb;">Java</span></strong> là ngôn ngữ truyền thống được sử dụng lâu đời trong phát triển ứng dụng Android. Có nhiều tài liệu, nguồn học và ví dụ mã nguồn dành cho lập trình Android bằng Java. Java là một ngôn ngữ phổ biến và được sử dụng rộng rãi trong nhiều lĩnh vực khác nhau.</li>
+</ul>
+<ul>
+<li aria-level="1"><strong><span style="color: #5739eb;">Kotlin</span></strong> là ngôn ngữ mới được Google chính thức hỗ trợ cho phát triển ứng dụng Android. Kotlin có cú pháp ngắn gọn hơn, đơn giản hóa việc viết mã và giảm thiểu lỗi. Kotlin cung cấp nhiều tính năng tiện ích như Null Safety, Extension Functions, và Coroutines giúp viết mã hiệu quả hơn.</li>
+</ul>
+<p>Cả hai ngôn ngữ đều phù hợp để tự học lập trình Android cho người mới bắt đầu. Nếu bạn chưa quen thuộc với lập trình, Java có thể là sự lựa chọn tốt để bắt đầu vì có nhiều tài liệu học và nguồn thông tin sẵn có. Nếu bạn muốn tập trung vào viết mã hiệu quả và sử dụng các tính năng mới nhất, Kotlin có thể là lựa chọn tốt hơn. Điều quan trọng là hiểu rõ cơ bản về lập trình Android và sau đó bạn có thể dễ dàng chuyển đổi giữa hai ngôn ngữ nếu cần.</p>
+<h3><strong><span style="color: #5739eb;">Lời khuyên để tự học lập trình Android cho người mới bắt đầu thành công?</span></strong></h3>
+<p><strong><span style="color: #5739eb;">Bắt đầu từ những bài học cơ bản:</span></strong></p>
+<ul>
+<li>Tìm hiểu về các thành phần giao diện người dùng Android</li>
+<li>Học cách xử lý sự kiện</li>
+<li>Sử dụng các API cơ bản của Android</li>
+</ul>
+<p><strong><span style="color: #5739eb;">Luyện tập thường xuyên:</span></strong></p>
+<ul>
+<li>Viết các ứng dụng đơn giản để rèn luyện kỹ năng</li>
+<li>Tham gia các cộng đồng lập trình Android để học hỏi kinh nghiệm</li>
+</ul>
+<p><strong><span style="color: #5739eb;">Kiên trì và không ngừng học hỏi:</span></strong></p>
+<ul>
+<li>Lập trình là một lĩnh vực đòi hỏi sự kiên trì và nỗ lực</li>
+<li>Luôn cập nhật những kiến thức mới nhất về Android</li>
+</ul>
+<h3><strong><span style="color: #5739eb;">Làm thế nào để nâng cao trình độ lập trình Android?</span></strong></h3>
+<p>Để tiếp tục học và phát triển trong lập trình Android, dưới đây là một số gợi ý bạn có thể tham khảo:</p>
+<ul>
+<li aria-level="1"><strong><span style="color: #5739eb;">Tiếp tục thực hành và xây dựng dự án mới: </span></strong>Hãy tiếp tục thực hành bằng cách xây dựng các dự án mới và phát triển ứng dụng thực tế. Thử thách bản thân bằng cách đặt mục tiêu xây dựng các ứng dụng phức tạp hơn và tích hợp các tính năng mới.</li>
+<li aria-level="1"><strong><span style="color: #5739eb;">Nâng cao kiến thức về các công nghệ liên quan:</span></strong> Đừng chỉ tập trung vào lập trình Android mà hãy tìm hiểu thêm về các công nghệ khác như Firebase (cho việc lưu trữ dữ liệu, xác thực, phân tích), RxJava hoặc Kotlin Coroutines (cho lập trình bất đồng bộ), MVVM hoặc Clean Architecture (cho kiến trúc ứng dụng), và các thư viện và framework phổ biến khác.</li>
+<li aria-level="1"><strong><span style="color: #5739eb;">Theo dõi các xu hướng mới và kỹ thuật tiên tiến:</span></strong> Sở hữu khả năng tự học là một điều quan trọng. Hãy luôn cập nhật với các xu hướng mới như Android Jetpack, Jetpack Compose (cho việc phát triển giao diện người dùng), Android Architecture Components, hoặc cập nhật với phiên bản mới nhất của Android.</li>
+</ul>
+<h2><strong><span id="Tong_ket_lo_trinhtu_hoc_lap_trinh_Android_cho_nguoi_moi_bat_dau" style="color: #5739eb;">Tổng kết lộ trình tự học lập trình Android cho người mới bắt đầu</span></strong></h2>
+<p>Tự học lập trình Android cho người mới bắt đầu là một hành trình thú vị và đầy hứng thú. Bằng cách tự nỗ lực, tìm hiểu và thực hành, bạn có thể tiếp cận được với một thế giới mới của phát triển ứng dụng di động. Từ việc lựa chọn ngôn ngữ lập trình đến việc xây dựng ứng dụng đầu tiên, mỗi bước đều là một cơ hội để học hỏi và phát triển kỹ năng của bạn. Hãy kiên nhẫn, không ngừng thử thách bản thân và luôn tìm kiếm cơ hội để thực hiện ước mơ của mình trong lĩnh vực này.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Java và JavaScript có gì khác nhau?</title>
+        <author>
+            <name>Quốc Bảo</name>
+        </author>
+        <link href="https://doanquocbao9.github.io/Blog/java-va-javascript-co-gi-khac-nhau.html"/>
+        <id>https://doanquocbao9.github.io/Blog/java-va-javascript-co-gi-khac-nhau.html</id>
+        <media:content url="https://doanquocbao9.github.io/Blog/media/posts/6/java-va-javascript-khac-nhau-the-nap-1.jpg" medium="image" />
+
+        <updated>2024-12-28T18:38:53+07:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://doanquocbao9.github.io/Blog/media/posts/6/java-va-javascript-khac-nhau-the-nap-1.jpg" alt="" />
+                    Java và JavaScript có cái tên khá tương&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://doanquocbao9.github.io/Blog/media/posts/6/java-va-javascript-khac-nhau-the-nap-1.jpg" class="type:primaryImage" alt="" /></p>
+                <p><img loading="lazy" src="https://tuhoclaptrinh.edu.vn/upload/post/2022/11/16/java-va-javascript-co-gi-khac-nhau-20221116104648-196233.jpg" alt="Java và JavaScript có gì khác nhau?" data-is-external-image="true"></p>
+<blockquote>
+<p><em>Java và JavaScript có cái tên khá tương đồng nhau, nhưng thực chất chúng lại là hai ngôn ngữ hoàn toàn riêng biệt, hỗ trợ một mảng công việc nhất định.</em></p>
+</blockquote>
+<h2><strong><span style="color: #5739eb;">Tìm hiểu về Java</span></strong></h2>
+<div class="google-auto-placed ap_container">
+<p>Java là ngôn ngữ lập trình được James Gosling phát minh và được phát triển bởi tập đoàn Sun Microsystems, nhưng hiện nay ngôn ngữ này thuộc quyền quản lý của Oracle.</p>
+<p>Mặc dù đã được tạo ra vào năm 1991, nhưng mãi cho đến năm 1995 Java mới được giới thiệu rộng rãi đến đông đảo người dùng.</p>
+<p>Java là một ngôn ngữ kiểu tĩnh, hỗ trợ chủ yếu các công việc theo lập trình hướng đối tượng.</p>
+<p>Hầu hết các mã sử dụng trong Java đều sẽ được biên dịch thành bytecode trước khi tiến hành thực thi, sau khi trải qua thời gian biên dịch các mã này sẽ không thể đọc được.</p>
+<p>Mọi hoạt động liên quan đến Java đều sẽ được thực hiện thông qua sự hỗ trợ của máy ảo Java - JVM, nhờ đó nên ngôn ngữ này thực hiện các công việc khá linh động.</p>
+<p>Java thường được ứng dụng trong các công việc cụ thể như:</p>
+<ul>
+<li>Phân tích Big Data.</li>
+<li>Ứng dụng khoa học máy tính.</li>
+<li>Các phần mềm doanh nghiệp.</li>
+<li>Lập trình các thiết bị phần cứng.</li>
+<li>Xây dựng các ứng dụng vận hành trên Android.</li>
+<li>Phát triển công nghệ phía máy chủ, phổ biến với Apache, JBoss, GlassFish…</li>
+</ul>
+<h2><img loading="lazy" src="https://tuhoclaptrinh.edu.vn/upload/post/2022/11/16/java-va-javascript-co-gi-khac-nhau-20221116133825-687130.jpg" alt="Java và JavaScript có gì khác nhau?" data-is-external-image="true"></h2>
+<h2><span style="color: #5739eb;">Tìm hiểu về JavaScript</span></h2>
+<p>JavaScript được tạo ra bởi nhà phát triển tên Brendan Eich tại Netscape, hoạt động như một ngôn ngữ kịch bản hướng đối tượng.</p>
+<p>Ban đầu, ngôn ngữ này được gọi với cái tên LiveScript nhưng theo dòng sự kiện nổi bật của Java, nó đã được đổi tên thành JavaScript và phát triển mạnh mẽ đến hôm nay.</p>
+<p>Trái ngược với Java, JavaScript hoạt động như một ngôn ngữ thông dịch, nên các mã sẽ lưu trữ dưới dạng một văn bản thuần túy và được thông dịch ngay trong thời gian thực mà không cần trải qua quá trình biên dịch.</p>
+<p>Các website được xây dựng dựa trên JavaScript có khả năng tương tác khá tốt.</p>
+<p>Đồng thời, hoạt động tuân thủ các quy tắc lập trình phía Server, nên khi chương trình vận hành trên trình duyệt của người dùng không cần bất kỳ tài nguyên hỗ trợ nào từ máy chủ web.</p>
+<p>Nhờ những đặc điểm nổi bật mang lại cho người dùng, JavaScript thường được lựa chọn sử dụng trong các công việc như:</p>
+<ul>
+<li>Công nghệ Backend liên quan đến Node.js.</li>
+<li>Phát triển ứng dụng Single Page Application.</li>
+<li>Công nghệ Frontend phổ biến như jQuery, Vue.js, ReactJS, Angular…</li>
+<li>Ứng dụng di động với sự hỗ trợ của React Native, PhoneGap…</li>
+</ul>
+<p> <img loading="lazy" src="https://tuhoclaptrinh.edu.vn/upload/post/2022/11/16/java-va-javascript-co-gi-khac-nhau-20221116133826-275471.jpg" alt="Java và JavaScript có gì khác nhau?" data-is-external-image="true"></p>
+<h2><span style="color: #5739eb;">Java và JavaScript có gì khác nhau?</span></h2>
+<p>Dựa trên những gì đã tìm hiểu về Java và JavaScript ở trên, chúng ta cũng sẽ dễ dàng nhận biết được sự khác biệt giữa hai ngôn ngữ này, cụ thể như:</p>
+<ul>
+<li>Java là một ngôn ngữ lập trình hướng đối tượng thuần túy, còn JavaScript lại là một ngôn ngữ kịch bản dựa trên đối tượng.</li>
+<li>Ngôn ngữ Java hoạt động hoàn toàn độc lập, còn JavaScript cần phải được tích hợp vào một chương trình HTML mới có thể thực thi.</li>
+<li>Java hoạt động với kiểu gõ mạnh, nên người dùng phải quyết định kiểu dữ liệu của biến trước khi khai báo và sử dụng nó. Còn JavaScript lại là ngôn ngữ sử dụng kiểu gõ tĩnh, khi sử dụng người dùng không cần quá lo lắng về kiểu dữ liệu của biến trước và sau khi khai báo.</li>
+<li>Các chương trình được xây dựng dựa trên Java cần được biên dịch trước khi thực thi, còn với JavaScript thì cần phải tích hợp vào chương trình HTML để thực thi.</li>
+<li>Trình duyệt web không phải là yếu tố bắt buộc khi chạy chương trình Java, còn với các chương trình JavaScript thì trình duyệt web lại là yếu tố quan trọng.</li>
+<li>Khi phát triển chương trình Java đòi hỏi sự hỗ trợ của bộ nhớ có dung lượng lớn, còn với JavaScript thì không.</li>
+<li>Các chương trình được tạo ra bởi Java thường được lưu với phần mở rộng là .java, còn JavaScript sẽ là .js.</li>
+<li>Các chương trình Java được lưu trên Server dưới dạng các mã Byte, còn với JavaScript thì dưới dạng văn bản Source.</li>
+<li>Với Java, chỉ cần sử dụng Multi-threading là người dùng dễ dàng thực hiện các tác vụ phức tạp. Còn trong JavaScript không cho phép người dùng thực hiện các tác vụ phức tạp.</li>
+</ul>
+<h2><img loading="lazy" src="https://tuhoclaptrinh.edu.vn/upload/post/2022/11/16/java-va-javascript-co-gi-khac-nhau-20221116120917-648592.jpg" alt="Java và JavaScript có gì khác nhau?" data-is-external-image="true"></h2>
+<h2><span style="color: #5739eb;">Nên chọn học Java hay JavaScript?</span></h2>
+<div class="google-auto-placed ap_container"><ins class="adsbygoogle adsbygoogle-noablate" data-ad-format="auto" data-ad-client="ca-pub-6839150410632107" data-adsbygoogle-status="done" data-ad-status="unfilled">
+<div id="aswift_6_host"></div>
+</ins></div>
+<p>Cả Java và JavaScript đều mang đến cho người dùng những điểm nổi bật riêng khi sử dụng, thế nên rất khó để đưa ra quyết định rõ ràng là nên chọn học Java hay JavaScript.</p>
+<p>Bạn chỉ có thể chọn học Java hoặc JavaScript dựa trên những công việc mà bạn mong muốn thực hiện trong tương lai, cùng như hỗ trợ cho các công việc đang đảm nhận ở hiện tại.</p>
+<p><strong><span style="color: #5739eb;">Khi chọn học Java bạn sẽ nhận được quyền lợi như:</span></strong></p>
+<ul>
+<li>Sở hữu cho mình những kiến thức về một ngôn ngữ lập trình đa năng.</li>
+<li>Dễ dàng tạo ra được các ứng dụng vận hành trên máy tính để bàn.</li>
+<li>Hỗ trợ các công việc liên quan đến xây dựng và phát triển một số ứng dụng vận hành trên Android. </li>
+<li>Hỗ trợ làm việc trên các ứng dụng phần mềm doanh nghiệp lớn.</li>
+</ul>
+<p><img loading="lazy" src="https://tuhoclaptrinh.edu.vn/upload/post/2022/11/16/java-va-javascript-co-gi-khac-nhau-20221116120918-447889.png" alt="Java và JavaScript có gì khác nhau?" data-is-external-image="true"></p>
+<p><strong><span style="color: #5739eb;">Còn khi chọn học JavaScript, bạn sẽ có thể:</span></strong></p>
+<ul>
+<li>Thiết kế giao diện người dùng trên các ứng dụng web một cách bắt mắt.</li>
+<li>Dễ dàng tiếp thu được các kiến thức liên quan, bởi nó sở hữu cú pháp đơn giản.</li>
+<li>Xây dựng Mobile App với sự trợ giúp của jQuery Mobile, PhoneGap, Cordova, Sencha…</li>
+<li>Thực hiện được các công việc liên quan đến Frontend lẫn Backend khi tạo ra các ứng dụng web.</li>
+</ul>
+<img loading="lazy" src="https://tuhoclaptrinh.edu.vn/upload/post/2022/11/16/java-va-javascript-co-gi-khac-nhau-20221116120918-187118.jpg" alt="Java và JavaScript có gì khác nhau?" data-is-external-image="true"><br><br><br><br></div>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>JavaScript</title>
+        <author>
+            <name>Quốc Bảo</name>
+        </author>
+        <link href="https://doanquocbao9.github.io/Blog/javascrip.html"/>
+        <id>https://doanquocbao9.github.io/Blog/javascrip.html</id>
+        <media:content url="https://doanquocbao9.github.io/Blog/media/posts/4/js-15429579443112042672363-crop-1542957949936317424252.webp" medium="image" />
+
+        <updated>2024-12-28T17:20:18+07:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://doanquocbao9.github.io/Blog/media/posts/4/js-15429579443112042672363-crop-1542957949936317424252.webp" alt="" />
+                    JavaScript là gì? JavaScript là ngôn ngữ lập&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://doanquocbao9.github.io/Blog/media/posts/4/js-15429579443112042672363-crop-1542957949936317424252.webp" class="type:primaryImage" alt="" /></p>
+                <h2 id="article-detail-0"><strong><span style="color: #5739eb;">JavaScript là gì?</span></strong></h2>
+<p>JavaScript là ngôn ngữ lập trình được phát triển cho web với độ tương tác cao hơn và dần phổ biến trên nhiều lĩnh vực khác. Nó triển khai các tập lệnh phía máy khách để <span style="color: #000000;">tương tác với người dùng trên website, tạo được các trang web động, thường được gọi <strong><span style="color: #5739eb;">là lập trình hướng đối tượng.</span></strong></span></p>
+<p><span style="color: #000000;"><img loading="lazy" src="https://cdn2.fptshop.com.vn/unsafe/Uploads/images/tin-tuc/151984/Originals/javascript-la-gi%20(2).png" alt="JavaScript là gì?" data-is-external-image="true"></span></p>
+<p><span style="color: #000000;">JavaScript được Netscape giới thiệu với tên ban đầu là LiveScript. Nhưng vào những năm 1990, sự phát triển mạnh mẽ và tác động của Java nên đơn vị này chuyển thành tên JavaScript phổ biến như ngày nay.</span></p>
+<p><span style="color: #000000;">Hiện lập trình với JavaScript đã mở rộng ra trên nhiều lĩnh vực, từ lập trình máy tính đến lập trình thiết bị của NASA. Kể từ khi Javascript được tạo ra, nền tảng Node.js đã tạo điều kiện thuận lợi cho JavaScript phát triển với nhiều mục đích. Hãy cùng khám phá JavaScript có thể sử dụng để làm được những gì dưới đây nhé.</span></p>
+<h2 id="article-detail-1"><strong><span style="color: #5739eb;">JavaScript được sử dụng để làm gì?</span></strong></h2>
+<h3><span style="color: #5739eb;">Phát triển website</span></h3>
+<p><span style="color: #000000;">Công dụng phổ biến nhất của JavaScript đó là phát triển web và hiện là một trong những thành phần không thể thiếu của các trang web hoạt động hiện nay. Các nhà lập trình sử dụng JavaScript trong quá trình phát triển web để thêm tính tương tác và các tính năng nhằm cải thiện trải nghiệm người dùng, giúp trang web giàu tính tương tác hơn.</span></p>
+<p><span style="color: #000000;"><img loading="lazy" src="https://cdn2.fptshop.com.vn/unsafe/Uploads/images/tin-tuc/151984/Originals/javascript-la-gi%20(1).png" alt="JavaScript là gì?" data-is-external-image="true"></span></p>
+<p><span style="color: #000000;">Theo thống kê từ W3techs, hơn 90% tất cả các trang web đều sử dụng JavaScript. Từ đó có thể xem Javascript là một trong những mã nguồn không thể thiếu của các web. Cải thiện khả năng tương tác với người dùng cuối (khách hàng) được nâng cao, dễ dàng thao tác, truy cập và điều hướng.</span></p>
+<p><span style="color: #5739eb;"><span style="color: #000000;">JavaScript có thể sử dụng để tạo ra các loại phần mềm khác nhau như: trò chơi, chương trình</span> <a href="https://fptshop.com.vn/may-tinh-xach-tay" style="color: #5739eb;">máy tính</a><span style="color: #000000;">, ứng dụng web và thậm chí cả các công nghệ chuỗi khối (Blockchain) mà thời gian gần đây bạn thường nghe tới.</span></span></p>
+<h3><strong><span style="color: #5739eb;">Trò chơi trực tuyến ngay trên website - Games on website</span></strong></h3>
+<p><span style="color: #000000;">Javascript là mã nguồn không thể thiếu trong các trò chơi trực tuyến. Chắc hẳn bạn đã từng biết hay chơi thử game như: Gunny, Võ lâm truyền kỳ… đều có sử dụng công nghệ này để phát triển.</span></p>
+<p><span style="color: #000000;">Khi HTML5 được phát hành, các nhà lập trình đã kết hợp với JavaScript để tăng thêm những trải nghiệm trong game, tăng tính tương tác và thực sự hoàn hảo với việc phát triển các trò chơi trên web.</span></p>
+<p><span style="color: #5739eb;"><img loading="lazy" src="https://cdn2.fptshop.com.vn/unsafe/Uploads/images/tin-tuc/151984/Originals/javascript-la-gi%20(1).jpg" alt="JavaScript là gì?" data-is-external-image="true"></span></p>
+<h3><span style="color: #5739eb;">Phát triển các ứng dụng web - Web applications</span></h3>
+<p><span style="color: #000000;">Nhờ có JavaScript, các nhà lập trình có thể phát triển trình ứng dụng web giàu tính tương tác với kết nối trên một sever từ xa. Một trong những ứng dụng phổ biến đó là Google Maps khi cung cấp cho người dùng nhiều thông tin trên một giao diện web đơn giản.</span></p>
+<p><span style="color: #000000;">Nhờ các framework nổi bật như VueJS, Angular hỗ trợ JavaScript trong khả năng xây dựng giao diện người dùng và kết hợp hoàn hảo với Node.js để xây dựng phần back-end (phần quản trị máy chủ, dữ liệu…).</span></p>
+<h3><span style="color: #5739eb;">Ứng dụng điện thoại - Mobile applications</span></h3>
+<p><span style="color: #5739eb;"><span style="color: #000000;">Sự phát triển của các ứng dụng trên</span> <a href="https://fptshop.com.vn/dien-thoai" style="color: #5739eb;">điện thoại</a> <span style="color: #000000;">cho cả Android và iOS cũng có sự đóng góp lớn từ JavaScript. Các nhà phát triển ứng dụng trên điện thoại sử dụng JS để xây dựng các kịch bản khác nhau, những tình huống và kết quả khác nhau từ thao tác của người dùng.</span></span></p>
+<p><span style="color: #5739eb;"><img loading="lazy" src="https://cdn2.fptshop.com.vn/unsafe/Uploads/images/tin-tuc/151984/Originals/javascript-la-gi%20(1).jpeg" alt="JavaScript là gì?" data-is-external-image="true"></span></p>
+<h3><span style="color: #5739eb;">Kết nối vạn vật - Internet of Things (IoT)</span></h3>
+<p><span style="color: #5739eb;"><a href="https://fptshop.com.vn/tin-tuc/danh-gia/iot-la-gi-moi-thu-ban-can-biet-ve-internet-of-things-135411" style="color: #5739eb;">Kết nối vạn vật IoT</a> <span style="color: #000000;">có thể hiểu đơn giản là kết nối nhiều thiết bị công nghệ và JavaScript có khả năng tạo ra những phần mã để phục vụ mục đích này. Với sự kết hợp như Arduino cho phép viết được các mã nguồn hỗ trợ cả phần cứng lẫn phần mềm như: định vị GPS, công tắc,…</span></span></p>
+<p><span style="color: #5739eb;"><span style="color: #000000;">Xem thêm:</span> <em><a href="https://fptshop.com.vn/tin-tuc/danh-gia/scratch-la-gi-va-tai-sao-ngon-ngu-lap-trinh-nay-lai-tuyet-voi-cho-tre-151244" title="scratch-la-gi-va-tai-sao-ngon-ngu-lap-trinh-nay-lai-tuyet-voi-cho-tre-151244" style="color: #5739eb;">Scratch là gì và tại sao ngôn ngữ lập trình này lại tuyệt vời cho trẻ?</a></em></span></p>
+<h2 id="article-detail-2"><span style="color: #5739eb;">Ưu điểm của JavaScript là gì?</span></h2>
+<h3><span style="color: #5739eb;">Ít tương tác với máy chủ hơn</span></h3>
+<p><span style="color: #000000;">Bạn có thể xác thực đầu vào của người dùng trước khi gửi trang đến máy chủ. Điều này tiết kiệm lưu lượng máy chủ, có nghĩa là tải ít hơn trên máy chủ của bạn.</span></p>
+<h3><span style="color: #5739eb;">Khả năng phản hồi nhanh chóng</span></h3>
+<p><span style="color: #000000;">Khách truy cập trang web không phải chờ đợi quá lâu để tải lại trang vì có sự hỗ trợ của JavaScript.</span></p>
+<h3><span style="color: #5739eb;">Tạo trang web giàu tính tương tác</span></h3>
+<p><span style="color: #000000;">Các giao diện bao gồm HTML và CSS chỉ cho người dùng những tính năng cơ bản. Khi được kết hợp với JavaScript, người dùng sẽ được trải nghiệm những phản ứng, kịch bản đã được chuẩn bị từ trước.</span></p>
+<p><span style="color: #5739eb;"><img loading="lazy" src="https://cdn2.fptshop.com.vn/unsafe/Uploads/images/tin-tuc/151984/Originals/javascript-la-gi%20(2).jpg" alt="JavaScript là gì?" data-is-external-image="true"></span></p>
+<h3><span style="color: #5739eb;">Giao diện phát triển phong phú</span></h3>
+<p>Với hơn 90% trang web sử dụng JavaScript, các thư viện mã nguồn hỗ trợ cho JS cũng được xây dựng đa dạng. Một số thư viện mã nguồn JS có thể kể đến:</p>
+<ul>
+<li><strong><span style="color: #5739eb;">Algolia Places: </span></strong>Thư viện phát triển để hỗ trợ các form mẫu: tên, địa chỉ, ngày sinh, nghề nghiệp, học vấn…</li>
+<li><strong><span style="color: #5739eb;">AOS – Animate On Scroll:</span></strong> Hỗ trợ trải nghiệm chuyển động cuộn mượt mà hơn.</li>
+<li><strong><span style="color: #5739eb;">Chart.js:</span></strong> Cung cấp các mẫu biểu đồ được viết bằng JS sẵn, người dùng chỉ cần tích hợp vào hệ thống của mình.</li>
+<li><strong><span style="color: #5739eb;">ReactJS:</span></strong> Là một trong những thư viện quan trọng và được nhiều lập trình viên sử dụng để xây dựng giao diện người dùng dựa trên các UI đơn lẻ.</li>
+</ul>
+<h2 id="article-detail-3"><span style="color: #5739eb;">Hạn chế của JavaScript là gì?</span></h2>
+<p>Tuy có nhiều ưu điểm, nhưng JavaScript cũng có những nhược điểm sau:</p>
+<h3><strong><span style="color: #5739eb;">Dễ bị khai thác, chèn mã độc</span></strong></h3>
+<p>Dễ bị khai thác, tính an ninh không cao khi phía máy người dùng truy cập không cho đọc và ghi tệp. Chính điều này gây ảnh hưởng khi đối tượng xấu có thể thực thi gắn mã độc trên máy người dùng.</p>
+<p><img loading="lazy" src="https://cdn2.fptshop.com.vn/unsafe/Uploads/images/tin-tuc/151984/Originals/javascript-la-gi%20(3).png" alt="JavaScript là gì?" data-is-external-image="true"></p>
+<h3><strong><span style="color: #5739eb;">Hạn chế trên một số trình duyệt</span></strong></h3>
+<p>Tuy được hỗ trợ trên đa số các trình duyệt phổ biến hiện nay nhưng trong quá trình hoạt động cũng có một số trình duyệt không hỗ trợ JavaScript hoặc trên một số trang web sử dụng JS để ngăn chặn vài thao tác từ người dùng, gây khó khăn trong việc duyệt web.</p>
+<h3><strong><span style="color: #5739eb;">Hiển thị khác nhau trên các thiết bị khác nhau</span></strong></h3>
+<p>Cùng một mã nguồn JS được viết nhưng khi trên các trình duyệt khác nhau lại tạo ra những hiển thị khác nhau, khiến các nhà lập trình cần tối ưu cho từng thiết bị và trình duyệt. Điều này có thể tạo sự không đồng nhất khi phát triển website.</p>
+<p>Trên đây là những thông tin về JavaScript là gì và phân tích ưu - nhược điểm của JavaScript. Nếu bạn thấy bài viết hữu ích, thì hãy chia sẻ đến với mọi người nhé. Cảm ơn các bạn đã theo dõi.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Java</title>
+        <author>
+            <name>Quốc Bảo</name>
+        </author>
+        <link href="https://doanquocbao9.github.io/Blog/java-la-gi.html"/>
+        <id>https://doanquocbao9.github.io/Blog/java-la-gi.html</id>
+        <media:content url="https://doanquocbao9.github.io/Blog/media/posts/3/java-la-gi-dac-diem-noi-bat-cua-ngon-ngu-lap-trinh-java.jpg" medium="image" />
+
+        <updated>2024-12-28T16:47:24+07:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://doanquocbao9.github.io/Blog/media/posts/3/java-la-gi-dac-diem-noi-bat-cua-ngon-ngu-lap-trinh-java.jpg" alt="" />
+                    Java là gì? Java là ngôn ngữ lập&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://doanquocbao9.github.io/Blog/media/posts/3/java-la-gi-dac-diem-noi-bat-cua-ngon-ngu-lap-trinh-java.jpg" class="type:primaryImage" alt="" /></p>
+                <h2 id="article-detail-0"><strong><span style="color: #5739eb;">Java là gì?</span></strong></h2>
+<p><span style="color: #000000;">Java là ngôn ngữ lập trình đa nền tảng (cross-platform), được phát triển bởi James Gosling tại Sun Microsystems (nay là Oracle Corporation). Ngôn ngữ lập trình này ra đời vào năm 1995 và được thiết kế để có thể chạy trên các nền tảng khác nhau, từ máy tính cá nhân đến thiết bị di động, các máy chủ và thiết bị nhúng.</span></p>
+<p><span style="color: #000000;">Java sử dụng cấu trúc lập trình hướng đối tượng (object-oriented programming - OOP) và được xây dựng trên cơ sở của ngôn ngữ lập trình C++. Nó cung cấp một môi trường chạy ảo (virtual machine) gọi là Java Virtual Machine (JVM), giúp các chương trình Java có thể chạy trên nhiều nền tảng khác nhau mà không cần phải biên dịch lại.</span></p>
+<figure class="post__image"><strong><span style="color: #5739eb;"><img loading="lazy"  src="https://doanquocbao9.github.io/Blog/media/posts/3/java-la-gi-3.jpg" alt="" width="1200" height="800" sizes="(min-width: 760px) 660px, calc(93.18vw - 30px)" srcset="https://doanquocbao9.github.io/Blog/media/posts/3/responsive/java-la-gi-3-xs.jpg 320w ,https://doanquocbao9.github.io/Blog/media/posts/3/responsive/java-la-gi-3-sm.jpg 480w ,https://doanquocbao9.github.io/Blog/media/posts/3/responsive/java-la-gi-3-md.jpg 768w ,https://doanquocbao9.github.io/Blog/media/posts/3/responsive/java-la-gi-3-xl.jpg 1024w"></figure></span></strong></p>
+<p><span style="color: #000000;">Hiện tại, Java là một trong những ngôn ngữ lập trình phổ biến nhất hiện nay, được sử dụng rộng rãi trong các ứng dụng di động, phát triển web, lập trình trên các thiết bị nhúng, máy tính cá nhân, máy chủ, game và nhiều lĩnh vực khác.</span></p>
+<h2 id="article-detail-1"><strong><span style="color: #5739eb;">Các tính năng của Java</span></strong></h2>
+<h3><strong><span style="color: #5739eb;">Đa nền tảng</span></strong></h3>
+<p><span style="color: #000000;">Java được thiết kế để có thể chạy trên nhiều nền tảng khác nhau, vì vậy nó rất phù hợp cho việc phát triển các ứng dụng đa nền tảng. Java sử dụng một máy ảo (JVM - Java Virtual Machine) để chạy mã nguồn, vì vậy mã nguồn được viết một lần và có thể chạy trên nhiều hệ điều hành khác nhau mà không cần thay đổi.</span></p>
+<h3><strong><span style="color: #5739eb;">Quản lý bộ nhớ tự động</span></strong></h3>
+<p><span style="color: #000000;">Java có tính năng tự động quản lý bộ nhớ, tức là nó tự động thu dọn các vùng nhớ không sử dụng nữa để giảm thiểu các lỗi bộ nhớ. Điều này giúp cho các ứng dụng được viết bằng Java có thể chạy ổn định và tránh các lỗi liên quan đến bộ nhớ.</span></p>
+<h3><strong><span style="color: #5739eb;">Hỗ trợ đa luồng</span></strong></h3>
+<p><span style="color: #000000;">Java có thể xử lý đa luồng, cho phép chương trình thực hiện nhiều tác vụ cùng một lúc. Điều này giúp cho các ứng dụng có thể chạy nhanh và hiệu quả hơn, đặc biệt là khi phải xử lý nhiều tác vụ cùng một lúc.</span></p>
+<figure class="post__image"><strong><span style="color: #5739eb;"><img loading="lazy"  src="https://doanquocbao9.github.io/Blog/media/posts/3/java-la-gi2.jpg" alt="" width="1200" height="600" sizes="(min-width: 760px) 660px, calc(93.18vw - 30px)" srcset="https://doanquocbao9.github.io/Blog/media/posts/3/responsive/java-la-gi2-xs.jpg 320w ,https://doanquocbao9.github.io/Blog/media/posts/3/responsive/java-la-gi2-sm.jpg 480w ,https://doanquocbao9.github.io/Blog/media/posts/3/responsive/java-la-gi2-md.jpg 768w ,https://doanquocbao9.github.io/Blog/media/posts/3/responsive/java-la-gi2-xl.jpg 1024w"></figure></span></strong></p>
+<h3><strong><span style="color: #5739eb;">Tính bảo mật cao</span></strong></h3>
+<p><span style="color: #000000;">Java có các tính năng bảo mật như kiểm tra kiểu tĩnh và kiểm tra lỗi trên đường dẫn. Java được thiết kế để giảm thiểu các lỗ hổng bảo mật và các vấn đề liên quan đến an ninh.</span></p>
+<h3><strong><span style="color: #5739eb;">Hỗ trợ các thư viện và công cụ phát triển mạnh mẽ</span></strong></h3>
+<p><span style="color: #000000;">Java có các thư viện tiêu chuẩn và các công cụ phát triển như IDE (Integrated Development Environment) để giúp các nhà phát triển tạo ra các ứng dụng dễ dàng hơn. Các thư viện và công cụ này cung cấp các tính năng như: tạo giao diện người dùng, xử lý dữ liệu, kết nối cơ sở dữ liệu và nhiều hơn nữa,...</span></p>
+<h3><strong><span style="color: #5739eb;">Tính di động</span></strong></h3>
+<p><span style="color: #000000;">Java được sử dụng rộng rãi trong lĩnh vực di động bao gồm: các thư viện hỗ trợ việc phát triển ứng dụng di động, đóng gói ứng dụng thành các file .jar hoặc .apk, cung cấp các tính năng như xử lý đa nhiệm, kết nối mạng và tích hợp với các thiết bị phần cứng như máy ảnh.</span></p>
+<h3><strong><span style="color: #5739eb;">Tính độc lập với nền tảng</span></strong></h3>
+<p><span style="color: #000000;">Java có thể chạy trên nhiều nền tảng khác nhau và không phụ thuộc vào bất kỳ nền tảng cụ thể nào. Điều này giúp cho các ứng dụng Java có thể được triển khai trên nhiều hệ thống khác nhau mà không cần sửa đổi mã nguồn.</span></p>
+<h3><strong><span style="color: #5739eb;">Tính kế thừa và đa hình</span></strong></h3>
+<p><span style="color: #000000;">Java là ngôn ngữ lập trình hướng đối tượng (OOP), vì vậy nó có các tính năng như kế thừa, đa hình và đóng gói. Các tính năng này giúp cho mã nguồn được tái sử dụng và giảm thiểu sự trùng lặp trong mã nguồn.</span></p>
+<h3><strong><span style="color: #5739eb;">Tính mở rộng</span></strong></h3>
+<p><span style="color: #000000;">Java có tính năng mở rộng, cho phép các nhà phát triển thêm các tính năng mới vào ngôn ngữ bằng cách tạo các thư viện và API riêng. Điều này giúp cho Java có thể được sử dụng trong nhiều lĩnh vực khác nhau và được phát triển theo các hướng khác nhau.</span></p>
+<figure class="post__image"><strong><span style="color: #5739eb;"><img loading="lazy"  src="https://doanquocbao9.github.io/Blog/media/posts/3/java-la-gi3.jpg" alt="" width="600" height="400" sizes="(min-width: 760px) 660px, calc(93.18vw - 30px)" srcset="https://doanquocbao9.github.io/Blog/media/posts/3/responsive/java-la-gi3-xs.jpg 320w ,https://doanquocbao9.github.io/Blog/media/posts/3/responsive/java-la-gi3-sm.jpg 480w ,https://doanquocbao9.github.io/Blog/media/posts/3/responsive/java-la-gi3-md.jpg 768w ,https://doanquocbao9.github.io/Blog/media/posts/3/responsive/java-la-gi3-xl.jpg 1024w"></figure></span></strong></p>
+<h2 id="article-detail-2"><strong><span style="color: #5739eb;">Ưu &amp; nhược điểm của Java</span></strong></h2>
+<h3><strong><span style="color: #5739eb;">Ưu điểm của Java</span></strong></h3>
+<ul>
+<li>Độ tin cậy cao</li>
+<li>Tính đa nền tảng</li>
+<li>Quản lý bộ nhớ tự động</li>
+<li>Công cụ phát triển phong phú</li>
+<li>Hỗ trợ đa luồng</li>
+</ul>
+<figure class="post__image"><img loading="lazy"  src="https://doanquocbao9.github.io/Blog/media/posts/3/java-la-gi4.png" alt="" width="1600" height="898" sizes="(min-width: 760px) 660px, calc(93.18vw - 30px)" srcset="https://doanquocbao9.github.io/Blog/media/posts/3/responsive/java-la-gi4-xs.png 320w ,https://doanquocbao9.github.io/Blog/media/posts/3/responsive/java-la-gi4-sm.png 480w ,https://doanquocbao9.github.io/Blog/media/posts/3/responsive/java-la-gi4-md.png 768w ,https://doanquocbao9.github.io/Blog/media/posts/3/responsive/java-la-gi4-xl.png 1024w"></figure>
+<h3><strong><span style="color: #5739eb;">Nhược điểm của Java</span></strong></h3>
+<ul>
+<li>Tốc độ chậm hơn so với các ngôn ngữ lập trình gần sát với phần cứng, chẳng hạn như C hoặc C++.</li>
+<li>Java có thể chạy trên nhiều nền tảng khác nhau, nhưng ứng dụng này có thể cần đến một trình biên dịch hoặc máy ảo Java riêng biệt để có thể chạy trên các thiết bị di động.</li>
+<li>Sử dụng bộ nhớ lớn hơn so với một số ngôn ngữ lập trình khác.</li>
+<li>Cú pháp phức tạp hơn so với một số ngôn ngữ lập trình khác</li>
+</ul>
+<h2 id="article-detail-3"><strong><span style="color: #5739eb;">Java được sử dụng để làm gì?</span></strong></h2>
+<h3><strong><span style="color: #5739eb;">Phát triển ứng dụng máy tính</span></strong></h3>
+<p>Java là một trong những ngôn ngữ lập trình phổ biến nhất để phát triển các ứng dụng máy tính đa nền tảng. Java có thể được sử dụng để phát triển các ứng dụng trên máy tính để bàn, máy chủ và các ứng dụng trên nền web. Nó cung cấp các thư viện mạnh mẽ để xử lý các nhu cầu của các ứng dụng máy tính như xử lý dữ liệu, đồ họa, đầu vào và đầu ra.</p>
+<h3><strong><span style="color: #5739eb;">Phát triển ứng dụng di động</span></strong></h3>
+<p>Java là một trong những ngôn ngữ lập trình phổ biến nhất để phát triển các ứng dụng di động cho <span style="color: #5739eb;"><strong><a href="https://fptshop.com.vn/tin-tuc/danh-gia/he-dieu-hanh-android-la-gi-lich-su-va-nhung-cau-chuyen-thu-vi-ve-android-152248" style="color: #5739eb;">hệ điều hành Android</a>.</strong></span> Nó được sử dụng để phát triển các ứng dụng cho điện thoại di động và máy tính bảng. Java cung cấp một số khung như Android SDK để phát triển ứng dụng di động.</p>
+<h3><span style="color: #5739eb;">Phát triển game</span></h3>
+<p>Java cũng được sử dụng để phát triển các game trên nhiều nền tảng khác nhau, bao gồm các game trên máy tính, điện thoại di động và máy tính bảng. Các tính năng của Java như: tính đa luồng, xử lý đồ họa âm thanh đã được sử dụng để phát triển các game phức tạp.</p>
+<h3><strong><span style="color: #5739eb;">Phát triển web</span></strong></h3>
+<p><span style="color: #000000;">Java cung cấp các công cụ để phát triển các ứng dụng web động và tĩnh. Servlets, JSP (Java Server Pages), Spring Framework, Struts Framework,... là một số ví dụ về các công cụ phổ biến được sử dụng để phát triển các ứng dụng web bằng Java. Java cũng được sử dụng để phát triển các ứng dụng trên máy chủ và trình duyệt web.</span></p>
+<h3><strong><span style="color: #5739eb;">Phát triển các hệ thống quản lý cơ sở dữ liệu</span></strong></h3>
+<p>Java được dùng để phát triển các hệ thống quản lý cơ sở dữ liệu như Oracle và MySQL. Đồng thời, Java cũng cung cấp các API để kết nối và tương tác với các cơ sở dữ liệu, cho phép người phát triển tạo các ứng dụng quản lý cơ sở dữ liệu phức tạp và linh hoạt.</p>
+<h3><strong><span style="color: #5739eb;">Phát triển các ứng dụng IoT</span></strong></h3>
+<p>Java có thể phát triển các ứng dụng IoT <span style="text-decoration: underline;">(</span>Internet of Things). Java có tính năng đa nền tảng, cho phép các ứng dụng được phát triển trên các thiết bị di động và chạy trên các thiết bị IoT khác nhau. Ngôn ngữ này cung cấp các công cụ và thư viện để phát triển các ứng dụng IoT, dùng để kết nối các thiết bị và xử lý dữ liệu.</p>
+<h3><strong><span style="color: #5739eb;">Phát triển các ứng dụng trí tuệ nhân tạo</span></strong></h3>
+<p>Java cũng được sử dụng để phát triển các ứng dụng trí tuệ nhân tạo (AI). Các tính năng của Java như xử lý đa luồng và tính năng hướng đối tượng cho phép người phát triển tạo các ứng dụng AI phức tạp.</p>
+<h3><strong><span style="color: #5739eb;">Phát triển các ứng dụng blockchain</span></strong></h3>
+<p>Java cũng có thể được sử dụng để phát triển các ứng dụng blockchain. Các tính năng của Java như độ bảo mật cao, độ tin cậy và khả năng xử lý các giao dịch trên mạng đã được sử dụng để phát triển các ứng dụng blockchain phức tạp.</p>
+<h2 id="article-detail-4"><strong><span style="color: #5739eb;">Có nên học lập trình Java?</span></strong></h2>
+<figure class="post__image"><img loading="lazy"  src="https://doanquocbao9.github.io/Blog/media/posts/3/java-la-gi11.jpg" alt="" width="1540" height="800" sizes="(min-width: 760px) 660px, calc(93.18vw - 30px)" srcset="https://doanquocbao9.github.io/Blog/media/posts/3/responsive/java-la-gi11-xs.jpg 320w ,https://doanquocbao9.github.io/Blog/media/posts/3/responsive/java-la-gi11-sm.jpg 480w ,https://doanquocbao9.github.io/Blog/media/posts/3/responsive/java-la-gi11-md.jpg 768w ,https://doanquocbao9.github.io/Blog/media/posts/3/responsive/java-la-gi11-xl.jpg 1024w"></figure>
+<p>Java là một trong những ngôn ngữ lập trình được sử dụng rộng rãi nhất trên thế giới, đặc biệt là trong lĩnh vực phát triển phần mềm doanh nghiệp và các ứng dụng web.</p>
+<p>Với sự phổ biến của Java, cơ hội việc làm trong lĩnh vực phát triển phần mềm và công nghệ thông tin liên quan đến Java là rất lớn. Nếu bạn là một lập trình viên Java tốt, bạn sẽ có cơ hội để làm việc tại các công ty công nghệ lớn như Oracle, IBM, Amazon và nhiều công ty khác.</p>
+<figure class="post__image"><img loading="lazy"  src="https://doanquocbao9.github.io/Blog/media/posts/3/java-la-gi44-2.png" alt="" width="1200" height="685" sizes="(min-width: 760px) 660px, calc(93.18vw - 30px)" srcset="https://doanquocbao9.github.io/Blog/media/posts/3/responsive/java-la-gi44-2-xs.png 320w ,https://doanquocbao9.github.io/Blog/media/posts/3/responsive/java-la-gi44-2-sm.png 480w ,https://doanquocbao9.github.io/Blog/media/posts/3/responsive/java-la-gi44-2-md.png 768w ,https://doanquocbao9.github.io/Blog/media/posts/3/responsive/java-la-gi44-2-xl.png 1024w"></figure>
+<p>Cộng đồng lập trình Java rất lớn, với nhiều diễn đàn, tài liệu và các tài nguyên khác, giúp cho việc học tập và giải đáp thắc mắc của bạn trở nên dễ dàng hơn. Nếu bạn yêu thích ngành nghề này, có thể cân nhắc học và sớm trở thành một lập trình viên giàu kinh nghiệm trong tương lai.</p>
+<p>Hi vọng qua bài viết sẽ giúp các bạn hiểu hơn về thuật ngữ "<a href="https://fptshop.com.vn/tin-tuc/danh-gia/java-la-gi-156801">Java là gì</a>" trước khi đầu tư thời gian và công sức để tìm hiểu ngôn ngữ lập trình này.</p>
+            ]]>
+        </content>
+    </entry>
+</feed>
