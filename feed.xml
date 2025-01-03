@@ -3,38 +3,12 @@
     <title>#blogwithbao</title>
     <link href="https://doanquocbao9.github.io/Blog/feed.xml" rel="self" />
     <link href="https://doanquocbao9.github.io/Blog" />
-    <updated>2025-01-03T12:57:18+07:00</updated>
+    <updated>2024-12-29T05:34:03+07:00</updated>
     <author>
         <name>Quốc Bảo</name>
     </author>
     <id>https://doanquocbao9.github.io/Blog</id>
 
-    <entry>
-        <title>CERTIFICATE</title>
-        <author>
-            <name>Quốc Bảo</name>
-        </author>
-        <link href="https://doanquocbao9.github.io/Blog/certificate.html"/>
-        <id>https://doanquocbao9.github.io/Blog/certificate.html</id>
-
-        <updated>2025-01-03T12:57:06+07:00</updated>
-            <summary>
-                <![CDATA[
-                    JavaScript Essentials 2 JavaScript Essentials 1 Networking Basics
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <figure class="post__image align-center"><strong><span style="color: #5739eb;"><img loading="lazy"  src="https://doanquocbao9.github.io/Blog/media/posts/14/Screenshot-2024-12-31-221428.png" alt="" width="963" height="747" sizes="(min-width: 760px) 660px, calc(93.18vw - 30px)" srcset="https://doanquocbao9.github.io/Blog/media/posts/14/responsive/Screenshot-2024-12-31-221428-xs.png 320w ,https://doanquocbao9.github.io/Blog/media/posts/14/responsive/Screenshot-2024-12-31-221428-sm.png 480w ,https://doanquocbao9.github.io/Blog/media/posts/14/responsive/Screenshot-2024-12-31-221428-md.png 768w ,https://doanquocbao9.github.io/Blog/media/posts/14/responsive/Screenshot-2024-12-31-221428-xl.png 1024w"></figure></span></strong></p>
-<p class="align-center"><strong><span style="color: #5739eb;">JavaScript Essentials 2</span></strong></p>
-<p class="align-center"> </p>
-<p class="align-center"><strong><span style="color: #5739eb;"><img loading="lazy" src="file:///C:/Users/quocbao/Pictures/Screenshots/Screenshot%202024-12-31%20221504.png" data-is-external-image="true"></span></strong></p>
-<p class="align-center"><strong><span style="color: #5739eb;">JavaScript Essentials 1</span></strong></p>
-<figure class="post__image"><strong><span style="color: #5739eb;"><img loading="lazy"  src="https://doanquocbao9.github.io/Blog/media/posts/14/Screenshot-2024-12-31-221813.png" alt="" width="907" height="688" sizes="(min-width: 760px) 660px, calc(93.18vw - 30px)" srcset="https://doanquocbao9.github.io/Blog/media/posts/14/responsive/Screenshot-2024-12-31-221813-xs.png 320w ,https://doanquocbao9.github.io/Blog/media/posts/14/responsive/Screenshot-2024-12-31-221813-sm.png 480w ,https://doanquocbao9.github.io/Blog/media/posts/14/responsive/Screenshot-2024-12-31-221813-md.png 768w ,https://doanquocbao9.github.io/Blog/media/posts/14/responsive/Screenshot-2024-12-31-221813-xl.png 1024w"></figure></span></strong></p>
-<p class="align-center"><strong><span style="color: #5739eb;">Networking Basics</span></strong></p>
-            ]]>
-        </content>
-    </entry>
     <entry>
         <title>Tạo biểu đồ tròn bằng JavaScript</title>
         <author>
@@ -1770,6 +1744,95 @@ let average3 = findAverage(...)
 <h3><strong><span style="color: #5739eb;">Hiển thị khác nhau trên các thiết bị khác nhau</span></strong></h3>
 <p>Cùng một mã nguồn JS được viết nhưng khi trên các trình duyệt khác nhau lại tạo ra những hiển thị khác nhau, khiến các nhà lập trình cần tối ưu cho từng thiết bị và trình duyệt. Điều này có thể tạo sự không đồng nhất khi phát triển website.</p>
 <p>Trên đây là những thông tin về JavaScript là gì và phân tích ưu - nhược điểm của JavaScript. Nếu bạn thấy bài viết hữu ích, thì hãy chia sẻ đến với mọi người nhé. Cảm ơn các bạn đã theo dõi.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Java</title>
+        <author>
+            <name>Quốc Bảo</name>
+        </author>
+        <link href="https://doanquocbao9.github.io/Blog/java-la-gi.html"/>
+        <id>https://doanquocbao9.github.io/Blog/java-la-gi.html</id>
+        <media:content url="https://doanquocbao9.github.io/Blog/media/posts/3/java-la-gi-dac-diem-noi-bat-cua-ngon-ngu-lap-trinh-java.jpg" medium="image" />
+
+        <updated>2024-12-28T16:47:24+07:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://doanquocbao9.github.io/Blog/media/posts/3/java-la-gi-dac-diem-noi-bat-cua-ngon-ngu-lap-trinh-java.jpg" alt="" />
+                    Java là gì? Java là ngôn ngữ lập&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://doanquocbao9.github.io/Blog/media/posts/3/java-la-gi-dac-diem-noi-bat-cua-ngon-ngu-lap-trinh-java.jpg" class="type:primaryImage" alt="" /></p>
+                <h2 id="article-detail-0"><strong><span style="color: #5739eb;">Java là gì?</span></strong></h2>
+<p><span style="color: #000000;">Java là ngôn ngữ lập trình đa nền tảng (cross-platform), được phát triển bởi James Gosling tại Sun Microsystems (nay là Oracle Corporation). Ngôn ngữ lập trình này ra đời vào năm 1995 và được thiết kế để có thể chạy trên các nền tảng khác nhau, từ máy tính cá nhân đến thiết bị di động, các máy chủ và thiết bị nhúng.</span></p>
+<p><span style="color: #000000;">Java sử dụng cấu trúc lập trình hướng đối tượng (object-oriented programming - OOP) và được xây dựng trên cơ sở của ngôn ngữ lập trình C++. Nó cung cấp một môi trường chạy ảo (virtual machine) gọi là Java Virtual Machine (JVM), giúp các chương trình Java có thể chạy trên nhiều nền tảng khác nhau mà không cần phải biên dịch lại.</span></p>
+<figure class="post__image"><strong><span style="color: #5739eb;"><img loading="lazy"  src="https://doanquocbao9.github.io/Blog/media/posts/3/java-la-gi-3.jpg" alt="" width="1200" height="800" sizes="(min-width: 760px) 660px, calc(93.18vw - 30px)" srcset="https://doanquocbao9.github.io/Blog/media/posts/3/responsive/java-la-gi-3-xs.jpg 320w ,https://doanquocbao9.github.io/Blog/media/posts/3/responsive/java-la-gi-3-sm.jpg 480w ,https://doanquocbao9.github.io/Blog/media/posts/3/responsive/java-la-gi-3-md.jpg 768w ,https://doanquocbao9.github.io/Blog/media/posts/3/responsive/java-la-gi-3-xl.jpg 1024w"></figure></span></strong></p>
+<p><span style="color: #000000;">Hiện tại, Java là một trong những ngôn ngữ lập trình phổ biến nhất hiện nay, được sử dụng rộng rãi trong các ứng dụng di động, phát triển web, lập trình trên các thiết bị nhúng, máy tính cá nhân, máy chủ, game và nhiều lĩnh vực khác.</span></p>
+<h2 id="article-detail-1"><strong><span style="color: #5739eb;">Các tính năng của Java</span></strong></h2>
+<h3><strong><span style="color: #5739eb;">Đa nền tảng</span></strong></h3>
+<p><span style="color: #000000;">Java được thiết kế để có thể chạy trên nhiều nền tảng khác nhau, vì vậy nó rất phù hợp cho việc phát triển các ứng dụng đa nền tảng. Java sử dụng một máy ảo (JVM - Java Virtual Machine) để chạy mã nguồn, vì vậy mã nguồn được viết một lần và có thể chạy trên nhiều hệ điều hành khác nhau mà không cần thay đổi.</span></p>
+<h3><strong><span style="color: #5739eb;">Quản lý bộ nhớ tự động</span></strong></h3>
+<p><span style="color: #000000;">Java có tính năng tự động quản lý bộ nhớ, tức là nó tự động thu dọn các vùng nhớ không sử dụng nữa để giảm thiểu các lỗi bộ nhớ. Điều này giúp cho các ứng dụng được viết bằng Java có thể chạy ổn định và tránh các lỗi liên quan đến bộ nhớ.</span></p>
+<h3><strong><span style="color: #5739eb;">Hỗ trợ đa luồng</span></strong></h3>
+<p><span style="color: #000000;">Java có thể xử lý đa luồng, cho phép chương trình thực hiện nhiều tác vụ cùng một lúc. Điều này giúp cho các ứng dụng có thể chạy nhanh và hiệu quả hơn, đặc biệt là khi phải xử lý nhiều tác vụ cùng một lúc.</span></p>
+<figure class="post__image"><strong><span style="color: #5739eb;"><img loading="lazy"  src="https://doanquocbao9.github.io/Blog/media/posts/3/java-la-gi2.jpg" alt="" width="1200" height="600" sizes="(min-width: 760px) 660px, calc(93.18vw - 30px)" srcset="https://doanquocbao9.github.io/Blog/media/posts/3/responsive/java-la-gi2-xs.jpg 320w ,https://doanquocbao9.github.io/Blog/media/posts/3/responsive/java-la-gi2-sm.jpg 480w ,https://doanquocbao9.github.io/Blog/media/posts/3/responsive/java-la-gi2-md.jpg 768w ,https://doanquocbao9.github.io/Blog/media/posts/3/responsive/java-la-gi2-xl.jpg 1024w"></figure></span></strong></p>
+<h3><strong><span style="color: #5739eb;">Tính bảo mật cao</span></strong></h3>
+<p><span style="color: #000000;">Java có các tính năng bảo mật như kiểm tra kiểu tĩnh và kiểm tra lỗi trên đường dẫn. Java được thiết kế để giảm thiểu các lỗ hổng bảo mật và các vấn đề liên quan đến an ninh.</span></p>
+<h3><strong><span style="color: #5739eb;">Hỗ trợ các thư viện và công cụ phát triển mạnh mẽ</span></strong></h3>
+<p><span style="color: #000000;">Java có các thư viện tiêu chuẩn và các công cụ phát triển như IDE (Integrated Development Environment) để giúp các nhà phát triển tạo ra các ứng dụng dễ dàng hơn. Các thư viện và công cụ này cung cấp các tính năng như: tạo giao diện người dùng, xử lý dữ liệu, kết nối cơ sở dữ liệu và nhiều hơn nữa,...</span></p>
+<h3><strong><span style="color: #5739eb;">Tính di động</span></strong></h3>
+<p><span style="color: #000000;">Java được sử dụng rộng rãi trong lĩnh vực di động bao gồm: các thư viện hỗ trợ việc phát triển ứng dụng di động, đóng gói ứng dụng thành các file .jar hoặc .apk, cung cấp các tính năng như xử lý đa nhiệm, kết nối mạng và tích hợp với các thiết bị phần cứng như máy ảnh.</span></p>
+<h3><strong><span style="color: #5739eb;">Tính độc lập với nền tảng</span></strong></h3>
+<p><span style="color: #000000;">Java có thể chạy trên nhiều nền tảng khác nhau và không phụ thuộc vào bất kỳ nền tảng cụ thể nào. Điều này giúp cho các ứng dụng Java có thể được triển khai trên nhiều hệ thống khác nhau mà không cần sửa đổi mã nguồn.</span></p>
+<h3><strong><span style="color: #5739eb;">Tính kế thừa và đa hình</span></strong></h3>
+<p><span style="color: #000000;">Java là ngôn ngữ lập trình hướng đối tượng (OOP), vì vậy nó có các tính năng như kế thừa, đa hình và đóng gói. Các tính năng này giúp cho mã nguồn được tái sử dụng và giảm thiểu sự trùng lặp trong mã nguồn.</span></p>
+<h3><strong><span style="color: #5739eb;">Tính mở rộng</span></strong></h3>
+<p><span style="color: #000000;">Java có tính năng mở rộng, cho phép các nhà phát triển thêm các tính năng mới vào ngôn ngữ bằng cách tạo các thư viện và API riêng. Điều này giúp cho Java có thể được sử dụng trong nhiều lĩnh vực khác nhau và được phát triển theo các hướng khác nhau.</span></p>
+<figure class="post__image"><strong><span style="color: #5739eb;"><img loading="lazy"  src="https://doanquocbao9.github.io/Blog/media/posts/3/java-la-gi3.jpg" alt="" width="600" height="400" sizes="(min-width: 760px) 660px, calc(93.18vw - 30px)" srcset="https://doanquocbao9.github.io/Blog/media/posts/3/responsive/java-la-gi3-xs.jpg 320w ,https://doanquocbao9.github.io/Blog/media/posts/3/responsive/java-la-gi3-sm.jpg 480w ,https://doanquocbao9.github.io/Blog/media/posts/3/responsive/java-la-gi3-md.jpg 768w ,https://doanquocbao9.github.io/Blog/media/posts/3/responsive/java-la-gi3-xl.jpg 1024w"></figure></span></strong></p>
+<h2 id="article-detail-2"><strong><span style="color: #5739eb;">Ưu &amp; nhược điểm của Java</span></strong></h2>
+<h3><strong><span style="color: #5739eb;">Ưu điểm của Java</span></strong></h3>
+<ul>
+<li>Độ tin cậy cao</li>
+<li>Tính đa nền tảng</li>
+<li>Quản lý bộ nhớ tự động</li>
+<li>Công cụ phát triển phong phú</li>
+<li>Hỗ trợ đa luồng</li>
+</ul>
+<figure class="post__image"><img loading="lazy"  src="https://doanquocbao9.github.io/Blog/media/posts/3/java-la-gi4.png" alt="" width="1600" height="898" sizes="(min-width: 760px) 660px, calc(93.18vw - 30px)" srcset="https://doanquocbao9.github.io/Blog/media/posts/3/responsive/java-la-gi4-xs.png 320w ,https://doanquocbao9.github.io/Blog/media/posts/3/responsive/java-la-gi4-sm.png 480w ,https://doanquocbao9.github.io/Blog/media/posts/3/responsive/java-la-gi4-md.png 768w ,https://doanquocbao9.github.io/Blog/media/posts/3/responsive/java-la-gi4-xl.png 1024w"></figure>
+<h3><strong><span style="color: #5739eb;">Nhược điểm của Java</span></strong></h3>
+<ul>
+<li>Tốc độ chậm hơn so với các ngôn ngữ lập trình gần sát với phần cứng, chẳng hạn như C hoặc C++.</li>
+<li>Java có thể chạy trên nhiều nền tảng khác nhau, nhưng ứng dụng này có thể cần đến một trình biên dịch hoặc máy ảo Java riêng biệt để có thể chạy trên các thiết bị di động.</li>
+<li>Sử dụng bộ nhớ lớn hơn so với một số ngôn ngữ lập trình khác.</li>
+<li>Cú pháp phức tạp hơn so với một số ngôn ngữ lập trình khác</li>
+</ul>
+<h2 id="article-detail-3"><strong><span style="color: #5739eb;">Java được sử dụng để làm gì?</span></strong></h2>
+<h3><strong><span style="color: #5739eb;">Phát triển ứng dụng máy tính</span></strong></h3>
+<p>Java là một trong những ngôn ngữ lập trình phổ biến nhất để phát triển các ứng dụng máy tính đa nền tảng. Java có thể được sử dụng để phát triển các ứng dụng trên máy tính để bàn, máy chủ và các ứng dụng trên nền web. Nó cung cấp các thư viện mạnh mẽ để xử lý các nhu cầu của các ứng dụng máy tính như xử lý dữ liệu, đồ họa, đầu vào và đầu ra.</p>
+<h3><strong><span style="color: #5739eb;">Phát triển ứng dụng di động</span></strong></h3>
+<p>Java là một trong những ngôn ngữ lập trình phổ biến nhất để phát triển các ứng dụng di động cho <span style="color: #5739eb;"><strong><a href="https://fptshop.com.vn/tin-tuc/danh-gia/he-dieu-hanh-android-la-gi-lich-su-va-nhung-cau-chuyen-thu-vi-ve-android-152248" style="color: #5739eb;">hệ điều hành Android</a>.</strong></span> Nó được sử dụng để phát triển các ứng dụng cho điện thoại di động và máy tính bảng. Java cung cấp một số khung như Android SDK để phát triển ứng dụng di động.</p>
+<h3><span style="color: #5739eb;">Phát triển game</span></h3>
+<p>Java cũng được sử dụng để phát triển các game trên nhiều nền tảng khác nhau, bao gồm các game trên máy tính, điện thoại di động và máy tính bảng. Các tính năng của Java như: tính đa luồng, xử lý đồ họa âm thanh đã được sử dụng để phát triển các game phức tạp.</p>
+<h3><strong><span style="color: #5739eb;">Phát triển web</span></strong></h3>
+<p><span style="color: #000000;">Java cung cấp các công cụ để phát triển các ứng dụng web động và tĩnh. Servlets, JSP (Java Server Pages), Spring Framework, Struts Framework,... là một số ví dụ về các công cụ phổ biến được sử dụng để phát triển các ứng dụng web bằng Java. Java cũng được sử dụng để phát triển các ứng dụng trên máy chủ và trình duyệt web.</span></p>
+<h3><strong><span style="color: #5739eb;">Phát triển các hệ thống quản lý cơ sở dữ liệu</span></strong></h3>
+<p>Java được dùng để phát triển các hệ thống quản lý cơ sở dữ liệu như Oracle và MySQL. Đồng thời, Java cũng cung cấp các API để kết nối và tương tác với các cơ sở dữ liệu, cho phép người phát triển tạo các ứng dụng quản lý cơ sở dữ liệu phức tạp và linh hoạt.</p>
+<h3><strong><span style="color: #5739eb;">Phát triển các ứng dụng IoT</span></strong></h3>
+<p>Java có thể phát triển các ứng dụng IoT <span style="text-decoration: underline;">(</span>Internet of Things). Java có tính năng đa nền tảng, cho phép các ứng dụng được phát triển trên các thiết bị di động và chạy trên các thiết bị IoT khác nhau. Ngôn ngữ này cung cấp các công cụ và thư viện để phát triển các ứng dụng IoT, dùng để kết nối các thiết bị và xử lý dữ liệu.</p>
+<h3><strong><span style="color: #5739eb;">Phát triển các ứng dụng trí tuệ nhân tạo</span></strong></h3>
+<p>Java cũng được sử dụng để phát triển các ứng dụng trí tuệ nhân tạo (AI). Các tính năng của Java như xử lý đa luồng và tính năng hướng đối tượng cho phép người phát triển tạo các ứng dụng AI phức tạp.</p>
+<h3><strong><span style="color: #5739eb;">Phát triển các ứng dụng blockchain</span></strong></h3>
+<p>Java cũng có thể được sử dụng để phát triển các ứng dụng blockchain. Các tính năng của Java như độ bảo mật cao, độ tin cậy và khả năng xử lý các giao dịch trên mạng đã được sử dụng để phát triển các ứng dụng blockchain phức tạp.</p>
+<h2 id="article-detail-4"><strong><span style="color: #5739eb;">Có nên học lập trình Java?</span></strong></h2>
+<figure class="post__image"><img loading="lazy"  src="https://doanquocbao9.github.io/Blog/media/posts/3/java-la-gi11.jpg" alt="" width="1540" height="800" sizes="(min-width: 760px) 660px, calc(93.18vw - 30px)" srcset="https://doanquocbao9.github.io/Blog/media/posts/3/responsive/java-la-gi11-xs.jpg 320w ,https://doanquocbao9.github.io/Blog/media/posts/3/responsive/java-la-gi11-sm.jpg 480w ,https://doanquocbao9.github.io/Blog/media/posts/3/responsive/java-la-gi11-md.jpg 768w ,https://doanquocbao9.github.io/Blog/media/posts/3/responsive/java-la-gi11-xl.jpg 1024w"></figure>
+<p>Java là một trong những ngôn ngữ lập trình được sử dụng rộng rãi nhất trên thế giới, đặc biệt là trong lĩnh vực phát triển phần mềm doanh nghiệp và các ứng dụng web.</p>
+<p>Với sự phổ biến của Java, cơ hội việc làm trong lĩnh vực phát triển phần mềm và công nghệ thông tin liên quan đến Java là rất lớn. Nếu bạn là một lập trình viên Java tốt, bạn sẽ có cơ hội để làm việc tại các công ty công nghệ lớn như Oracle, IBM, Amazon và nhiều công ty khác.</p>
+<figure class="post__image"><img loading="lazy"  src="https://doanquocbao9.github.io/Blog/media/posts/3/java-la-gi44-2.png" alt="" width="1200" height="685" sizes="(min-width: 760px) 660px, calc(93.18vw - 30px)" srcset="https://doanquocbao9.github.io/Blog/media/posts/3/responsive/java-la-gi44-2-xs.png 320w ,https://doanquocbao9.github.io/Blog/media/posts/3/responsive/java-la-gi44-2-sm.png 480w ,https://doanquocbao9.github.io/Blog/media/posts/3/responsive/java-la-gi44-2-md.png 768w ,https://doanquocbao9.github.io/Blog/media/posts/3/responsive/java-la-gi44-2-xl.png 1024w"></figure>
+<p>Cộng đồng lập trình Java rất lớn, với nhiều diễn đàn, tài liệu và các tài nguyên khác, giúp cho việc học tập và giải đáp thắc mắc của bạn trở nên dễ dàng hơn. Nếu bạn yêu thích ngành nghề này, có thể cân nhắc học và sớm trở thành một lập trình viên giàu kinh nghiệm trong tương lai.</p>
+<p>Hi vọng qua bài viết sẽ giúp các bạn hiểu hơn về thuật ngữ "<a href="https://fptshop.com.vn/tin-tuc/danh-gia/java-la-gi-156801">Java là gì</a>" trước khi đầu tư thời gian và công sức để tìm hiểu ngôn ngữ lập trình này.</p>
             ]]>
         </content>
     </entry>
